@@ -24,3 +24,4 @@ namespace ProyectoLinkedIn.Models
         public int Clave { get => _clave; set => _clave = value; }
     }
 }
+//probando pull y push

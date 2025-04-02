@@ -34,3 +34,4 @@ namespace ProyectoLinkedIn.Models
         public List<Reaccion> Reacciones { get => _reacciones; set => _reacciones = value; }
     }
 }
+//Nada :]

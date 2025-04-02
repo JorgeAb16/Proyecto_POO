@@ -1,114 +1,114 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\",
+  "WorkspaceRootPath": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\formacionacademicacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\formacionacademicacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\habilidadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\habilidadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\usuarionormalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\usuarionormalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|c:\\users\\precision 5520\\source\\repos\\proyectolinkedin\\proyectolinkedin\\controllers\\mensajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\mensajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\reaccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\reaccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\proyectolinkedin\\models\\reaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\reaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\proyectolinkedin\\models\\formacion_academica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\formacion_academica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\proyectolinkedin\\models\\experiencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\experiencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\experienciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\experienciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\adminstradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\adminstradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\proyectolinkedin\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\proyectolinkedin\\models\\mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\usarioempresarialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\usarioempresarialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\proyectolinkedin\\models\\dbcontextproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\dbcontextproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\proyectolinkedin\\models\\habilidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\habilidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\proyectolinkedin\\models\\usuario_normal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\usuario_normal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\proyectolinkedin\\models\\usuario_empresarial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\usuario_empresarial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\proyectolinkedin\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\proyectolinkedin\\models\\vacante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\vacante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\proyectolinkedin\\models\\publicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\publicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\proyectolinkedin\\models\\notificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\notificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\proyectolinkedin\\models\\empresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\empresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\proyectolinkedin\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|c:\\users\\precision 5520\\desktop\\repositorio-proyecto-poo\\proyectolinkedin\\proyectolinkedin\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\proyectolinkedin\\models\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\proyectolinkedin\\models\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\formacionacademicacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\formacionacademicacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\habilidadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\habilidadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\usuarionormalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\usuarionormalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\mensajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\mensajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\reaccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\reaccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\reaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\reaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\formacion_academica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\formacion_academica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\experiencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\experiencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\experienciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\experienciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\adminstradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\adminstradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\usarioempresarialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\usarioempresarialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\dbcontextproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\dbcontextproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\habilidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\habilidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\usuario_normal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\usuario_normal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\usuario_empresarial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\usuario_empresarial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\vacante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\vacante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\publicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\publicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\notificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\notificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\empresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\empresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -118,15 +118,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 25,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "DBContextProject.cs",
-              "DocumentMoniker": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\DBContextProject.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\DBContextProject.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Models\\DBContextProject.cs",
-              "ToolTip": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\DBContextProject.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\DBContextProject.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Models\\DBContextProject.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -135,76 +135,71 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "HabilidadesController.cs",
-              "DocumentMoniker": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\HabilidadesController.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\HabilidadesController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\HabilidadesController.cs",
-              "ToolTip": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\HabilidadesController.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\HabilidadesController.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\HabilidadesController.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAQwCIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T02:47:20.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T02:47:20.677Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "MensajeController.cs",
-              "DocumentMoniker": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\MensajeController.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\MensajeController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\MensajeController.cs",
-              "ToolTip": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\MensajeController.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\MensajeController.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\MensajeController.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T03:42:54.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T03:42:54.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuarioNormalController.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\UsuarioNormalController.cs",
+              "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\UsuarioNormalController.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\UsuarioNormalController.cs",
+              "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\UsuarioNormalController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T20:46:42.949Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UsuarioNormalController.cs",
-              "DocumentMoniker": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\UsuarioNormalController.cs",
-              "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\UsuarioNormalController.cs",
-              "ToolTip": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\UsuarioNormalController.cs",
-              "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\UsuarioNormalController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T20:46:42.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\UsuarioController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T20:44:13.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T20:44:13.758Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FormacionAcademicaController.cs",
-              "DocumentMoniker": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\FormacionAcademicaController.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\FormacionAcademicaController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\FormacionAcademicaController.cs",
-              "ToolTip": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\FormacionAcademicaController.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\FormacionAcademicaController.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\FormacionAcademicaController.cs",
               "ViewState": "AgIAAEUAAAAAAAAAAAAYwDYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T04:29:55.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T04:29:55.126Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "AdminstradorController.cs",
-              "DocumentMoniker": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\AdminstradorController.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\AdminstradorController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\AdminstradorController.cs",
-              "ToolTip": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\AdminstradorController.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\AdminstradorController.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\AdminstradorController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -212,11 +207,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ExperienciaController.cs",
-              "DocumentMoniker": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\ExperienciaController.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\ExperienciaController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\ExperienciaController.cs",
-              "ToolTip": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\ExperienciaController.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\ExperienciaController.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\ExperienciaController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwG0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -224,11 +219,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ReaccionController.cs",
-              "DocumentMoniker": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\ReaccionController.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\ReaccionController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\ReaccionController.cs",
-              "ToolTip": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\ReaccionController.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\ReaccionController.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\ReaccionController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -236,11 +231,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Experiencia.cs",
-              "DocumentMoniker": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Experiencia.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Experiencia.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Models\\Experiencia.cs",
-              "ToolTip": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Experiencia.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Experiencia.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Models\\Experiencia.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -248,11 +243,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Formacion_Academica.cs",
-              "DocumentMoniker": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Formacion_Academica.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Formacion_Academica.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Models\\Formacion_Academica.cs",
-              "ToolTip": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Formacion_Academica.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Formacion_Academica.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Models\\Formacion_Academica.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAkwCwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -260,11 +255,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Reaccion.cs",
-              "DocumentMoniker": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Reaccion.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Reaccion.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Models\\Reaccion.cs",
-              "ToolTip": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Reaccion.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Reaccion.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Models\\Reaccion.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAwwCMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -272,11 +267,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\HomeController.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -284,11 +279,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Mensaje.cs",
-              "DocumentMoniker": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Mensaje.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Mensaje.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Models\\Mensaje.cs",
-              "ToolTip": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Mensaje.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Mensaje.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Models\\Mensaje.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAzwCkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -296,11 +291,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "UsarioEmpresarialController.cs",
-              "DocumentMoniker": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\UsarioEmpresarialController.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\UsarioEmpresarialController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\UsarioEmpresarialController.cs",
-              "ToolTip": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\UsarioEmpresarialController.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\UsarioEmpresarialController.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\UsarioEmpresarialController.cs",
               "ViewState": "AgIAABUAAAAAAAAAAADwvx8AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -308,11 +303,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Configuration.cs",
-              "DocumentMoniker": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Migrations\\Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Migrations\\Configuration.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Migrations\\Configuration.cs",
-              "ToolTip": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Migrations\\Configuration.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Migrations\\Configuration.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -320,11 +315,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Usuario_Normal.cs",
-              "DocumentMoniker": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Usuario_Normal.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Usuario_Normal.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Models\\Usuario_Normal.cs",
-              "ToolTip": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Usuario_Normal.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Usuario_Normal.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Models\\Usuario_Normal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -332,11 +327,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Habilidades.cs",
-              "DocumentMoniker": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Habilidades.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Habilidades.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Models\\Habilidades.cs",
-              "ToolTip": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Habilidades.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Habilidades.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Models\\Habilidades.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAABsAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -344,11 +339,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Usuario_Empresarial.cs",
-              "DocumentMoniker": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Usuario_Empresarial.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Usuario_Empresarial.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Models\\Usuario_Empresarial.cs",
-              "ToolTip": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Usuario_Empresarial.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Usuario_Empresarial.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Models\\Usuario_Empresarial.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAYwBUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -356,11 +351,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Usuario.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Models\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -368,11 +363,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Vacante.cs",
-              "DocumentMoniker": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Vacante.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Vacante.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Models\\Vacante.cs",
-              "ToolTip": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Vacante.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Vacante.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Models\\Vacante.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwCgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -380,11 +375,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Notificacion.cs",
-              "DocumentMoniker": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Notificacion.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Notificacion.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Models\\Notificacion.cs",
-              "ToolTip": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Notificacion.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Notificacion.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Models\\Notificacion.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAzwB8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -392,11 +387,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "Publicacion.cs",
-              "DocumentMoniker": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Publicacion.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Publicacion.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Models\\Publicacion.cs",
-              "ToolTip": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Publicacion.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Publicacion.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Models\\Publicacion.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAEwCkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -404,11 +399,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "Empresa.cs",
-              "DocumentMoniker": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Empresa.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Empresa.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Models\\Empresa.cs",
-              "ToolTip": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Empresa.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Empresa.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Models\\Empresa.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwCYAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -416,11 +411,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Conexion.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Models\\Conexion.cs",
-              "ToolTip": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Conexion.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Conexion.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Models\\Conexion.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -428,25 +423,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 0,
               "Title": "Comentario.cs",
-              "DocumentMoniker": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Comentario.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Comentario.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Models\\Comentario.cs",
-              "ToolTip": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Comentario.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Comentario.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Models\\Comentario.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCAAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T20:54:35.2Z"
+              "WhenOpened": "2025-03-22T20:54:35.2Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 1,
               "Title": "Administrador.cs",
-              "DocumentMoniker": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Administrador.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Administrador.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Models\\Administrador.cs",
-              "ToolTip": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Administrador.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Administrador.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Models\\Administrador.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T20:54:33.061Z"
             }

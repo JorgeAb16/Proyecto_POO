@@ -9,24 +9,24 @@ namespace ProyectoLinkedIn.Models
     {
         private int _id;
         private string _mensaje;
-        private Usuario _destinatario;
+        private int _destinatario;
         private DateTime _fechaenvio;
         public Notificacion()
         {
 
         }
 
-        public Notificacion(int id, string mensaje, DateTime fechaenvio, Usuario destinatario)
+        public Notificacion(int id, string mensaje, DateTime fechaenvio, int destinatario)
         {
             Id = id;
             Mensaje = mensaje;
             Fechaenvio = fechaenvio;
-            Destinatario = destinatario;
+            DestinatarioId = destinatario;
         }
 
         public int Id { get => _id; set => _id = value; }
         public string Mensaje { get => _mensaje; set => _mensaje = value; }
         public DateTime Fechaenvio { get => _fechaenvio; set => _fechaenvio = value; }
-        public Usuario Destinatario { get => _destinatario; set => _destinatario = value; }
+        public int DestinatarioId { get => _destinatario; set => _destinatario = value; }
     }
 }

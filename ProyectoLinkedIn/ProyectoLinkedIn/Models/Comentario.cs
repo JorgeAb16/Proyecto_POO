@@ -8,30 +8,28 @@ namespace ProyectoLinkedIn.Models
     public class Comentario
 	{
         private int _id;
-        private Usuario _usuario;
+        private int _usuario;
+        private int publicacion;
         private string _contenido;
-        private List<Reaccion> _reacciones;
         private DateTime _fechapublicacion;
         public Comentario()
         {
-            _reacciones = new List<Reaccion>();
 
         }
 
-        public Comentario(int id, string contenido, DateTime fechapublicacion, Usuario usuario, List<Reaccion> reacciones)
+        public Comentario(int id, string contenido, DateTime fechapublicacion, int usuario)
         {
             Id = id;
             Contenido = contenido;
             Fechapublicacion = fechapublicacion;
-            Usuario = usuario;
-            Reacciones = reacciones;
+            UsuarioId = usuario;
         }
 
         public int Id { get => _id; set => _id = value; }
         public string Contenido { get => _contenido; set => _contenido = value; }
         public DateTime Fechapublicacion { get => _fechapublicacion; set => _fechapublicacion = value; }
-        public Usuario Usuario { get => _usuario; set => _usuario = value; }
-        public List<Reaccion> Reacciones { get => _reacciones; set => _reacciones = value; }
+        public int UsuarioId { get => _usuario; set => _usuario = value; }
+        public int PublicacionId { get => publicacion; set => publicacion = value; }
     }
 }
 //Nada :]

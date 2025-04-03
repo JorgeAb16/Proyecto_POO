@@ -13,13 +13,13 @@ namespace ProyectoLinkedIn.Models
         private string _requisitos;
         private double salario;
         private string ubicacion;
-        private Empresa _empresa;
+        private int _empresa;
         public Vacante()
         {
 
         }
 
-        public Vacante(int id, string titulo, string descripcion, string requisitos, double salario, string ubicacion, Empresa empresa)
+        public Vacante(int id, string titulo, string descripcion, string requisitos, double salario, string ubicacion, int empresa)
         {
             Id = id;
             Titulo = titulo;
@@ -27,7 +27,7 @@ namespace ProyectoLinkedIn.Models
             Requisitos = requisitos;
             Salario = salario;
             Ubicacion = ubicacion;
-            Empresa = empresa;
+            EmpresaId = empresa;
         }
 
         public int Id { get => _id; set => _id = value; }
@@ -36,6 +36,6 @@ namespace ProyectoLinkedIn.Models
         public string Requisitos { get => _requisitos; set => _requisitos = value; }
         public double Salario { get => salario; set => salario = value; }
         public string Ubicacion { get => ubicacion; set => ubicacion = value; }
-        public Empresa Empresa { get => _empresa; set => _empresa = value; }
+        public int EmpresaId { get => _empresa; set => _empresa = value; }
     }
 }

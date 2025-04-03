@@ -11,14 +11,12 @@ namespace ProyectoLinkedIn.Models
         private int id;
         private string nombre;
         private string descripcion;
-        private Usuario_Normal usuario;
+        private int usuarioId;
 
         public int Id { get => id; set => id = value; }
         public string Nombre { get => nombre; set => nombre = value; }
         public string Descripcion { get => descripcion; set => descripcion = value; }
-        public int Usuario_Id { get; set; }
-        [JsonIgnore]
-        public Usuario Usuario { get; set; }
+        public int Usuario_Id { get => usuarioId; set => usuarioId = value; }
 
         public Habilidades()
         {

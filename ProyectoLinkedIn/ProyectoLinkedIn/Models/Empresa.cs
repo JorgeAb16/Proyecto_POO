@@ -13,13 +13,13 @@ namespace ProyectoLinkedIn.Models
         private string _industria;
         private string _ubicacion;
         private string _sitioweb;
-        private List<Vacante> vacantes;
+        
         public Empresa()
         {
-            vacantes = new List<Vacante>();
+           
         }
 
-        public Empresa(int id, string nombre, string descripcion, string industria, string ubicacion, string sitioweb, List<Vacante> vacantes)
+        public Empresa(int id, string nombre, string descripcion, string industria, string ubicacion, string sitioweb)
         {
             Id = id;
             Nombre = nombre;
@@ -27,7 +27,7 @@ namespace ProyectoLinkedIn.Models
             Industria = industria;
             Ubicacion = ubicacion;
             Sitioweb = sitioweb;
-            Vacantes = vacantes;
+            
         }
 
         public int Id { get => _id; set => _id = value; }
@@ -36,6 +36,5 @@ namespace ProyectoLinkedIn.Models
         public string Industria { get => _industria; set => _industria = value; }
         public string Ubicacion { get => _ubicacion; set => _ubicacion = value; }
         public string Sitioweb { get => _sitioweb; set => _sitioweb = value; }
-        public List<Vacante> Vacantes { get => vacantes; set => vacantes = value; }
     }
 }

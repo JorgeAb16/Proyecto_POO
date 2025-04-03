@@ -6,17 +6,17 @@ using System.Web;
 namespace ProyectoLinkedIn.Models
 {
     public class Empresa
-	{
+    {
         private int _id;
         private string _nombre;
         private string _descripcion;
         private string _industria;
         private string _ubicacion;
         private string _sitioweb;
-        
+
         public Empresa()
         {
-           
+
         }
 
         public Empresa(int id, string nombre, string descripcion, string industria, string ubicacion, string sitioweb)
@@ -27,7 +27,7 @@ namespace ProyectoLinkedIn.Models
             Industria = industria;
             Ubicacion = ubicacion;
             Sitioweb = sitioweb;
-            
+
         }
 
         public int Id { get => _id; set => _id = value; }
@@ -37,4 +37,5 @@ namespace ProyectoLinkedIn.Models
         public string Ubicacion { get => _ubicacion; set => _ubicacion = value; }
         public string Sitioweb { get => _sitioweb; set => _sitioweb = value; }
     }
+    // Viendo si funciona el ignorar el web.config
 }

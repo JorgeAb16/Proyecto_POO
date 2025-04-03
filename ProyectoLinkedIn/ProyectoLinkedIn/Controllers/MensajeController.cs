@@ -48,8 +48,8 @@ namespace ProyectoLinkedIn.Controllers
                 return BadRequest("El usuario especificado no existe.");
             }
 
-            mensaje.Remitente = usuario1;
-            mensaje.Destinatario = usuario2;
+            mensaje.Remitente_Id = usuario1.Id;
+            mensaje.Destinatario_Id = usuario2.Id;
             db.Mensaje.Add(mensaje);
             db.SaveChanges();
 
@@ -81,8 +81,8 @@ namespace ProyectoLinkedIn.Controllers
                 return BadRequest("El usuario especificado no existe.");
             }
 
-            mensaje.Remitente = usuario1;
-            mensaje.Destinatario = usuario2;
+            mensaje.Remitente_Id = usuario1.Id;
+            mensaje.Destinatario_Id = usuario2.Id;
             db.Entry(mensaje).State = EntityState.Modified;
             db.SaveChanges();
             return Ok(mensaje);

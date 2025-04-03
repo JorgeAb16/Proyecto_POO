@@ -20,7 +20,7 @@ namespace ProyectoLinkedIn.Models
 
         }
 
-        public Reaccion(int id, string nombre, string contenido,  int usuarioID, int comentarioID,  int publicacionID,)
+        public Reaccion(int id, string nombre, string contenido,  int usuarioID, int comentarioID,  int publicacionID)
         {
             Id = id;
             Nombre = nombre;

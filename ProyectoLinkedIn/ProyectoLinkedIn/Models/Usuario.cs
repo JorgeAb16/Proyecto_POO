@@ -12,6 +12,7 @@ namespace ProyectoLinkedIn.Models
         private string _apellido;
         private string _telefono;
         private string _correo;
+
         public Usuario()
         {
 

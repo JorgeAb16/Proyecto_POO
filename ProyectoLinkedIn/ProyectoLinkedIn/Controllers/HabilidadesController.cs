@@ -42,7 +42,7 @@ namespace ProyectoLinkedIn.Controllers
             {
                 return NotFound();
             }
-            habilidad.Usuario = usuario;
+            habilidad.Usuario_Id = usuario.Id;
             db.Habilidades.Add(habilidad);
             db.SaveChanges();
 
@@ -65,7 +65,7 @@ namespace ProyectoLinkedIn.Controllers
             {
                 return NotFound();
             }
-            habilidad.Usuario = usuario;
+            habilidad.Usuario_Id = usuario.Id;
             db.Entry(habilidad).State = EntityState.Modified;
             db.SaveChanges();
             return Ok(habilidad);

@@ -40,7 +40,7 @@ namespace ProyectoLinkedIn.Controllers
                 return BadRequest("La empresa especificada no existe.");
             }
 
-            usuario.Empresa = empresa;
+            usuario.Empresa_Id = empresa.Id;
             db.Usuario.Add(usuario);
             db.SaveChanges();
 
@@ -64,7 +64,7 @@ namespace ProyectoLinkedIn.Controllers
             {
                 return BadRequest("La empresa especificada no existe.");
             }
-            usuario.Empresa = empresa;
+            usuario.Empresa_Id = empresa.Id;
             db.Entry(usuario).State = EntityState.Modified;
             db.SaveChanges();
             return Ok(usuario);

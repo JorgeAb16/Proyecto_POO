@@ -176,6 +176,7 @@
     <Compile Include="Controllers\HabilidadesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MensajeController.cs" />
+    <Compile Include="Controllers\PublicacionController.cs" />
     <Compile Include="Controllers\ReaccionController.cs" />
     <Compile Include="Controllers\UsuarioController.cs" />
     <Compile Include="Controllers\UsuarioNormalController.cs" />

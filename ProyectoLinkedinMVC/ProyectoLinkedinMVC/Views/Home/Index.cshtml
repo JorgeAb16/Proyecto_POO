@@ -1,0 +1,45 @@
+@using DevExtreme.AspNet.Mvc
+@using DevExtreme.AspNet.Mvc.Builders
+@{
+    ViewBag.Title = "Inicio";
+}
+
+<h2>Publicaciones</h2>
+
+@(Html.DevExtreme().DataGrid<dynamic>()
+    .DataSource(ds => ds.WebApi()
+        .Controller("Publicacion")
+        .LoadAction("Get")
+        .Key("Id")
+    )
+    .Columns(columns => {
+        columns.Add().DataField("Titulo");
+        columns.Add().DataField("Contenido");
+        columns.Add().DataField("FechaPublicacion").Caption("Fecha");
+        columns.Add().DataField("UsuarioNombre").Caption("Publicado por");
+
+        columns.Add().Caption("Comentarios")
+            .EncodeHtml(false)
+            .CellTemplate(@<text>
+                <div style="white-space: normal;">
+                    <%
+                        if (data.Comentarios && data.Comentarios.length > 0) {
+                            data.Comentarios.forEach(comentario => {
+                    %>
+                                <div><strong><%= comentario.Por %></strong>:
+                                <%= comentario.Contenido %>
+                                (<%= new Date(comentario.Fecha).toLocaleDateString() %>)</div>
+                    <%
+                            });
+                        } else {
+                    %>
+                            <em>Sin comentarios</em>
+                    <%
+                        }
+                    %>
+                </div>
+            </text>);
+    })
+    .RemoteOperations(true)
+    .Paging(p => p.PageSize(10))
+)

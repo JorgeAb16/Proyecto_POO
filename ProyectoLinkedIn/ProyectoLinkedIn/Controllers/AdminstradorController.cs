@@ -25,6 +25,7 @@ namespace ProyectoLinkedIn.Controllers
         /// <summary>
         /// Agrega un Administrador.
         /// </summary>
+        [HttpPost]
         [Route("api/PostAdminstrador")]
         public IHttpActionResult PostAdministrador(Administrador administrador)
         {
@@ -55,6 +56,8 @@ namespace ProyectoLinkedIn.Controllers
             db.SaveChanges();
             return Ok(administrador);
         }
+
+        [Route("api/GetIdAdminstrador")]
         public IHttpActionResult Get(int id)
         {
             Usuario usuario = db.Usuario.Find(id);
@@ -64,6 +67,13 @@ namespace ProyectoLinkedIn.Controllers
             }
             return Ok(usuario);
         }
+
+
+        /// <summary>
+        /// Elimina un Administrador por ID.
+        /// </summary>
+        /// <returns>Un objeto Administrador.</returns>
+        // DELETE: api/Administrador/5
         public IHttpActionResult Delete(int id)
         {
             Usuario usuario = db.Usuario.Find(id);

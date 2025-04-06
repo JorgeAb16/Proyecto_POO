@@ -498,6 +498,12 @@
             </summary>
             <returns>Ejemplo de solicitud.</returns>
         </member>
+        <member name="M:ProyectoLinkedIn.Controllers.AdminstradorController.Delete(System.Int32)">
+            <summary>
+            Elimina un Administrador por ID.
+            </summary>
+            <returns>Un objeto Administrador.</returns>
+        </member>
         <member name="M:ProyectoLinkedIn.Controllers.ExperienciaController.Get">
             <summary>
             Obtiene todas las Experiencias.

@@ -14,5 +14,9 @@ namespace ProyectoLinkedinMVC.Controllers {
             return View();
         }
 
+        public ActionResult UsuarioNormal()
+        {
+            return View();
+        }
     }
 }

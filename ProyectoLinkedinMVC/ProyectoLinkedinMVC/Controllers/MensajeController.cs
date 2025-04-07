@@ -38,14 +38,12 @@ namespace ProyectoLinkedinMVC.Controllers
                     response.EnsureSuccessStatusCode();
                     return await response.Content.ReadAsStringAsync();
                 }
-
             }
             catch (Exception e)
             {
                 var m = e.Message;
                 return null;
             }
-
         }
 
         [HttpPost]

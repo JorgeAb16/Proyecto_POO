@@ -611,7 +611,7 @@
             Elimina una habilidad por su id.
             </summary>
         </member>
-        <member name="M:ProyectoLinkedIn.Controllers.MensajeController.GetMensaje">
+        <member name="M:ProyectoLinkedIn.Controllers.MensajeController.GetNormales">
             <summary>
             Obtiene todos los Mensajes.
             </summary>

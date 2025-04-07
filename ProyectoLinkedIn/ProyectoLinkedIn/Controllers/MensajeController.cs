@@ -18,13 +18,9 @@ namespace ProyectoLinkedIn.Controllers
         /// <returns>Una lista de elementos.</returns>
         [HttpGet]
         [Route("api/GetMensaje")]
-        public IHttpActionResult GetMensaje()
+        public IEnumerable<Mensaje> GetNormales()
         {
-            var Mesage = new
-            {
-                Mensaje = db.Mensaje,
-            };
-            return Ok(Mesage);
+            return db.Mensaje;
         }
         /// <summary>
         /// Agrega un Mensaje.

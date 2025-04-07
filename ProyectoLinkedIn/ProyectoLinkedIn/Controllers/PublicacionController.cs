@@ -65,6 +65,9 @@ namespace ProyectoLinkedIn.Controllers
                                                Por = usuario1.Nombre + " " + usuario1.Apellido,
                                                Contenido = comentario.Contenido,
                                                Fecha = comentario.Fechapublicacion
+
+
+
                                            })
 
                         };

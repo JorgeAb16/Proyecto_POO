@@ -18,5 +18,36 @@ namespace ProyectoLinkedinMVC.Controllers {
         {
             return View();
         }
+
+        public ActionResult UsuarioEmpresarial()
+        {
+            return View();
+        }
+
+        public ActionResult Empresa()
+        {
+            return View();
+        }
+
+        public ActionResult Experiencia()
+        {
+            return View();
+        }
+
+        public ActionResult FormacionAcademica()
+        {
+            return View();
+        }
+
+        public ActionResult Habilidades()
+        {
+            return View();
+        }
+
+        public ActionResult Mensaje()
+        {
+            return View();
+        }
+
     }
 }

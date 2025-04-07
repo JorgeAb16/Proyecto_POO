@@ -353,6 +353,12 @@
     <Content Include="Views\Home\Administrador.cshtml" />
     <Content Include="Views\Home\UsuarioNormal.cshtml" />
     <Content Include="Views\Home\UsuarioEmpresarial.cshtml" />
+    <Content Include="Views\Home\Comentario.cshtml" />
+    <Content Include="Views\Home\Empresa.cshtml" />
+    <Content Include="Views\Home\Experiencia.cshtml" />
+    <Content Include="Views\Home\FormacionAcademica.cshtml" />
+    <Content Include="Views\Home\Habilidades.cshtml" />
+    <Content Include="Views\Home\Mensaje.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -368,7 +374,12 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AdministradorController.cs" />
     <Compile Include="Controllers\ComentarioController.cs" />
+    <Compile Include="Controllers\EmpresaController.cs" />
+    <Compile Include="Controllers\ExperienciaController.cs" />
+    <Compile Include="Controllers\FormacionAcademicaController.cs" />
+    <Compile Include="Controllers\HabilidadesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MensajeController.cs" />
     <Compile Include="Controllers\PublicacionController.cs" />
     <Compile Include="Controllers\SampleDataController.cs" />
     <Compile Include="Controllers\UsuarioEmpresaController.cs" />

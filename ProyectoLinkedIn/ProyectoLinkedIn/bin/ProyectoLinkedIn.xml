@@ -622,7 +622,7 @@
             Agrega un Mensaje.
             </summary>
         </member>
-        <member name="M:ProyectoLinkedIn.Controllers.MensajeController.PutAdmin(ProyectoLinkedIn.Models.Mensaje)">
+        <member name="M:ProyectoLinkedIn.Controllers.MensajeController.PutMensaje(ProyectoLinkedIn.Models.Mensaje)">
             <summary>
             Modifica un Administrador por su id.
             </summary>

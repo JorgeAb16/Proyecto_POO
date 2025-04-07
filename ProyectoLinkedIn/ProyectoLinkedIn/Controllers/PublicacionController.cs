@@ -1,6 +1,7 @@
 ﻿using ProyectoLinkedIn.Models;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -39,6 +40,59 @@ namespace ProyectoLinkedIn.Controllers
                                 };
 
             return Ok(query);
+        }
+
+
+        public IHttpActionResult Get(int id)
+        {
+            var query = from publicacion in db.Publicacion
+                        join usuario in db.Usuario on publicacion.UsuarioId equals usuario.Id
+                        where publicacion.Id == id
+                        select new
+                        {
+                            Titulo = publicacion.Titulo,
+                            Id = publicacion.Id,
+                            Contenido = publicacion.Contenido,
+                            FechaPublicacion = publicacion.Fechapublicacion,
+                            UsuarioNombre = usuario.Nombre,
+
+                            Comentarios = (from comentario in db.Comentario
+                                           join publicacion1 in db.Publicacion on comentario.PublicacionId equals publicacion1.Id
+                                           join usuario1 in db.Usuario on comentario.UsuarioId equals usuario1.Id
+                                           where comentario.PublicacionId == publicacion1.Id
+                                           select new
+                                           {
+                                               Por = usuario1.Nombre + " " + usuario1.Apellido,
+                                               Contenido = comentario.Contenido,
+                                               Fecha = comentario.Fechapublicacion
+                                           })
+
+                        };
+
+            return Ok(query);
+        }
+
+        public IHttpActionResult Post(Publicacion publicacion)
+        {
+            db.Publicacion.Add(publicacion);
+            db.SaveChanges();
+            return Ok(publicacion);
+        }
+
+        public IHttpActionResult Put(int id, Publicacion publicacionModificada)
+        {
+            db.Entry(publicacionModificada).State = EntityState.Modified;
+            db.SaveChanges();
+            return Ok(publicacionModificada);
+        }
+
+        public IHttpActionResult Delete(int id)
+        {
+            Publicacion publicacion = db.Publicacion.Find(id);
+            db.Publicacion.Remove(publicacion);
+            db.SaveChanges();
+            return Ok(publicacion);
+
         }
 
     }

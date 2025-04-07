@@ -61,8 +61,8 @@ namespace ProyectoLinkedIn.Controllers
         /// Modifica un Administrador por su id.
         /// </summary>
         /// <returns>Ejemplo de solicitud.</returns>
-        [Route("api/PutAdminstrador")]
-        public IHttpActionResult PutAdmin(Mensaje mensaje)
+        [Route("api/PutMensaje")]
+        public IHttpActionResult PutMensaje(Mensaje mensaje)
         {
             int id = mensaje.Id;
             if (mensaje == null)

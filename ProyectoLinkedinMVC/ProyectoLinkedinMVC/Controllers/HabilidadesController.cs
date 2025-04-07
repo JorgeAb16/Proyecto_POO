@@ -13,17 +13,17 @@ using ProyectoLinkedinMVC.Models;
 
 namespace ProyectoLinkedinMVC.Controllers
 {
-    public class ComentarioController : ApiController
+    public class HabilidadesController : ApiController
     {
         [HttpGet]
         public async Task<HttpResponseMessage> Get(DataSourceLoadOptions loadOptions)
         {
-            var apiUrl = "https://localhost:44345/api/Comentario";
+            var apiUrl = "https://localhost:44345/api/GetHAbilidades";
 
             var respuestaJson = await GetAsync(apiUrl);
             //System.Diagnostics.Debug.WriteLine(respuestaJson); imprimir info
-            List<Usuario_Normal> listaUsuarioNormal = JsonConvert.DeserializeObject<List<Usuario_Normal>>(respuestaJson);
-            return Request.CreateResponse(DataSourceLoader.Load(listaUsuarioNormal, loadOptions));
+            List<Habilidades> listaHabilidades = JsonConvert.DeserializeObject<List<Habilidades>>(respuestaJson);
+            return Request.CreateResponse(DataSourceLoader.Load(listaHabilidades, loadOptions));
         }
 
         public static async Task<string> GetAsync(string uri)
@@ -56,7 +56,7 @@ namespace ProyectoLinkedinMVC.Controllers
 
             var httpContent = new StringContent(values, System.Text.Encoding.UTF8, "application/json");
 
-            var url = "https://localhost:44345/api/Comentario";
+            var url = "https://localhost:44345/api/PostHabilidad";
             var handler = new HttpClientHandler();
             handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
             using (var client = new HttpClient(handler))
@@ -76,20 +76,20 @@ namespace ProyectoLinkedinMVC.Controllers
             var key = Convert.ToInt32(form.Get("key")); //llave que estoy modificando
             var values = form.Get("values"); //Los valores que yo modifiqué en formato JSON
 
-            var apiUrlGetComentario = "https://localhost:44345/api/Comentario/" + key;
-            var respuestaComentario = await GetAsync(apiUrlGetComentario = "https://localhost:44345/api/Comentario/" + key);
-            Comentario comentario = JsonConvert.DeserializeObject<Comentario>(respuestaComentario);
+            var apiUrlGetHabilidad = "https://localhost:44345/api/PutHabilidad" + key;
+            var respuestaHabilidad = await GetAsync(apiUrlGetHabilidad = "https://localhost:44345/api/PutHabilidad" + key);
+            Habilidades habilidad = JsonConvert.DeserializeObject<Habilidades>(respuestaHabilidad);
 
-            JsonConvert.PopulateObject(values, comentario);
+            JsonConvert.PopulateObject(values, habilidad);
 
-            string jsonString = JsonConvert.SerializeObject(comentario);
+            string jsonString = JsonConvert.SerializeObject(habilidad);
             var httpContent = new StringContent(jsonString, System.Text.Encoding.UTF8, "application/json");
 
             var handler = new HttpClientHandler();
             handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
             using (var client = new HttpClient(handler))
             {
-                var url = "https://localhost:44345/api/Comentario/" + key;
+                var url = "https://localhost:44345/api/PutHabilidad" + key;
                 var response = await client.PutAsync(url, httpContent);
 
                 var result = response.Content.ReadAsStringAsync().Result;
@@ -106,14 +106,17 @@ namespace ProyectoLinkedinMVC.Controllers
         {
             var key = Convert.ToInt32(form.Get("key"));
 
-            var apiUrlDelComentario = "https://localhost:44345/api/Comentario/" + key;
+            var apiUrlDelHabilidad = "https://localhost:44345/api/Habilidades/" + key;
             var handler = new HttpClientHandler();
             handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
             using (var client = new HttpClient(handler))
             {
-                var respuestaComentario = await client.DeleteAsync(apiUrlDelComentario);
+                var respuestaHabilidad = await client.DeleteAsync(apiUrlDelHabilidad);
             }
             return Request.CreateResponse(HttpStatusCode.OK);
         }
+
+
+
     }
 }

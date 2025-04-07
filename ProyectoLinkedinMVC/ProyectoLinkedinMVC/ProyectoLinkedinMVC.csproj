@@ -352,6 +352,7 @@
     <Content Include="Web.config" />
     <Content Include="Views\Home\Administrador.cshtml" />
     <Content Include="Views\Home\UsuarioNormal.cshtml" />
+    <Content Include="Views\Home\UsuarioEmpresarial.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -366,6 +367,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AdministradorController.cs" />
+    <Compile Include="Controllers\ComentarioController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PublicacionController.cs" />
     <Compile Include="Controllers\SampleDataController.cs" />

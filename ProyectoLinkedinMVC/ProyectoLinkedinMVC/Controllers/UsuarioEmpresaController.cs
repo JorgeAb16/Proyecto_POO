@@ -56,7 +56,7 @@ namespace ProyectoLinkedinMVC.Controllers
 
             var httpContent = new StringContent(values, System.Text.Encoding.UTF8, "application/json");
 
-            var url = "https://localhost:44345/api/PostNormal";
+            var url = "https://localhost:44345/api/PostEmpresarial";
             var handler = new HttpClientHandler();
             handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
             using (var client = new HttpClient(handler))
@@ -76,8 +76,8 @@ namespace ProyectoLinkedinMVC.Controllers
             var key = Convert.ToInt32(form.Get("key")); //llave que estoy modificando
             var values = form.Get("values"); //Los valores que yo modifiqué en formato JSON
 
-            var apiUrlGetUsuarioNormal = "https://localhost:44345/api/UsuarioNormal/" + key;
-            var respuestaPelic = await GetAsync(apiUrlGetUsuarioNormal = "https://localhost:44345/api/UsuarioNormal/" + key);
+            var apiUrlGetUsuarioEmpresarial = "https://localhost:44345/api/PutEmpresarial" + key;
+            var respuestaPelic = await GetAsync(apiUrlGetUsuarioEmpresarial = "https://localhost:44345/api/PutEmpresarial" + key);
             Usuario_Normal usuario = JsonConvert.DeserializeObject<Usuario_Normal>(respuestaPelic);
 
             JsonConvert.PopulateObject(values, usuario);
@@ -89,7 +89,7 @@ namespace ProyectoLinkedinMVC.Controllers
             handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
             using (var client = new HttpClient(handler))
             {
-                var url = "https://localhost:44345/api/UsuarioNormal/" + key;
+                var url = "https://localhost:44345/api/PutEmpresarial" + key;
                 var response = await client.PutAsync(url, httpContent);
 
                 var result = response.Content.ReadAsStringAsync().Result;
@@ -106,12 +106,12 @@ namespace ProyectoLinkedinMVC.Controllers
         {
             var key = Convert.ToInt32(form.Get("key"));
 
-            var apiUrlDelUsuarioNormal = "https://localhost:44345/api/UsuarioNormal/" + key;
+            var apiUrlDelUsuarioEmpresarial = "https://localhost:44345/api/UsarioEmpresarial/" + key;
             var handler = new HttpClientHandler();
             handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
             using (var client = new HttpClient(handler))
             {
-                var respuestaPelic = await client.DeleteAsync(apiUrlDelUsuarioNormal);
+                var respuestaEmpresarial = await client.DeleteAsync(apiUrlDelUsuarioEmpresarial);
             }
             return Request.CreateResponse(HttpStatusCode.OK);
         }

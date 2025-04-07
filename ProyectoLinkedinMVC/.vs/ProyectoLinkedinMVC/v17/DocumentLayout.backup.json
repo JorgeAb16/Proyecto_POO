@@ -3,38 +3,50 @@
   "WorkspaceRootPath": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|c:\\users\\rog strix g17\\proyecto_poo\\proyectolinkedinmvc\\proyectolinkedinmvc\\controllers\\comentariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\controllers\\comentariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\proyectolinkedinmvc\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\proyectolinkedinmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|c:\\users\\rog strix g17\\proyecto_poo\\proyectolinkedinmvc\\proyectolinkedinmvc\\controllers\\usuarioempresacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\controllers\\usuarioempresacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|c:\\users\\rog strix g17\\proyecto_poo\\proyectolinkedinmvc\\proyectolinkedinmvc\\controllers\\usuarionormalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\controllers\\usuarionormalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|c:\\users\\rog strix g17\\proyecto_poo\\proyectolinkedinmvc\\proyectolinkedinmvc\\views\\home\\usuarioempresarial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\views\\home\\usuarioempresarial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|c:\\users\\rog strix g17\\proyecto_poo\\proyectolinkedinmvc\\proyectolinkedinmvc\\controllers\\administradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\controllers\\administradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|c:\\users\\rog strix g17\\proyecto_poo\\proyectolinkedinmvc\\proyectolinkedinmvc\\views\\home\\usuarionormal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\proyectolinkedinmvc\\views\\home\\usuarionormal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\views\\home\\usuarionormal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|c:\\users\\rog strix g17\\proyecto_poo\\proyectolinkedinmvc\\proyectolinkedinmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\proyectolinkedinmvc\\controllers\\administradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\controllers\\administradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\proyectolinkedinmvc\\controllers\\usuarionormalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\controllers\\usuarionormalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\proyectolinkedinmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|c:\\users\\rog strix g17\\proyecto_poo\\proyectolinkedinmvc\\proyectolinkedinmvc\\views\\home\\administrador.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\proyectolinkedinmvc\\views\\home\\administrador.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\views\\home\\administrador.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\AdministradorView.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|c:\\users\\rog strix g17\\proyecto_poo\\proyectolinkedinmvc\\proyectolinkedinmvc\\controllers\\publicacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\proyectolinkedinmvc\\controllers\\publicacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\controllers\\publicacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -102,10 +114,6 @@
       "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\models\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\proyectolinkedinmvc\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\proyectolinkedinmvc\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -122,19 +130,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ComentarioController.cs",
+              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Controllers\\ComentarioController.cs",
+              "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Controllers\\ComentarioController.cs",
+              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Controllers\\ComentarioController.cs",
+              "RelativeToolTip": "ProyectoLinkedinMVC\\Controllers\\ComentarioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T02:09:19.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuarioEmpresarial.cshtml",
+              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\UsuarioEmpresarial.cshtml",
+              "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Views\\Home\\UsuarioEmpresarial.cshtml",
+              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\UsuarioEmpresarial.cshtml",
+              "RelativeToolTip": "ProyectoLinkedinMVC\\Views\\Home\\UsuarioEmpresarial.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAUwCkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T02:06:34.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UsuarioEmpresaController.cs",
               "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Controllers\\UsuarioEmpresaController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Controllers\\UsuarioEmpresaController.cs",
               "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Controllers\\UsuarioEmpresaController.cs",
               "RelativeToolTip": "ProyectoLinkedinMVC\\Controllers\\UsuarioEmpresaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T02:42:13.047Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "AdministradorController.cs",
               "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Controllers\\AdministradorController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Controllers\\AdministradorController.cs",
@@ -147,33 +181,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ProyectoLinkedinMVC\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACkAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACcAAACBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-05T22:45:14.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "UsuarioNormal.cshtml",
               "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\UsuarioNormal.cshtml",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Views\\Home\\UsuarioNormal.cshtml",
               "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\UsuarioNormal.cshtml",
               "RelativeToolTip": "ProyectoLinkedinMVC\\Views\\Home\\UsuarioNormal.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-05T22:44:06.176Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Administrador.cshtml",
               "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\Administrador.cshtml",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Views\\Home\\Administrador.cshtml",
@@ -181,25 +215,23 @@
               "RelativeToolTip": "ProyectoLinkedinMVC\\Views\\Home\\Administrador.cshtml",
               "ViewState": "AgIAAB0AAAAAAAAAAAAAADcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-05T22:36:56.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T22:36:56.353Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "UsuarioNormalController.cs",
               "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Controllers\\UsuarioNormalController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Controllers\\UsuarioNormalController.cs",
               "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Controllers\\UsuarioNormalController.cs",
               "RelativeToolTip": "ProyectoLinkedinMVC\\Controllers\\UsuarioNormalController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwHMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T19:10:07.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T19:10:07.114Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "PublicacionController.cs",
               "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Controllers\\PublicacionController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Controllers\\PublicacionController.cs",
@@ -207,12 +239,11 @@
               "RelativeToolTip": "ProyectoLinkedinMVC\\Controllers\\PublicacionController.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAswDEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T01:10:47.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T01:10:47.949Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Views\\Home\\Index.cshtml",
@@ -224,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Web.config",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Web.config",
@@ -237,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "SampleDataController.cs",
               "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Controllers\\SampleDataController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Controllers\\SampleDataController.cs",
@@ -249,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "AdministradorView.cshtml",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\source\\repos\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\AdministradorView.cshtml",
               "RelativeDocumentMoniker": "..\\..\\..\\Precision 5520\\source\\repos\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\AdministradorView.cshtml",
@@ -260,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Controllers\\HomeController.cs",
@@ -268,12 +299,11 @@
               "RelativeToolTip": "ProyectoLinkedinMVC\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T19:21:34.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T19:21:34.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Vacante.cs",
               "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Models\\Vacante.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Models\\Vacante.cs",
@@ -285,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Usuario_Normal.cs",
               "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Models\\Usuario_Normal.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Models\\Usuario_Normal.cs",
@@ -297,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Usuario_Empresarial.cs",
               "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Models\\Usuario_Empresarial.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Models\\Usuario_Empresarial.cs",
@@ -309,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Reaccion.cs",
               "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Models\\Reaccion.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Models\\Reaccion.cs",
@@ -321,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "Publicacion.cs",
               "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Models\\Publicacion.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Models\\Publicacion.cs",
@@ -333,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Notificacion.cs",
               "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Models\\Notificacion.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Models\\Notificacion.cs",
@@ -345,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Mensaje.cs",
               "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Models\\Mensaje.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Models\\Mensaje.cs",
@@ -357,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "Habilidades.cs",
               "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Models\\Habilidades.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Models\\Habilidades.cs",
@@ -369,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "Formacion_Academica.cs",
               "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Models\\Formacion_Academica.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Models\\Formacion_Academica.cs",
@@ -381,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "Experiencia.cs",
               "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Models\\Experiencia.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Models\\Experiencia.cs",
@@ -393,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "Empresa.cs",
               "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Models\\Empresa.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Models\\Empresa.cs",
@@ -405,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "Conexion.cs",
               "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Models\\Conexion.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Models\\Conexion.cs",
@@ -417,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 1,
               "Title": "Comentario.cs",
               "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Models\\Comentario.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Models\\Comentario.cs",
@@ -425,11 +455,12 @@
               "RelativeToolTip": "ProyectoLinkedinMVC\\Models\\Comentario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T17:16:42.354Z"
+              "WhenOpened": "2025-04-04T17:16:42.354Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Administrador.cs",
               "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Models\\Administrador.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Models\\Administrador.cs",
@@ -441,7 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Models\\Usuario.cs",

@@ -9,36 +9,37 @@ namespace ProyectoLinkedinMVC.Controllers {
         public ActionResult Index() {
             return View();
         }
+        [Authorize(Roles = "Admin")]
         public ActionResult Administrador()
         {
             return View();
         }
-
+        [Authorize(Roles = "Admin")]
         public ActionResult UsuarioNormal()
         {
             return View();
         }
-
+        [Authorize(Roles = "Admin")]
         public ActionResult UsuarioEmpresarial()
         {
             return View();
         }
-
+        [Authorize(Roles = "Admin")]
         public ActionResult Empresa()
         {
             return View();
         }
-
+        [Authorize(Roles = "Admin")]
         public ActionResult Experiencia()
         {
             return View();
         }
-
+        [Authorize(Roles = "Admin")]
         public ActionResult FormacionAcademica()
         {
             return View();
         }
-
+        [Authorize(Roles = "Admin")]
         public ActionResult Habilidades()
         {
             return View();

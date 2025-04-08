@@ -29,12 +29,42 @@ namespace ProyectoLinkedinMVC.Controllers
 
             using (var db = new AuthDbContext())
             {
-                // Se busca el usuario que coincida con el correo y la contraseña ingresados
+                // Buscar el usuario que coincida con el correo y la contraseña
                 var usuario = db.Usuarios.FirstOrDefault(u => u.Correo == Correo && u.Contrasena == Contrasena);
 
                 if (usuario != null)
                 {
-                    FormsAuthentication.SetAuthCookie(usuario.Correo, false);
+                    // Determinar el rol según el tipo de usuario
+                    string roles = "";
+                    if (usuario is Administrador)
+                    {
+                        roles = "Admin";
+                    }
+                    else if (usuario is Usuario_Empresarial)
+                    {
+                        roles = "Empresarial";
+                    }
+                    else if (usuario is Usuario_Normal)
+                    {
+                        roles = "Normal";
+                    }
+
+                    // Crear el ticket de autenticación que incluye el rol
+                    var ticket = new FormsAuthenticationTicket(
+                        1,
+                        usuario.Correo,
+                        DateTime.Now,
+                        DateTime.Now.AddMinutes(30), // duración del ticket
+                        false,
+                        roles, // aquí se almacena el rol en la propiedad UserData
+                        FormsAuthentication.FormsCookiePath
+                    );
+
+                    // Encriptar y agregar el ticket como cookie
+                    string encryptedTicket = FormsAuthentication.Encrypt(ticket);
+                    var authCookie = new HttpCookie(FormsAuthentication.FormsCookieName, encryptedTicket);
+                    Response.Cookies.Add(authCookie);
+
                     return RedirectToAction("Index", "Home");
                 }
             }

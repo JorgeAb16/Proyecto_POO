@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Notificacion";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Notificacion</h2>
+
+@(Html.DevExtreme().DataGrid<ProyectoLinkedinMVC.Models.Notificacion>()
+    .DataSource(ds => ds.WebApi()
+        .Controller("Notificacion")
+        .LoadAction("Get")
+        .InsertAction("Post")
+        .UpdateAction("Put")
+        .DeleteAction("Delete")
+        .Key("Id")
+    )
+    .RemoteOperations(true)
+    .Columns(columns => {
+
+        columns.AddFor(m => m.Id);
+
+        columns.AddFor(m => m.Mensaje);
+
+        columns.AddFor(m => m.Fechaenvio);
+
+        columns.AddFor(m => m.DestinatarioId);
+    })
+    .Editing(e => e
+        .AllowAdding(true)
+        .AllowUpdating(true)
+        .AllowDeleting(true)
+    )
+        .RemoteOperations(true)
+   .Paging(p => p.PageSize(10))
+    .Editing(editing =>
+    {
+        editing.Mode(GridEditMode.Row);
+        editing.AllowUpdating(true);
+        editing.AllowAdding(true);
+        editing.UseIcons(true);
+        editing.AllowDeleting(true);
+    })
+
+.Paging(p => p.PageSize(10))
+.FilterRow(f => f.Visible(true))
+.HeaderFilter(f => f.Visible(true))
+.GroupPanel(p => p.Visible(true))
+.Grouping(g => g.AutoExpandAll(false))
+.FilterPanel(f => f.Visible(true))
+.RemoteOperations(true)
+.SearchPanel(f => f.Visible(true))
+)

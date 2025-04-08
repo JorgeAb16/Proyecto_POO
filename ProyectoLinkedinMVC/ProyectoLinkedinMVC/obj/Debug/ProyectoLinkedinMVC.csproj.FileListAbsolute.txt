@@ -173,3 +173,7 @@ C:\Users\Precision 5520\Desktop\Repositorio-Proyecto-POO\ProyectoLinkedinMVC\Pro
 C:\Users\Precision 5520\Desktop\Repositorio-Proyecto-POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Precision 5520\Desktop\Repositorio-Proyecto-POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\System.Web.WebPages.Razor.xml
 C:\Users\Precision 5520\Desktop\Repositorio-Proyecto-POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\obj\Debug\Proyecto.0F93B1FB.Up2Date
+C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\EntityFramework.dll
+C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\EntityFramework.xml
+C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\EntityFramework.SqlServer.xml

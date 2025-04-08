@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -15,43 +16,62 @@ namespace ProyectoLinkedIn.Controllers
         public IHttpActionResult Get()
         {
             var vacantes = from vacante in db.Vacante
-                              join empresa in db.Empresa on vacante.EmpresaId equals empresa.Id
-                              select new
-                              {
-                                  ComentarioId = comentario.Id,
-
-                                  IdUsuario = usuario.Id,
-                                  UsuarioNombre = usuario.Nombre,
-
-                                  publicacionId = publicacion.Id,
-                                  publicacionTitulo = publicacion.Titulo,
-
-                                  Contenido = comentario.Contenido,
-                                  FechaPublicacion = comentario.Fechapublicacion,
-                              };
-
-            return Ok(comentarios);
+                               join empresa in db.Empresa on vacante.EmpresaId equals empresa.Id
+                               select new
+                               {
+                                   VacanteId = vacante.Id,
+                                   Titulo = vacante.Titulo,
+                                   Descripcion = vacante.Descripcion,
+                                   Requisitos = vacante.Requisitos,
+                                   Salario = vacante.Salario,
+                                   Ubicacion = vacante.Ubicacion,
+                                   Empresa = empresa.Nombre,
+                               };
+            return Ok(vacantes);
         }
 
         // GET: api/Vacante/5
-        public string Get(int id)
+        public IHttpActionResult Get(int id)
         {
-            return "value";
+            var vacantes = from vacante in db.Vacante
+                           join empresa in db.Empresa on vacante.EmpresaId equals empresa.Id
+                           where vacante.Id == id
+                           select new
+                           {
+                               VacanteId = vacante.Id,
+                               Titulo = vacante.Titulo,
+                               Descripcion = vacante.Descripcion,
+                               Requisitos = vacante.Requisitos,
+                               Salario = vacante.Salario,
+                               Ubicacion = vacante.Ubicacion,
+                               Empresa = empresa.Nombre,
+                           };
+            return Ok(vacantes);
         }
 
         // POST: api/Vacante
-        public void Post([FromBody]string value)
+        public IHttpActionResult Post(Vacante vacante)
         {
+            db.Vacante.Add(vacante);
+            db.SaveChanges();
+            return Ok(vacante);
         }
 
         // PUT: api/Vacante/5
-        public void Put(int id, [FromBody]string value)
+        public IHttpActionResult Put(int id, Vacante vacanteModificada)
         {
+            db.Entry(vacanteModificada).State = EntityState.Modified;
+            db.SaveChanges();
+            return Ok(vacanteModificada);
         }
 
         // DELETE: api/Vacante/5
-        public void Delete(int id)
+        public IHttpActionResult Delete(int id)
         {
+            Vacante vacante = db.Vacante.Find(id);
+            db.Vacante.Remove(vacante);
+            db.SaveChanges();
+            return Ok(vacante);
         }
     }
 }

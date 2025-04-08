@@ -49,6 +49,14 @@ namespace ProyectoLinkedinMVC.Controllers {
         {
             return View();
         }
+        public ActionResult Vacante()
+        {
+            return View();
+        }
+        public ActionResult Conexion()
+        {
+            return View();
+        }
         public ActionResult Login()
         {
             return View("~/Views/Login/Login.cshtml");

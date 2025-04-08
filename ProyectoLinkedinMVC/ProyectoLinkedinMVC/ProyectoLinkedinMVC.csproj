@@ -367,6 +367,8 @@
     <Content Include="Views\Home\Habilidades.cshtml" />
     <Content Include="Views\Home\Mensaje.cshtml" />
     <Content Include="Views\Login\Login.cshtml" />
+    <Content Include="Views\Home\Vacante.cshtml" />
+    <Content Include="Views\Home\Conexion.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -382,6 +384,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AdministradorController.cs" />
     <Compile Include="Controllers\ComentarioController.cs" />
+    <Compile Include="Controllers\ConexionController.cs" />
     <Compile Include="Controllers\EmpresaController.cs" />
     <Compile Include="Controllers\ExperienciaController.cs" />
     <Compile Include="Controllers\FormacionAcademicaController.cs" />
@@ -393,6 +396,7 @@
     <Compile Include="Controllers\SampleDataController.cs" />
     <Compile Include="Controllers\UsuarioEmpresaController.cs" />
     <Compile Include="Controllers\UsuarioNormalController.cs" />
+    <Compile Include="Controllers\VacanteController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

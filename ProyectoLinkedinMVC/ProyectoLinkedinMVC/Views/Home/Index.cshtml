@@ -12,34 +12,56 @@
         .LoadAction("Get")
         .Key("Id")
     )
-    .Columns(columns => {
-        columns.Add().DataField("Titulo");
-        columns.Add().DataField("Contenido");
-        columns.Add().DataField("FechaPublicacion").Caption("Fecha");
-        columns.Add().DataField("UsuarioNombre").Caption("Publicado por");
-
-        columns.Add().Caption("Comentarios")
-            .EncodeHtml(false)
-            .CellTemplate(@<text>
-                <div style="white-space: normal;">
-                    <%
-                        if (data.Comentarios && data.Comentarios.length > 0) {
-                            data.Comentarios.forEach(comentario => {
-                    %>
-                                <div><strong><%= comentario.Por %></strong>:
-                                <%= comentario.Contenido %>
-                                (<%= new Date(comentario.Fecha).toLocaleDateString() %>)</div>
-                    <%
-                            });
-                        } else {
-                    %>
-                            <em>Sin comentarios</em>
-                    <%
-                        }
-                    %>
-                </div>
-            </text>);
-    })
-    .RemoteOperations(true)
+    .ShowBorders(false)
+    .RowAlternationEnabled(false)
+    .HeaderFilter(hf => hf.Visible(false))
     .Paging(p => p.PageSize(10))
+    .Scrolling(s => s.Mode(GridScrollingMode.Standard))
+    .ColumnAutoWidth(true)
+    .Columns(columns => {
+        columns.Add().CellTemplate(@<text>
+            <div style="padding: 15px; background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 15px;">
+                <!-- Cabecera -->
+                <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                    <span style="font-weight: bold; color: #2a5885;"><%- data.UsuarioNombre %></span>
+                    <span style="color: #999; font-size: 12px;">
+                        <%- new Date(data.FechaPublicacion).toLocaleDateString() %>
+                    </span>
+                </div>
+
+                <!-- Contenido -->
+                <div style="font-size: 15px; margin-bottom: 10px;">
+                    <div style="font-weight: bold; margin-bottom: 5px;"><%- data.Titulo %></div>
+                    <div style="white-space: normal;"><%- data.Contenido %></div>
+                </div>
+
+                <!-- Comentarios - Lista completa -->
+                <div style="border-top: 1px solid #eee; padding-top: 10px;">
+                    <div style="font-size: 13px; color: #666; margin-bottom: 5px;">
+                        <% if(data.Comentarios && data.Comentarios.length > 0) { %>
+                            <span><%= data.Comentarios.length %> comentarios:</span>
+                            <div style="margin-top: 8px; max-height: 200px; overflow-y: auto; padding: 8px; background: #f9f9f9; border-radius: 4px;">
+                                <% data.Comentarios.forEach(function(comentario) { %>
+                                    <div style="margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px solid #ddd;">
+                                        <div style="font-weight: bold;"><%= comentario.Por %></div>
+                                        <div><%= comentario.Contenido %></div>
+                                        <div style="font-size: 11px; color: #999;">
+                                            <%= new Date(comentario.Fecha).toLocaleDateString() %>
+                                        </div>
+                                    </div>
+                                <% }); %>
+                            </div>
+                        <% } else { %>
+                            <span>Sin comentarios</span>
+                        <% } %>
+                    </div>
+                </div>
+            </div>
+        </text>)
+        .AllowSorting(false)
+        .AllowFiltering(false)
+        .AllowHeaderFiltering(false);
+    })
+    .ColumnHidingEnabled(true)
+    .AllowColumnResizing(false)
 )

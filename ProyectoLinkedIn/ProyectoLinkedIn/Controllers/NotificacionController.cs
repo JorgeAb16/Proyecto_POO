@@ -14,20 +14,34 @@ namespace ProyectoLinkedIn.Controllers
     {
         private DBContextProject db = new DBContextProject();
         // GET: api/Notificacion
-        public IEnumerable<Notificacion> Get()
+        public IHttpActionResult Get()
         {
-            return db.Notificacion;
+            var notificaciones = from notificacion in db.Notificacion
+                           join usuario in db.Usuario on notificacion.DestinatarioId equals usuario.Id
+                           select new
+                           {
+                               NotificacionId = notificacion.Id,
+                               Mensaje = notificacion.Mensaje,
+                               Destinatario = usuario.Nombre,
+                               FechaEnvio = notificacion.Fechaenvio,
+                           };
+            return Ok(notificaciones);
         }
 
         // GET: api/Notificacion/5
         public IHttpActionResult Get(int id)
         {
-            Notificacion notificacion = db.Notificacion.Find(id);
-            if (notificacion == null)
-            {
-                return NotFound();
-            }
-            return Ok(notificacion);
+            var notificaciones = from notificacion in db.Notificacion
+                                 join usuario in db.Usuario on notificacion.DestinatarioId equals usuario.Id
+                                 where notificacion.Id == id
+                                 select new
+                                 {
+                                     NotificacionId = notificacion.Id,
+                                     Mensaje = notificacion.Mensaje,
+                                     Destinatario = usuario.Nombre,
+                                     FechaEnvio = notificacion.Fechaenvio,
+                                 };
+            return Ok(notificaciones);
         }
 
         // POST: api/Notificacion

@@ -34,9 +34,31 @@ namespace ProyectoLinkedIn.Controllers
                                                   {
                                                       Por = usuario1.Nombre+" "+usuario1.Apellido,
                                                       Contenido = comentario.Contenido,
-                                                      Fecha = comentario.Fechapublicacion
+                                                      Fecha = comentario.Fechapublicacion,
+                                                      Reacciones = (from reacciones in db.Reaccion
+                                                                    join usuario2 in db.Usuario on reacciones.UsuarioID equals usuario2.Id
+                                                                    where reacciones.ComentarioID == comentario.Id
+                                                                    select new
+                                                                    {
+                                                                        Por = usuario2.Nombre + " " + usuario2.Apellido,
+                                                                        Contenido = reacciones.Contenido,
+                                                                        Nombre = reacciones.Nombre
+
+                                                                    })
+                                                  }),
+
+                                   Reacciones = (from reacciones1 in db.Reaccion
+                                                  join publicacion1 in db.Publicacion on reacciones1.PublicacionID equals publicacion1.Id
+                                                  join usuario2 in db.Usuario on reacciones1.UsuarioID equals usuario2.Id
+                                                  where reacciones1.PublicacionID == publicacion1.Id
+                                                  select new
+                                                  {
+                                                      Por = usuario2.Nombre + " " + usuario2.Apellido,
+                                                      Contenido = reacciones1.Contenido,
+                                                      Nombre = reacciones1.Nombre
+ 
                                                   })
-                                                  
+
                                 };
 
             return Ok(query);
@@ -64,11 +86,30 @@ namespace ProyectoLinkedIn.Controllers
                                            {
                                                Por = usuario1.Nombre + " " + usuario1.Apellido,
                                                Contenido = comentario.Contenido,
-                                               Fecha = comentario.Fechapublicacion
+                                               Fecha = comentario.Fechapublicacion,
+                                               Reacciones = (from reacciones in db.Reaccion
+                                                             join usuario2 in db.Usuario on reacciones.UsuarioID equals usuario2.Id
+                                                             where reacciones.ComentarioID == comentario.Id
+                                                             select new
+                                                             {
+                                                                 Por = usuario2.Nombre + " " + usuario2.Apellido,
+                                                                 Contenido = reacciones.Contenido,
+                                                                 Nombre = reacciones.Nombre
 
+                                                             })
+                                           }),
 
+                            Reacciones = (from reacciones1 in db.Reaccion
+                                          join publicacion1 in db.Publicacion on reacciones1.PublicacionID equals publicacion1.Id
+                                          join usuario2 in db.Usuario on reacciones1.UsuarioID equals usuario2.Id
+                                          where reacciones1.PublicacionID == publicacion1.Id
+                                          select new
+                                          {
+                                              Por = usuario2.Nombre + " " + usuario2.Apellido,
+                                              Contenido = reacciones1.Contenido,
+                                              Nombre = reacciones1.Nombre
 
-                                           })
+                                          })
 
                         };
 

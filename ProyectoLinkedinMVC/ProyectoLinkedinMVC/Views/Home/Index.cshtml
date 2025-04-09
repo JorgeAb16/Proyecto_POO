@@ -35,7 +35,27 @@
                     <div style="white-space: normal;"><%- data.Contenido %></div>
                 </div>
 
-                <!-- Comentarios - Lista completa -->
+                <!-- Reacciones de la publicación -->
+                <% if(data.Reacciones && data.Reacciones.length > 0) { %>
+                    <div style="margin-bottom: 10px; padding: 8px; background: #f0f7ff; border-radius: 4px;">
+                        <div style="font-size: 13px; color: #666; margin-bottom: 5px;">
+                            <span>Reacciones:</span>
+                        </div>
+                        <div style="display: flex; flex-wrap: wrap; gap: 5px;">
+                            <% data.Reacciones.forEach(function(reaccion) { %>
+                                <div style="font-size: 12px; padding: 3px 6px; background: #e1f0ff; border-radius: 12px;">
+                                    <span style="font-weight: bold;"><%= reaccion.Por %></span>
+                                    <span><%= reaccion.Nombre %></span>
+                                    <% if(reaccion.Contenido) { %>
+                                        <span>: <%= reaccion.Contenido %></span>
+                                    <% } %>
+                                </div>
+                            <% }); %>
+                        </div>
+                    </div>
+                <% } %>
+
+                <!-- Comentarios -->
                 <div style="border-top: 1px solid #eee; padding-top: 10px;">
                     <div style="font-size: 13px; color: #666; margin-bottom: 5px;">
                         <% if(data.Comentarios && data.Comentarios.length > 0) { %>
@@ -48,6 +68,26 @@
                                         <div style="font-size: 11px; color: #999;">
                                             <%= new Date(comentario.Fecha).toLocaleDateString() %>
                                         </div>
+
+                                        <!-- Reacciones del comentario -->
+                                        <% if(comentario.Reacciones && comentario.Reacciones.length > 0) { %>
+                                            <div style="margin-top: 5px; padding: 5px; background: #f0f7ff; border-radius: 4px;">
+                                                <div style="font-size: 11px; color: #666; margin-bottom: 3px;">
+                                                    <span>Reacciones:</span>
+                                                </div>
+                                                <div style="display: flex; flex-wrap: wrap; gap: 3px;">
+                                                    <% comentario.Reacciones.forEach(function(reaccion) { %>
+                                                        <div style="font-size: 10px; padding: 2px 5px; background: #e1f0ff; border-radius: 10px;">
+                                                            <span style="font-weight: bold;"><%= reaccion.Por %></span>
+                                                            <span><%= reaccion.Nombre %></span>
+                                                            <% if(reaccion.Contenido) { %>
+                                                                <span>: <%= reaccion.Contenido %></span>
+                                                            <% } %>
+                                                        </div>
+                                                    <% }); %>
+                                                </div>
+                                            </div>
+                                        <% } %>
                                     </div>
                                 <% }); %>
                             </div>

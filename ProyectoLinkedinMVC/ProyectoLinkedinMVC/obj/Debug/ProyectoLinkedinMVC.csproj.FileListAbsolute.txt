@@ -112,10 +112,10 @@ C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\obj\
 C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\obj\Debug\Proyecto.0F93B1FB.Up2Date
 C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\obj\Debug\ProyectoLinkedinMVC.dll
 C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\obj\Debug\ProyectoLinkedinMVC.pdb
-C:\Users\Precision 5520\Desktop\Repositorio-Proyecto-POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\obj\Debug\ProyectoLinkedinMVC.csproj.AssemblyReference.cache
-C:\Users\Precision 5520\Desktop\Repositorio-Proyecto-POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\obj\Debug\ProyectoLinkedinMVC.csproj.CoreCompileInputs.cache
-C:\Users\Precision 5520\Desktop\Repositorio-Proyecto-POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\obj\Debug\ProyectoLinkedinMVC.dll
-C:\Users\Precision 5520\Desktop\Repositorio-Proyecto-POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\obj\Debug\ProyectoLinkedinMVC.pdb
+C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\EntityFramework.dll
+C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\EntityFramework.xml
+C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\EntityFramework.SqlServer.xml
 C:\Users\Precision 5520\Desktop\Repositorio-Proyecto-POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\ProyectoLinkedinMVC.dll.config
 C:\Users\Precision 5520\Desktop\Repositorio-Proyecto-POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\ProyectoLinkedinMVC.dll
 C:\Users\Precision 5520\Desktop\Repositorio-Proyecto-POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\ProyectoLinkedinMVC.pdb
@@ -172,8 +172,8 @@ C:\Users\Precision 5520\Desktop\Repositorio-Proyecto-POO\ProyectoLinkedinMVC\Pro
 C:\Users\Precision 5520\Desktop\Repositorio-Proyecto-POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\System.Web.WebPages.xml
 C:\Users\Precision 5520\Desktop\Repositorio-Proyecto-POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Precision 5520\Desktop\Repositorio-Proyecto-POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\Precision 5520\Desktop\Repositorio-Proyecto-POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\obj\Debug\ProyectoLinkedinMVC.csproj.AssemblyReference.cache
+C:\Users\Precision 5520\Desktop\Repositorio-Proyecto-POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\obj\Debug\ProyectoLinkedinMVC.csproj.CoreCompileInputs.cache
 C:\Users\Precision 5520\Desktop\Repositorio-Proyecto-POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\obj\Debug\Proyecto.0F93B1FB.Up2Date
-C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\EntityFramework.dll
-C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\EntityFramework.SqlServer.dll
-C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\EntityFramework.xml
-C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\Precision 5520\Desktop\Repositorio-Proyecto-POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\obj\Debug\ProyectoLinkedinMVC.dll
+C:\Users\Precision 5520\Desktop\Repositorio-Proyecto-POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\obj\Debug\ProyectoLinkedinMVC.pdb

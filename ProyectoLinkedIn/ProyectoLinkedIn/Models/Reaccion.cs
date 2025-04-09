@@ -12,8 +12,8 @@ namespace ProyectoLinkedIn.Models
         private string _nombre;
         private string _contenido;
         private int _usuarioID;
-        private int _comentarioID;
-        private int _publicacionID;
+        private int? _comentarioID;
+        private int? _publicacionID;
        
         public Reaccion()
         {
@@ -34,8 +34,8 @@ namespace ProyectoLinkedIn.Models
         public string Nombre { get => _nombre; set => _nombre = value; }
         public string Contenido { get => _contenido; set => _contenido = value; }
         public int UsuarioID { get => _usuarioID; set => _usuarioID = value; }
-        public int ComentarioID { get => _comentarioID; set => _comentarioID = value; }
-        public int PublicacionID { get => _publicacionID; set => _publicacionID = value; }
+        public int? ComentarioID { get => _comentarioID; set => _comentarioID = value; }
+        public int? PublicacionID { get => _publicacionID; set => _publicacionID = value; }
         
     }
 }

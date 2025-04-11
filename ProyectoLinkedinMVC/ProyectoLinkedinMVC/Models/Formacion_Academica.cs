@@ -25,8 +25,8 @@ namespace ProyectoLinkedinMVC.Models
             Titulo = titulo;
             Grado = grado;
             Descripcion = descripcion;
-            Fecha_adquisicion = fecha_adquisicion;
-            Institucion_educativa = institucion_educativa;
+            FechaAdquisicion = fecha_adquisicion;
+            InstitucionEducativa = institucion_educativa;
             UsuarioID = usuarioID;
         }
 
@@ -34,8 +34,10 @@ namespace ProyectoLinkedinMVC.Models
         public string Titulo { get => _titulo; set => _titulo = value; }
         public string Grado { get => _grado; set => _grado = value; }
         public string Descripcion { get => _descripcion; set => _descripcion = value; }
-        public DateTime Fecha_adquisicion { get => _fecha_adquisicion; set => _fecha_adquisicion = value; }
-        public string Institucion_educativa { get => _institucion_educativa; set => _institucion_educativa = value; }
+        public DateTime FechaAdquisicion { get => _fecha_adquisicion; set => _fecha_adquisicion = value; }
+        public string InstitucionEducativa { get => _institucion_educativa; set => _institucion_educativa = value; }
         public int UsuarioID { get => _usuarioID; set => _usuarioID = value; }
+
+        public string UsuarioNombre { get; set; }
     }
 }

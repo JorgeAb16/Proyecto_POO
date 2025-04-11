@@ -13,9 +13,26 @@ namespace ProyectoLinkedIn.Controllers
     {
         private DBContextProject db = new DBContextProject();
         // GET: api/Conexion
-        public IEnumerable<Conexion> Get()
+        public IHttpActionResult Get()
         {
-            return db.Conexion;
+
+            var conexiones = from conexion in db.Conexion
+                           join usuario1 in db.Usuario on conexion.Usuario1 equals usuario1.Id
+                           join usuario2 in db.Usuario on conexion.Usuario2 equals usuario2.Id
+                           select new
+                           {
+                               Id = conexion.Id,
+
+                               Usuario1 = usuario1.Id,
+                               Usuario2 = usuario2.Id,
+                
+                               Nombre1 = usuario1.Nombre,
+                               Nombre2 = usuario2.Nombre,
+
+                               _Conexion = conexion._Conexion
+                           };
+
+            return Ok(conexiones);
         }
 
         // GET: api/Conexion/5

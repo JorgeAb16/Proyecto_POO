@@ -24,8 +24,16 @@
         columns.AddFor(m => m.Fechapublicacion);
 
         columns.AddFor(m => m.UsuarioId);
+        columns.Add()
+        .DataField("UsuarioNombre")
+        .Caption("Nombre de Usuario");
 
         columns.AddFor(m => m.PublicacionId);
+
+        columns.Add()
+        .DataField("publicacionTitulo")
+        .Caption("Titulo de Publicacion");
+
     })
     .Editing(e => e
         .AllowAdding(true)

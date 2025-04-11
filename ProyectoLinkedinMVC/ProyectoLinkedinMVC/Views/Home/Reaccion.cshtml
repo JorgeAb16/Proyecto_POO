@@ -19,21 +19,24 @@
 
         columns.AddFor(m => m.Id);
 
-        columns.AddFor(m => m.NombreReaccion);
+        columns.AddFor(m => m.Nombre);
 
         columns.AddFor(m => m.Contenido);
 
-
         columns.AddFor(m => m.UsuarioID);
-
-
         columns.Add()
-            .DataField("Nombre") 
-            .Caption("Nombre de Usuario"); 
-
-        columns.AddFor(m => m.ComentarioID);
+        .DataField("NombreUsuario")
+        .Caption("Nombre de Usuario");
 
         columns.AddFor(m => m.PublicacionID);
+        columns.Add()
+        .DataField("publicacionTitulo")
+        .Caption("Titulo de Publicacion");
+
+        columns.AddFor(m => m.ComentarioID);
+        columns.Add()
+        .DataField("ContenidoComentario")
+        .Caption("Contenido de Comentario");
 
     })
     .Editing(e => e

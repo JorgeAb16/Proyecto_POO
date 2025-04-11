@@ -19,12 +19,13 @@ namespace ProyectoLinkedIn.Controllers
                                join empresa in db.Empresa on vacante.EmpresaId equals empresa.Id
                                select new
                                {
-                                   VacanteId = vacante.Id,
+                                   Id = vacante.Id,
                                    Titulo = vacante.Titulo,
                                    Descripcion = vacante.Descripcion,
                                    Requisitos = vacante.Requisitos,
                                    Salario = vacante.Salario,
                                    Ubicacion = vacante.Ubicacion,
+                                   EmpresaId = empresa.Id,
                                    Empresa = empresa.Nombre,
                                };
             return Ok(vacantes);

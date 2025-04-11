@@ -27,7 +27,7 @@ namespace ProyectoLinkedIn.Controllers
                               join usuario in db.Usuario on formacion.UsuarioID equals usuario.Id
                               select new
                               {
-                                  FormacionAcademicaId = formacion.Id,
+                                  Id = formacion.Id,
                                   UsuarioId = usuario.Id,
                                   UsuarioNombre = usuario.Nombre,
                                   Titulo = formacion.Titulo,
@@ -54,7 +54,7 @@ namespace ProyectoLinkedIn.Controllers
                               where formacion.Id == id
                               select new
                               {
-                                  FormacionAcademicaId = formacion.Id,
+                                  Id = formacion.Id,
                                   UsuarioId = usuario.Id,
                                   UsuarioNombre = usuario.Nombre,
                                   Titulo = formacion.Titulo,

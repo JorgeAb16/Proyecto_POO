@@ -12,11 +12,13 @@ namespace ProyectoLinkedinMVC.Models
         private string descripcion;
         private int usuarioId;
 
+
         public int Id { get => id; set => id = value; }
         public string Nombre { get => nombre; set => nombre = value; }
         public string Descripcion { get => descripcion; set => descripcion = value; }
         public int Usuario_Id { get => usuarioId; set => usuarioId = value; }
 
+        public string NombreUsuario { get; set; }
         public Habilidades()
         {
 

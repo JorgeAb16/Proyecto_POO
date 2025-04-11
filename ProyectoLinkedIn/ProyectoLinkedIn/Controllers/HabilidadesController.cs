@@ -16,7 +16,7 @@ namespace ProyectoLinkedIn.Controllers
         /// Obtiene todas las Habilidades.
         /// </summary>
         /// <returns>Una lista de elementos.</returns>
-        /// 
+
         public IHttpActionResult Get()
         {
 
@@ -27,9 +27,10 @@ namespace ProyectoLinkedIn.Controllers
                                   Id = habilidades.Id,
                                   Nombre = habilidades.Nombre,
                                   Descripcion = habilidades.Descripcion,
+                                  
 
-                                  IdUsuario = usuario.Id,
-                                  UsuarioNombre = usuario.Nombre,
+                                  Usuario_Id = usuario.Id,
+                                  NombreUsuario = usuario.Nombre,
 
                                   
                               };

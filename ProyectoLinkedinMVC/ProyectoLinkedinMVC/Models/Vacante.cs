@@ -37,5 +37,6 @@ namespace ProyectoLinkedinMVC.Models
         public double Salario { get => salario; set => salario = value; }
         public string Ubicacion { get => ubicacion; set => ubicacion = value; }
         public int EmpresaId { get => _empresa; set => _empresa = value; }
+        public string Empresa { get; set; }
     }
 }

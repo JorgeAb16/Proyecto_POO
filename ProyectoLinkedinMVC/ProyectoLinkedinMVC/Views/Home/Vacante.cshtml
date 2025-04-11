@@ -30,6 +30,9 @@
         columns.AddFor(m => m.Ubicacion);
 
         columns.AddFor(m => m.EmpresaId);
+        columns.Add()
+.DataField("Empresa")
+.Caption("Nombre de Empresa");
     })
     .Editing(e => e
         .AllowAdding(true)

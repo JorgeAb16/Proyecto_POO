@@ -28,5 +28,6 @@ namespace ProyectoLinkedinMVC.Models
         public string Mensaje { get => _mensaje; set => _mensaje = value; }
         public DateTime Fechaenvio { get => _fechaenvio; set => _fechaenvio = value; }
         public int DestinatarioId { get => _destinatario; set => _destinatario = value; }
+        public string Destinatario { get; set; }
     }
 }

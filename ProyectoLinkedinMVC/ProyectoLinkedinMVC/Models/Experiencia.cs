@@ -35,5 +35,6 @@ namespace ProyectoLinkedinMVC.Models
         public DateTime Fecha_fin { get => _fecha_fin; set => _fecha_fin = value; }
         public string Empresa { get => _empresa; set => _empresa = value; }
         public int UsuarioID { get => _usuarioID; set => _usuarioID = value; }
+        public string UsuarioNombre { get; set; }
     }
 }

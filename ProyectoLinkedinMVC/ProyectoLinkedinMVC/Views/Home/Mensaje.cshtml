@@ -24,8 +24,14 @@
         columns.AddFor(m => m.Fechadeenvio);
 
         columns.AddFor(m => m.Remitente_Id);
+        columns.Add()
+.DataField("Remitente")
+.Caption("Nombre del Remitente");
 
         columns.AddFor(m => m.Destinatario_Id);
+        columns.Add()
+.DataField("Destinatario")
+.Caption("Nombre del Destinatario");
     })
     .Editing(e => e
         .AllowAdding(true)

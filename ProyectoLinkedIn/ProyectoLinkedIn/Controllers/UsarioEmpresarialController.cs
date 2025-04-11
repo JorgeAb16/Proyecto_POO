@@ -17,15 +17,32 @@ namespace ProyectoLinkedIn.Controllers
         /// Obtiene todos los Usuarios Empresariales.
         /// </summary>
         /// <returns>Una lista de elementos.</returns>
-        
-        public IEnumerable<Usuario> GetEmpresarial()
+
+        public IHttpActionResult Get()
         {
-            return db.Usuario.OfType<Usuario_Empresarial>().ToList();
+
+            var usuarioempresarial = from usuario in db.Usuario.OfType<Usuario_Empresarial>()
+                                     join empresa in db.Empresa on usuario.Empresa_Id equals empresa.Id
+                              select new
+                              {
+                                  Id = usuario.Id,
+                                  Nombre = usuario.Nombre,
+                                  Apellido = usuario.Apellido,
+                                  Telefono = usuario.Telefono,
+                                  Correo = usuario.Correo,
+
+                                  Empresa_Id = empresa.Id,
+                                  NombreEmpresa = empresa.Nombre
+
+
+                              };
+
+            return Ok(usuarioempresarial);
         }
         /// <summary>
         /// Agrega un Usuario Empresarial.
         /// </summary>
-        
+
         public IHttpActionResult PostEmpresarial(Usuario_Empresarial usuario)
         {
             if (usuario == null)

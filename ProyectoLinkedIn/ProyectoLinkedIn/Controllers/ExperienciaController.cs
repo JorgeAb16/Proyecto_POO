@@ -28,7 +28,7 @@ namespace ProyectoLinkedIn.Controllers
                                join usuario in db.Usuario on experiencia.UsuarioID equals usuario.Id
                                select new
                                {
-                                   ExperienciaId = experiencia.Id,
+                                   Id = experiencia.Id,
                                    UsuarioId = usuario.Id,
                                    UsuarioNombre = usuario.Nombre,
                                    Empresa = experiencia.Empresa,
@@ -54,7 +54,7 @@ namespace ProyectoLinkedIn.Controllers
                                where experiencia.Id == id
                                select new
                                {
-                                   ExperienciaId = experiencia.Id,
+                                   Id = experiencia.Id,
                                    UsuarioId = usuario.Id,
                                    UsuarioNombre = usuario.Nombre,
                                    Empresa = experiencia.Empresa,

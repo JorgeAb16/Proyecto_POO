@@ -31,6 +31,7 @@ namespace ProyectoLinkedinMVC.Models
         public DateTime Fechadeenvio { get => _fechadeenvio; set => _fechadeenvio = value; }
         public int Remitente_Id { get => remitenteId; set => remitenteId = value; }
         public int Destinatario_Id { get => destinatarioId; set => destinatarioId = value; }
-
+        public string Remitente { get; set; }
+        public string Destinatario { get; set; }
     }
 }

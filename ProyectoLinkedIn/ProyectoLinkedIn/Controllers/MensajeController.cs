@@ -16,15 +16,31 @@ namespace ProyectoLinkedIn.Controllers
         /// Obtiene todos los Mensajes.
         /// </summary>
         /// <returns>Una lista de elementos.</returns>
-        
-        public IEnumerable<Mensaje> GetNormales()
+
+        public IHttpActionResult Get()
         {
-            return db.Mensaje;
+
+            var mensajes = from mensaje in db.Mensaje
+                              join usuario1 in db.Usuario on mensaje.Remitente_Id equals usuario1.Id
+                              join usuario2 in db.Usuario on mensaje.Destinatario_Id equals usuario2.Id
+                              select new
+                              {
+                                  Id = mensaje.Id,
+
+                                  Remitente_Id = usuario1.Id,
+                                  Destinatario_Id = usuario2.Id,
+                                  Fechadeenvio = mensaje.Fechadeenvio,
+                                  Contenido = mensaje.Contenido,
+                                  Remitente = usuario1.Nombre,
+                                  Destinatario = usuario2.Nombre
+                              };
+
+            return Ok(mensajes);
         }
         /// <summary>
         /// Agrega un Mensaje.
         /// </summary>
-        
+
         public IHttpActionResult PostMensaje(Mensaje mensaje)
         {
             if (mensaje == null)

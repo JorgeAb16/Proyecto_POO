@@ -18,5 +18,6 @@ namespace ProyectoLinkedinMVC.Models
         }
 
         public int Empresa_Id { get => empresa_Id; set => empresa_Id = value; }
+        public string NombreEmpresa { get; set; }
     }
 }

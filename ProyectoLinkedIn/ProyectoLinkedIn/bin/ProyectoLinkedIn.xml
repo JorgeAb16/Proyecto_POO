@@ -589,7 +589,6 @@
             Obtiene todas las Habilidades.
             </summary>
             <returns>Una lista de elementos.</returns>
-            
         </member>
         <member name="M:ProyectoLinkedIn.Controllers.HabilidadesController.PostHabilidad(ProyectoLinkedIn.Models.Habilidades)">
             <summary>
@@ -612,7 +611,7 @@
             Elimina una habilidad por su id.
             </summary>
         </member>
-        <member name="M:ProyectoLinkedIn.Controllers.MensajeController.GetNormales">
+        <member name="M:ProyectoLinkedIn.Controllers.MensajeController.Get">
             <summary>
             Obtiene todos los Mensajes.
             </summary>
@@ -704,7 +703,7 @@
             Modifica un Usuario Normal por su id.
             </summary>
         </member>
-        <member name="M:ProyectoLinkedIn.Controllers.UsarioEmpresarialController.GetEmpresarial">
+        <member name="M:ProyectoLinkedIn.Controllers.UsarioEmpresarialController.Get">
             <summary>
             Obtiene todos los Usuarios Empresariales.
             </summary>

@@ -30,5 +30,7 @@ namespace ProyectoLinkedinMVC.Models
         public DateTime Fechapublicacion { get => _fechapublicacion; set => _fechapublicacion = value; }
         public int UsuarioId { get => _usuario; set => _usuario = value; }
         public int PublicacionId { get => publicacion; set => publicacion = value; }
+        public string UsuarioNombre { get; set; }
+        public string publicacionTitulo { get; set; }
     }
 }

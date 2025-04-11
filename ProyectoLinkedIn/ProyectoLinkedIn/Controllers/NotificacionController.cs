@@ -20,8 +20,9 @@ namespace ProyectoLinkedIn.Controllers
                            join usuario in db.Usuario on notificacion.DestinatarioId equals usuario.Id
                            select new
                            {
-                               NotificacionId = notificacion.Id,
+                               Id = notificacion.Id,
                                Mensaje = notificacion.Mensaje,
+                               DestinatarioId = usuario.Id,
                                Destinatario = usuario.Nombre,
                                FechaEnvio = notificacion.Fechaenvio,
                            };

@@ -28,6 +28,10 @@
         columns.AddFor(m => m.Empresa);
 
         columns.AddFor(m => m.UsuarioID);
+        
+        columns.Add()
+        .DataField("UsuarioNombre")
+        .Caption("Nombre de Usuario");
     })
     .Editing(e => e
         .AllowAdding(true)

@@ -24,6 +24,9 @@
         columns.AddFor(m => m.Fechaenvio);
 
         columns.AddFor(m => m.DestinatarioId);
+        columns.Add()
+.DataField("Destinatario")
+.Caption("Nombre del Destinatario");
     })
     .Editing(e => e
         .AllowAdding(true)

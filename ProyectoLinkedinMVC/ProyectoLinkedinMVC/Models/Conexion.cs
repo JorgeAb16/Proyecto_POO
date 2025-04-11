@@ -16,6 +16,8 @@ namespace ProyectoLinkedinMVC.Models
         public int Usuario1 { get => usuario1; set => usuario1 = value; }
         public int Usuario2 { get => usuario2; set => usuario2 = value; }
         public string _Conexion { get => conexion; set => conexion = value; }
+        public string Nombre1 { get; set; }
+        public string Nombre2 { get; set; }
 
         public Conexion() { }
 

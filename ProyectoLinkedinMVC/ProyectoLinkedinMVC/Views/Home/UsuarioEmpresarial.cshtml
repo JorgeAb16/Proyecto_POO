@@ -17,7 +17,7 @@
     .RemoteOperations(true)
     .Columns(columns => {
 
-        columns.AddFor(m => m.Empresa_Id);
+
 
         columns.AddFor(m => m.Id);
 
@@ -28,6 +28,14 @@
         columns.AddFor(m => m.Telefono);
 
         columns.AddFor(m => m.Correo);
+
+        columns.AddFor(m => m.Empresa_Id);
+
+        columns.Add()
+    .DataField("NombreEmpresa")
+    .Caption("Nombre de Empresa");
+
+
     })
     .Editing(e => e
         .AllowAdding(true)

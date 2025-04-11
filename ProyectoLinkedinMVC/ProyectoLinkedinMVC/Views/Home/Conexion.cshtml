@@ -21,10 +21,13 @@
 
         
         columns.AddFor(m => m.Usuario1)
-            .DataField("Nombre")
-            .Caption("Nombre de Usuario");
+            .DataField("Nombre1")
+            .Caption("Nombre de Usuario 1");
 
         columns.AddFor(m => m.Usuario2);
+        columns.Add()
+        .DataField("Nombre2")
+        .Caption("Nombre de Usuario 2");
 
         columns.AddFor(m => m._Conexion);
     })

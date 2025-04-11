@@ -19,7 +19,10 @@
 
         columns.AddFor(m => m.Id);
 
-        columns.AddFor(m => m.Usuario1);
+        
+        columns.AddFor(m => m.Usuario1)
+            .DataField("Nombre")
+            .Caption("Nombre de Usuario");
 
         columns.AddFor(m => m.Usuario2);
 

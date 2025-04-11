@@ -16,8 +16,7 @@ namespace ProyectoLinkedIn.Controllers
         /// Obtiene todos los Usuarios Normales.
         /// </summary>
         /// <returns>Una lista de elementos.</returns>
-        [HttpGet]
-        [Route("api/GetNormales")]
+        
         public IEnumerable<Usuario> GetNormales()
         {
             return db.Usuario.OfType<Usuario_Normal>().ToList();
@@ -27,8 +26,7 @@ namespace ProyectoLinkedIn.Controllers
         /// Agrega un Usuario Normal.
         /// </summary>
         /// <returns>Ejemplo de solicitud.</returns>
-        [Route("api/PostNormal")]
-        [HttpPost]
+        
         public IHttpActionResult PostNormal(Usuario_Normal usuario)
         {
             db.Usuario.Add(usuario);
@@ -40,7 +38,7 @@ namespace ProyectoLinkedIn.Controllers
         /// <summary>
         /// Modifica un Usuario Normal por su id.
         /// </summary>
-        [Route("api/PutNormal")]
+        
         public IHttpActionResult PutNormal(Usuario_Normal usuario)
         {
             int id = usuario.Id;

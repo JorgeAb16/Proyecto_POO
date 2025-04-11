@@ -18,7 +18,7 @@ namespace ProyectoLinkedinMVC.Controllers
         [HttpGet]
         public async Task<HttpResponseMessage> Get(DataSourceLoadOptions loadOptions)
         {
-            var apiUrl = "https://localhost:44345/api/GetAdmin";
+            var apiUrl = "https://localhost:44345/api/Adminstrador";
 
             var respuestaJson = await GetAsync(apiUrl);
             //System.Diagnostics.Debug.WriteLine(respuestaJson); imprimir info
@@ -56,7 +56,7 @@ namespace ProyectoLinkedinMVC.Controllers
 
             var httpContent = new StringContent(values, System.Text.Encoding.UTF8, "application/json");
 
-            var url = "https://localhost:44345/api/PostAdminstrador";
+            var url = "https://localhost:44345/api/Adminstrador";
             var handler = new HttpClientHandler();
             handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
             using (var client = new HttpClient(handler))
@@ -69,18 +69,48 @@ namespace ProyectoLinkedinMVC.Controllers
             return Request.CreateResponse(HttpStatusCode.Created);
         }
 
+        [HttpPut]
+        public async Task<HttpResponseMessage> Put(FormDataCollection form)
+        {
+            //Parámetros del form
+            var key = Convert.ToInt32(form.Get("key")); //llave que estoy modificando
+            var values = form.Get("values"); //Los valores que yo modifiqué en formato JSON
+
+            var apiUrlGetAdmin = "https://localhost:44345/api/Adminstrador/" + key;
+            var respuestaAdmin = await GetAsync(apiUrlGetAdmin = "https://localhost:44345/api/Adminstrador/" + key);
+            Administrador admin = JsonConvert.DeserializeObject<Administrador>(respuestaAdmin);
+
+            JsonConvert.PopulateObject(values, admin);
+
+            string jsonString = JsonConvert.SerializeObject(admin);
+            var httpContent = new StringContent(jsonString, System.Text.Encoding.UTF8, "application/json");
+
+            var handler = new HttpClientHandler();
+            handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
+            using (var client = new HttpClient(handler))
+            {
+                var url = "https://localhost:44345/api/Adminstrador/" + key;
+                var response = await client.PutAsync(url, httpContent);
+
+                var result = response.Content.ReadAsStringAsync().Result;
+            }
+
+
+            return Request.CreateResponse(HttpStatusCode.OK);
+        }
+
 
         [HttpDelete]
         public async Task<HttpResponseMessage> Delete(FormDataCollection form)
         {
             var key = Convert.ToInt32(form.Get("key"));
 
-            var apiUrlDelAdmin = "https://localhost:44345/api/DeleteAdminstrador/" + key;
+            var apiUrlDelAdmin = "https://localhost:44345/api/Adminstrador/" + key;
             var handler = new HttpClientHandler();
             handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
             using (var client = new HttpClient(handler))
             {
-                var respuestaPelic = await client.DeleteAsync(apiUrlDelAdmin);
+                var respuestaAdmin = await client.DeleteAsync(apiUrlDelAdmin);
             }
             return Request.CreateResponse(HttpStatusCode.OK);
         }

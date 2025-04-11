@@ -18,12 +18,12 @@ namespace ProyectoLinkedinMVC.Controllers
         [HttpGet]
         public async Task<HttpResponseMessage> Get(DataSourceLoadOptions loadOptions)
         {
-            var apiUrl = "https://localhost:44345/api/Conexion";
+            var apiUrl = "https://localhost:44345/api/Vacante";
 
             var respuestaJson = await GetAsync(apiUrl);
             //System.Diagnostics.Debug.WriteLine(respuestaJson); imprimir info
-            List<Conexion> listaConexion = JsonConvert.DeserializeObject<List<Conexion>>(respuestaJson);
-            return Request.CreateResponse(DataSourceLoader.Load(listaConexion, loadOptions));
+            List<Vacante> listaVacante = JsonConvert.DeserializeObject<List<Vacante>>(respuestaJson);
+            return Request.CreateResponse(DataSourceLoader.Load(listaVacante, loadOptions));
         }
 
         public static async Task<string> GetAsync(string uri)
@@ -54,7 +54,7 @@ namespace ProyectoLinkedinMVC.Controllers
 
             var httpContent = new StringContent(values, System.Text.Encoding.UTF8, "application/json");
 
-            var url = "https://localhost:44345/api/Conexion";
+            var url = "https://localhost:44345/api/Vacante";
             var handler = new HttpClientHandler();
             handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
             using (var client = new HttpClient(handler))
@@ -74,20 +74,20 @@ namespace ProyectoLinkedinMVC.Controllers
             var key = Convert.ToInt32(form.Get("key")); //llave que estoy modificando
             var values = form.Get("values"); //Los valores que yo modifiqué en formato JSON
 
-            var apiUrlGetConexion = "https://localhost:44345/api/Conexion" + key;
-            var respuestaConexion = await GetAsync(apiUrlGetConexion = "https://localhost:44345/api/Conexion" + key);
-            Conexion conexion = JsonConvert.DeserializeObject<Conexion>(respuestaConexion);
+            var apiUrlGetVacante = "https://localhost:44345/api/Vacante/" + key;
+            var respuestaVacante = await GetAsync(apiUrlGetVacante = "https://localhost:44345/api/Vacante/" + key);
+            Vacante vacante = JsonConvert.DeserializeObject<Vacante>(respuestaVacante);
 
-            JsonConvert.PopulateObject(values, conexion);
+            JsonConvert.PopulateObject(values, vacante);
 
-            string jsonString = JsonConvert.SerializeObject(conexion);
+            string jsonString = JsonConvert.SerializeObject(vacante);
             var httpContent = new StringContent(jsonString, System.Text.Encoding.UTF8, "application/json");
 
             var handler = new HttpClientHandler();
             handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
             using (var client = new HttpClient(handler))
             {
-                var url = "https://localhost:44345/api/Conexion" + key;
+                var url = "https://localhost:44345/api/Vacante/" + key;
                 var response = await client.PutAsync(url, httpContent);
 
                 var result = response.Content.ReadAsStringAsync().Result;
@@ -104,12 +104,12 @@ namespace ProyectoLinkedinMVC.Controllers
         {
             var key = Convert.ToInt32(form.Get("key"));
 
-            var apiUrlDelConexion = "https://localhost:44345/api/Conexion" + key;
+            var apiUrlDelVacante = "https://localhost:44345/api/Vacante/" + key;
             var handler = new HttpClientHandler();
             handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
             using (var client = new HttpClient(handler))
             {
-                var respuestaConexion = await client.DeleteAsync(apiUrlDelConexion);
+                var respuestaVacante = await client.DeleteAsync(apiUrlDelVacante);
             }
             return Request.CreateResponse(HttpStatusCode.OK);
         }

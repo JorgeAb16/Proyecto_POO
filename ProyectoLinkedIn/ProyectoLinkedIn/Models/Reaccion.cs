@@ -23,7 +23,7 @@ namespace ProyectoLinkedIn.Models
         public Reaccion(int id, string nombre, string contenido,  int usuarioID, int comentarioID,  int publicacionID)
         {
             Id = id;
-            Nombre = nombre;
+            NombreReaccion = nombre;
             Contenido = contenido;
             UsuarioID = usuarioID;
             ComentarioID = comentarioID;
@@ -31,7 +31,7 @@ namespace ProyectoLinkedIn.Models
         }
 
         public int Id { get => _id; set => _id = value; }
-        public string Nombre { get => _nombre; set => _nombre = value; }
+        public string NombreReaccion { get => _nombre; set => _nombre = value; }
         public string Contenido { get => _contenido; set => _contenido = value; }
         public int UsuarioID { get => _usuarioID; set => _usuarioID = value; }
         public int? ComentarioID { get => _comentarioID; set => _comentarioID = value; }

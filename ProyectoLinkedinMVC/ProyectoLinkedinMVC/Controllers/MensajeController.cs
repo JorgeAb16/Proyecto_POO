@@ -18,7 +18,7 @@ namespace ProyectoLinkedinMVC.Controllers
         [HttpGet]
         public async Task<HttpResponseMessage> Get(DataSourceLoadOptions loadOptions)
         {
-            var apiUrl = "https://localhost:44345/api/GetMensaje";
+            var apiUrl = "https://localhost:44345/api/Mensaje";
 
             var respuestaJson = await GetAsync(apiUrl);
             //System.Diagnostics.Debug.WriteLine(respuestaJson); imprimir info
@@ -54,7 +54,7 @@ namespace ProyectoLinkedinMVC.Controllers
 
             var httpContent = new StringContent(values, System.Text.Encoding.UTF8, "application/json");
 
-            var url = "https://localhost:44345/api/PostMensaje";
+            var url = "https://localhost:44345/api/Mensaje";
             var handler = new HttpClientHandler();
             handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
             using (var client = new HttpClient(handler))
@@ -74,8 +74,8 @@ namespace ProyectoLinkedinMVC.Controllers
             var key = Convert.ToInt32(form.Get("key")); //llave que estoy modificando
             var values = form.Get("values"); //Los valores que yo modifiqué en formato JSON
 
-            var apiUrlGetMensaje = "https://localhost:44345/api/PutMensaje" + key;
-            var respuestaMensaje = await GetAsync(apiUrlGetMensaje = "https://localhost:44345/api/PutMensaje" + key);
+            var apiUrlGetMensaje = "https://localhost:44345/api/Mensaje/" + key;
+            var respuestaMensaje = await GetAsync(apiUrlGetMensaje = "https://localhost:44345/api/Mensaje/" + key);
             Mensaje mensaje = JsonConvert.DeserializeObject<Mensaje>(respuestaMensaje);
 
             JsonConvert.PopulateObject(values, mensaje);
@@ -87,7 +87,7 @@ namespace ProyectoLinkedinMVC.Controllers
             handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
             using (var client = new HttpClient(handler))
             {
-                var url = "https://localhost:44345/api/PutMensaje" + key;
+                var url = "https://localhost:44345/api/Mensaje/" + key;
                 var response = await client.PutAsync(url, httpContent);
 
                 var result = response.Content.ReadAsStringAsync().Result;

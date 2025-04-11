@@ -30,15 +30,15 @@ namespace ProyectoLinkedIn.Controllers
                              join publicacion in db.Publicacion on reaccion.PublicacionID equals publicacion.Id
                              select new
                              {
-                                 ReaccionId = reaccion.Id,
-                                 ReaccionContenido = reaccion.Contenido,
+                                 Id = reaccion.Id,
+                                 Contenido = reaccion.Contenido,
+                                 NombreReaccion = reaccion.NombreReaccion,
+                                 ComentarioID = comentario.Id,
+                                 
+                                 UsuarioID = usuario.Id,
+                                 Nombre = usuario.Nombre,
 
-                                 ComentarioId = comentario.Id,
-
-                                 IdUsuario = usuario.Id,
-                                 UsuarioNombre = usuario.Nombre,
-
-                                 publicacionId = publicacion.Id,
+                                 publicacionID = publicacion.Id,
                                  publicacionTitulo = publicacion.Titulo,
                              };
 

@@ -17,8 +17,7 @@ namespace ProyectoLinkedIn.Controllers
         /// Obtiene todos los Usuarios Empresariales.
         /// </summary>
         /// <returns>Una lista de elementos.</returns>
-        [HttpGet]
-        [Route("api/GetEmpresarial")]
+        
         public IEnumerable<Usuario> GetEmpresarial()
         {
             return db.Usuario.OfType<Usuario_Empresarial>().ToList();
@@ -26,7 +25,7 @@ namespace ProyectoLinkedIn.Controllers
         /// <summary>
         /// Agrega un Usuario Empresarial.
         /// </summary>
-        [Route("api/PostEmpresarial")]
+        
         public IHttpActionResult PostEmpresarial(Usuario_Empresarial usuario)
         {
             if (usuario == null)
@@ -51,7 +50,7 @@ namespace ProyectoLinkedIn.Controllers
         /// Modifica un Usuario Empresarial por su id.
         /// </summary>
         /// <returns>Ejemplo de solicitud.</returns>
-        [Route("api/PutEmpresarial")]
+        
         public IHttpActionResult PutEmpresarial(Usuario_Empresarial usuario)
         {
             int id = usuario.Id;
@@ -69,6 +68,8 @@ namespace ProyectoLinkedIn.Controllers
             db.SaveChanges();
             return Ok(usuario);
         }
+
+        
         public IHttpActionResult Get(int id)
         {
             Usuario usuario = db.Usuario.Find(id);
@@ -78,6 +79,8 @@ namespace ProyectoLinkedIn.Controllers
             }
             return Ok(usuario);
         }
+
+        
         public IHttpActionResult Delete(int id)
         {
             Usuario usuario = db.Usuario.Find(id);

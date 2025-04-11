@@ -44,7 +44,10 @@ namespace ProyectoLinkedinMVC.Controllers {
         {
             return View();
         }
-
+        public ActionResult Comentario()
+        {
+            return View();
+        }
         public ActionResult Mensaje()
         {
             return View();
@@ -54,6 +57,14 @@ namespace ProyectoLinkedinMVC.Controllers {
             return View();
         }
         public ActionResult Conexion()
+        {
+            return View();
+        }
+        public ActionResult Notificacion()
+        {
+            return View();
+        }
+        public ActionResult Reaccion()
         {
             return View();
         }

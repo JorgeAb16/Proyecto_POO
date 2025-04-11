@@ -360,7 +360,6 @@
     <Content Include="Views\Home\Administrador.cshtml" />
     <Content Include="Views\Home\UsuarioNormal.cshtml" />
     <Content Include="Views\Home\UsuarioEmpresarial.cshtml" />
-    <Content Include="Views\Home\Comentario.cshtml" />
     <Content Include="Views\Home\Empresa.cshtml" />
     <Content Include="Views\Home\Experiencia.cshtml" />
     <Content Include="Views\Home\FormacionAcademica.cshtml" />
@@ -371,6 +370,7 @@
     <Content Include="Views\Home\Conexion.cshtml" />
     <Content Include="Views\Home\Notificacion.cshtml" />
     <Content Include="Views\Home\Reaccion.cshtml" />
+    <Content Include="Views\Home\Comentario.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -398,6 +398,7 @@
     <Compile Include="Controllers\PublicacionController.cs" />
     <Compile Include="Controllers\ReaccionController.cs" />
     <Compile Include="Controllers\SampleDataController.cs" />
+    <Compile Include="Controllers\UsuarioController.cs" />
     <Compile Include="Controllers\UsuarioEmpresaController.cs" />
     <Compile Include="Controllers\UsuarioNormalController.cs" />
     <Compile Include="Controllers\VacanteController.cs" />

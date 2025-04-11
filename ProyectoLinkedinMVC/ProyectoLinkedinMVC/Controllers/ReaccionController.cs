@@ -74,8 +74,8 @@ namespace ProyectoLinkedinMVC.Controllers
             var key = Convert.ToInt32(form.Get("key")); //llave que estoy modificando
             var values = form.Get("values"); //Los valores que yo modifiqué en formato JSON
 
-            var apiUrlGetReaccion = "https://localhost:44345/api/Reaccion" + key;
-            var respuestaReaccion = await GetAsync(apiUrlGetReaccion = "https://localhost:44345/api/Reaccion" + key);
+            var apiUrlGetReaccion = "https://localhost:44345/api/Reaccion/" + key;
+            var respuestaReaccion = await GetAsync(apiUrlGetReaccion = "https://localhost:44345/api/Reaccion/" + key);
             Reaccion reaccion = JsonConvert.DeserializeObject<Reaccion>(respuestaReaccion);
 
             JsonConvert.PopulateObject(values, reaccion);
@@ -87,7 +87,7 @@ namespace ProyectoLinkedinMVC.Controllers
             handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
             using (var client = new HttpClient(handler))
             {
-                var url = "https://localhost:44345/api/Reaccion" + key;
+                var url = "https://localhost:44345/api/Reaccion/" + key;
                 var response = await client.PutAsync(url, httpContent);
 
                 var result = response.Content.ReadAsStringAsync().Result;
@@ -104,7 +104,7 @@ namespace ProyectoLinkedinMVC.Controllers
         {
             var key = Convert.ToInt32(form.Get("key"));
 
-            var apiUrlDelReaccion = "https://localhost:44345/api/Reaccion" + key;
+            var apiUrlDelReaccion = "https://localhost:44345/api/Reaccion/" + key;
             var handler = new HttpClientHandler();
             handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
             using (var client = new HttpClient(handler))

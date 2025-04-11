@@ -16,8 +16,7 @@ namespace ProyectoLinkedIn.Controllers
         /// Obtiene todos los Mensajes.
         /// </summary>
         /// <returns>Una lista de elementos.</returns>
-        [HttpGet]
-        [Route("api/GetMensaje")]
+        
         public IEnumerable<Mensaje> GetNormales()
         {
             return db.Mensaje;
@@ -25,7 +24,7 @@ namespace ProyectoLinkedIn.Controllers
         /// <summary>
         /// Agrega un Mensaje.
         /// </summary>
-        [Route("api/PostMensaje")]
+        
         public IHttpActionResult PostMensaje(Mensaje mensaje)
         {
             if (mensaje == null)
@@ -57,7 +56,7 @@ namespace ProyectoLinkedIn.Controllers
         /// Modifica un Administrador por su id.
         /// </summary>
         /// <returns>Ejemplo de solicitud.</returns>
-        [Route("api/PutMensaje")]
+        
         public IHttpActionResult PutMensaje(Mensaje mensaje)
         {
             int id = mensaje.Id;

@@ -42,7 +42,7 @@ namespace ProyectoLinkedIn.Controllers
                                                                     {
                                                                         Por = usuario2.Nombre + " " + usuario2.Apellido,
                                                                         Contenido = reacciones.Contenido,
-                                                                        Nombre = reacciones.Nombre
+                                                                        Nombre = reacciones.NombreReaccion
 
                                                                     })
                                                   }),
@@ -55,7 +55,7 @@ namespace ProyectoLinkedIn.Controllers
                                                   {
                                                       Por = usuario2.Nombre + " " + usuario2.Apellido,
                                                       Contenido = reacciones1.Contenido,
-                                                      Nombre = reacciones1.Nombre
+                                                      Nombre = reacciones1.NombreReaccion
  
                                                   })
 
@@ -94,7 +94,7 @@ namespace ProyectoLinkedIn.Controllers
                                                              {
                                                                  Por = usuario2.Nombre + " " + usuario2.Apellido,
                                                                  Contenido = reacciones.Contenido,
-                                                                 Nombre = reacciones.Nombre
+                                                                 Nombre = reacciones.NombreReaccion
 
                                                              })
                                            }),
@@ -107,7 +107,7 @@ namespace ProyectoLinkedIn.Controllers
                                           {
                                               Por = usuario2.Nombre + " " + usuario2.Apellido,
                                               Contenido = reacciones1.Contenido,
-                                              Nombre = reacciones1.Nombre
+                                              Nombre = reacciones1.NombreReaccion
 
                                           })
 

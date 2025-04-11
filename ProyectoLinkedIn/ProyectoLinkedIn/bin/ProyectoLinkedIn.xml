@@ -584,11 +584,12 @@
             <response code="200">Devuelve el valor encontrado</response>
             <response code="404">Si el valor no es encontrado</response>
         </member>
-        <member name="M:ProyectoLinkedIn.Controllers.HabilidadesController.GetHabilidades">
+        <member name="M:ProyectoLinkedIn.Controllers.HabilidadesController.Get">
             <summary>
             Obtiene todas las Habilidades.
             </summary>
             <returns>Una lista de elementos.</returns>
+            
         </member>
         <member name="M:ProyectoLinkedIn.Controllers.HabilidadesController.PostHabilidad(ProyectoLinkedIn.Models.Habilidades)">
             <summary>

@@ -22,8 +22,8 @@ namespace ProyectoLinkedinMVC.Controllers
 
             var respuestaJson = await GetAsync(apiUrl);
             //System.Diagnostics.Debug.WriteLine(respuestaJson); imprimir info
-            List<Usuario_Normal> listaUsuarioNormal = JsonConvert.DeserializeObject<List<Usuario_Normal>>(respuestaJson);
-            return Request.CreateResponse(DataSourceLoader.Load(listaUsuarioNormal, loadOptions));
+            List<Comentario> listaComentario = JsonConvert.DeserializeObject<List<Comentario>>(respuestaJson);
+            return Request.CreateResponse(DataSourceLoader.Load(listaComentario, loadOptions));
         }
 
         public static async Task<string> GetAsync(string uri)
@@ -100,7 +100,6 @@ namespace ProyectoLinkedinMVC.Controllers
         }
 
 
-
         [HttpDelete]
         public async Task<HttpResponseMessage> Delete(FormDataCollection form)
         {
@@ -115,5 +114,7 @@ namespace ProyectoLinkedinMVC.Controllers
             }
             return Request.CreateResponse(HttpStatusCode.OK);
         }
+
+
     }
 }

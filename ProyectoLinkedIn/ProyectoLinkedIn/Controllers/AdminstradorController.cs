@@ -16,8 +16,7 @@ namespace ProyectoLinkedIn.Controllers
         /// Obtiene todos los Administradores.
         /// </summary>
         /// <returns>Una lista de elementos.</returns>
-        [HttpGet]
-        [Route("api/GetAdmin")]
+        
         public IEnumerable<Usuario> GetAdmin()
         {
             return db.Usuario.OfType<Administrador>().ToList();
@@ -25,8 +24,7 @@ namespace ProyectoLinkedIn.Controllers
         /// <summary>
         /// Agrega un Administrador.
         /// </summary>
-        [HttpPost]
-        [Route("api/PostAdminstrador")]
+        
         public IHttpActionResult PostAdministrador(Administrador administrador)
         {
             if (administrador == null)
@@ -44,20 +42,16 @@ namespace ProyectoLinkedIn.Controllers
         /// Modifica un Administrador por su id.
         /// </summary>
         /// <returns>Ejemplo de solicitud.</returns>
-        [Route("api/PutAdminstrador")]
+        
         public IHttpActionResult PutAdmin(Administrador administrador)
         {
-            int id = administrador.Id;
-            if (administrador == null)
-            {
-                return BadRequest("El administrador no puede ser nulo.");
-            }
+            
             db.Entry(administrador).State = EntityState.Modified;
             db.SaveChanges();
             return Ok(administrador);
         }
 
-        [Route("api/GetIdAdminstrador")]
+        
         public IHttpActionResult Get(int id)
         {
             Usuario usuario = db.Usuario.Find(id);

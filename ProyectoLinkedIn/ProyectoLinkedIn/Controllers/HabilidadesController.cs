@@ -16,20 +16,33 @@ namespace ProyectoLinkedIn.Controllers
         /// Obtiene todas las Habilidades.
         /// </summary>
         /// <returns>Una lista de elementos.</returns>
-        [HttpGet]
-        [Route("api/GetHAbilidades")]
-        public IEnumerable<Habilidades> GetHabilidades()
+        /// 
+        public IHttpActionResult Get()
         {
-            return db.Habilidades;
+
+            var Habilidades = from habilidades in db.Habilidades
+                              join usuario in db.Usuario on habilidades.Usuario_Id equals usuario.Id
+                              select new
+                              {
+                                  Id = habilidades.Id,
+                                  Nombre = habilidades.Nombre,
+                                  Descripcion = habilidades.Descripcion,
+
+                                  IdUsuario = usuario.Id,
+                                  UsuarioNombre = usuario.Nombre,
+
+                                  
+                              };
+
+            return Ok(Habilidades);
         }
 
         /// <summary>
         /// Agrega una Habilidad.
         /// </summary>
         /// <returns>Ejemplo de solicitud.</returns>
-        
-        [HttpPost]
-        [Route("api/PostHabilidad")]
+
+
         public IHttpActionResult PostHabilidad(Habilidades habilidad)
         {
             if (habilidad == null)
@@ -52,7 +65,7 @@ namespace ProyectoLinkedIn.Controllers
         /// <summary>
         /// Modifica una Habilidad.
         /// </summary>
-        [Route("api/PutHabilidad")]
+        
         public IHttpActionResult PutHabilidad(Habilidades habilidad)
         {
             int id = habilidad.Id;

@@ -86,6 +86,16 @@ namespace ProyectoLinkedinMVC.Controllers
         {
             return View();
         }
+        public ActionResult Comentar(int publicacionId)
+        {
+            ViewBag.PublicacionId = publicacionId;
+            return View();
+        }
 
+        public ActionResult Reaccionar(int publicacionId)
+        {
+            ViewBag.PublicacionId = publicacionId;
+            return View();
+        }
     }
 }

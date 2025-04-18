@@ -34,6 +34,18 @@
                     <div style="font-weight: bold; margin-bottom: 5px;"><%- data.Titulo %></div>
                     <div style="white-space: normal;"><%- data.Contenido %></div>
                 </div>
+                <!-- Botones de acción -->
+                <div style="display: flex; gap: 10px; margin: 15px 0;">
+                    <a href="@Url.Action("Comentar", "Home")?publicacionId=<%- data.Id %>"
+                       class="dx-button dx-button-default">
+                        <i class="dx-icon dx-icon-comment"></i> Comentar
+                    </a>
+
+                    <a href="@Url.Action("Reaccionar", "Home")?publicacionId=<%- data.Id %>"
+                       class="dx-button dx-button-default">
+                        <i class="dx-icon dx-icon-like"></i> Reaccionar
+                    </a>
+                </div>
 
                 <!-- Reacciones de la publicación -->
                 <% if(data.Reacciones && data.Reacciones.length > 0) { %>
@@ -113,15 +125,26 @@
 </div>
 
 <style>
-
-    /* Estilos para el botón */
     .dx-button {
         padding: 8px 15px;
         text-decoration: none;
-        display: inline-block;
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
         border-radius: 4px;
         cursor: pointer;
+        font-size: 14px;
     }
+
+    .dx-button-default {
+        background-color: #f5f5f5;
+        color: #333;
+        border: 1px solid #ddd;
+    }
+
+        .dx-button-default:hover {
+            background-color: #e9e9e9;
+        }
 
     .dx-button-success {
         background-color: #5cb85c;
@@ -132,4 +155,8 @@
         .dx-button-success:hover {
             background-color: #4cae4c;
         }
+
+    .dx-icon {
+        font-size: 16px;
+    }
 </style>

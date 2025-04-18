@@ -158,7 +158,9 @@
       <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Views\Publicaciones\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -441,6 +443,8 @@
     <Content Include="Views\Home\Reaccion.cshtml" />
     <Content Include="Views\Home\Comentario.cshtml" />
     <Content Include="Views\Home\Crear.cshtml" />
+    <Content Include="Views\Home\Reaccionar.cshtml" />
+    <Content Include="Views\Home\Comentar.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

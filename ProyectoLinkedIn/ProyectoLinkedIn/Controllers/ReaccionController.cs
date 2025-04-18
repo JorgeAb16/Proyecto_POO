@@ -32,7 +32,7 @@ namespace ProyectoLinkedIn.Controllers
                              {
                                  Id = reaccion.Id,
                                  Contenido = reaccion.Contenido,
-                                 Nombre = reaccion.NombreReaccion,
+                                 NombreReaccion = reaccion.NombreReaccion,
                                  
                                  
                                  ComentarioID = comentario.Id,

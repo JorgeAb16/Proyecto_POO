@@ -1,0 +1,149 @@
+﻿@{
+    ViewData["Title"] = "Crear Comentario";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="comentario-container">
+    <h2 class="page-title">Crear Comentario</h2>
+
+    @(Html.DevExtreme().DataGrid<ProyectoLinkedinMVC.Models.Comentario>()
+        .ID("gridComentarios")
+        .DataSource(ds => ds.WebApi()
+            .Controller("Comentario")
+            .LoadAction("Get")
+            .InsertAction("Post")
+            .Key("Id")
+        )
+        .RemoteOperations(true)
+        .ShowBorders(true)
+        .RowAlternationEnabled(true)
+        .ColumnAutoWidth(true)
+        .HeaderFilter(headerFilter => headerFilter.Visible(true))
+        .FilterRow(filterRow => filterRow.Visible(true))
+        .Paging(paging => paging.PageSize(10))
+        .Pager(pager => {
+            pager.ShowPageSizeSelector(true);
+            pager.AllowedPageSizes(new[] { 5, 10, 20 });
+            pager.ShowInfo(true);
+        })
+        .Editing(r => r
+            .Mode(GridEditMode.Popup)
+            .AllowAdding(true)
+            .UseIcons(true)
+            .Popup(p => p
+                .Title("Agregar Nuevo Comentario")
+                .ShowTitle(true)
+                .Width(600)
+                .Height(450)
+                .Position(pos => pos
+                    .My(HorizontalAlignment.Center, VerticalAlignment.Center)
+                    .At(HorizontalAlignment.Center, VerticalAlignment.Center)
+                )
+            )
+            .Form(f => f
+                .ColCount(1)
+                .Items(items => {
+                    items.AddSimple()
+                        .DataField("Contenido")
+                        .Label(l => l.Text("Contenido del comentario"))
+                        .Editor(e => e.TextArea()
+                            .Height(150)
+                            .Width("100%")
+                            .Placeholder("Escribe tu comentario aquí"))
+                        .ValidationRules(re => re.AddRequired().Message("El contenido es requerido"));
+
+                    items.AddSimple()
+                        .DataField("PublicacionId")
+                        .Label(l => l.Text("ID de Publicación"))
+                        .Editor(e => e.NumberBox()
+                            .Width("100%")
+                            .ShowSpinButtons(true))
+                        .ValidationRules(re => re.AddRequired().Message("El ID de publicación es requerido"));
+
+                    items.AddSimple()
+                        .DataField("UsuarioId")
+                        .Label(l => l.Text("ID de Usuario"))
+                        .Editor(e => e.NumberBox()
+                            .Width("100%")
+                            .ShowSpinButtons(true))
+                        .ValidationRules(re => re.AddRequired().Message("El ID de usuario es requerido"));
+                })
+            )
+        )
+        .Columns(columns => {
+            columns.AddFor(m => m.Id)
+                .Visible(false);
+
+            columns.AddFor(m => m.Contenido)
+                .Visible(false);
+
+            columns.AddFor(m => m.PublicacionId)
+                .Visible(false);
+
+            columns.AddFor(m => m.UsuarioId)
+                .Visible(false);
+
+            columns.AddFor(m => m.Fechapublicacion)
+                .Visible(false);
+
+            columns.AddFor(m => m.UsuarioNombre)
+                .Visible(false);
+
+            columns.AddFor(m => m.publicacionTitulo)
+                .Visible(false);
+        })
+    )
+</div>
+
+<div class="button-container">
+    @(Html.DevExtreme().Button()
+        .Text("Volver al Inicio")
+        .Type(ButtonType.Normal)
+        .StylingMode(ButtonStylingMode.Contained)
+        .Icon("home")
+        .OnClick("volverAlInicio")
+        .Width(200)
+    )
+</div>
+
+<style>
+    .comentario-container {
+        padding: 20px;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .page-title {
+        color: #2c3e50;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+
+    .dx-datagrid {
+        border-radius: 6px;
+        overflow: hidden;
+    }
+
+    .dx-popup-title {
+        background-color: #4CAF50; /* Verde para diferenciar comentarios */
+        color: white;
+        padding: 15px;
+        border-radius: 6px 6px 0 0;
+    }
+
+    .dx-button-mode-contained {
+        background-color: #4CAF50; /* Verde para coincidir con el popup */
+        color: white;
+    }
+
+        .dx-button-mode-contained:hover {
+            background-color: #3e8e41;
+        }
+</style>
+
+<script>
+    function volverAlInicio() {
+        window.location.href = '@Url.Action("Index", "Home")';
+    }
+</script>

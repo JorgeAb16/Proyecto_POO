@@ -63,6 +63,7 @@ namespace ProyectoLinkedIn.Controllers
         // POST: api/Comentario
         public IHttpActionResult Post(Comentario comentario)
         {
+            comentario.Fechapublicacion = DateTime.Now;
             db.Comentario.Add(comentario);
             db.SaveChanges();
             return Ok(comentario);

@@ -1,0 +1,144 @@
+﻿@{
+    ViewData["Title"] = "Crear Reacción";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="reaccion-container">
+    <h2 class="page-title">Crear Reacción</h2>
+
+    @(Html.DevExtreme().DataGrid<ProyectoLinkedinMVC.Models.Reaccion>()
+        .ID("gridReacciones")
+        .DataSource(ds => ds.WebApi()
+            .Controller("Reaccion")
+            .LoadAction("Get")
+            .InsertAction("Post")
+            .Key("Id")
+        )
+        .RemoteOperations(true)
+        .Editing(r => r
+            .Mode(GridEditMode.Popup)
+            .AllowAdding(true)
+            .UseIcons(true)
+            .Popup(p => p
+                .Title("Agregar Nueva Reacción")
+                .ShowTitle(true)
+                .Width(500)
+                .Height(450)
+            )
+            .Form(f => f
+                .ColCount(1)
+                .Items(items => {
+                    // Campo NombreReaccion con sugerencias
+                    items.AddSimpleFor(m => m.NombreReaccion)
+                        .Label(l => l.Text("Nombre Reacción *"))
+                        .Editor(e => e.SelectBox()
+                            .DataSource(new[] {
+                                "Me divierte",
+                                "Me encanta",
+                                "Me entristece"
+                            })
+                            .ValueExpr("this")
+                            .DisplayExpr("this")
+                            .SearchEnabled(true)
+                            .Placeholder("Seleccione o escriba")
+                        )
+                        .ValidationRules(re => re.AddRequired());
+
+                    // Campo Contenido con sugerencias de emojis
+                    items.AddSimpleFor(m => m.Contenido)
+                        .Label(l => l.Text("Emoji *"))
+                        .Editor(e => e.SelectBox()
+                            .DataSource(new[] {
+                                "😂",
+                                "😍",
+                                "😢"
+                            })
+                            .ValueExpr("this")
+                            .DisplayExpr("this")
+                            .Placeholder("Seleccione un emoji")
+                        )
+                        .ValidationRules(re => re.AddRequired());
+
+                    // Campo UsuarioID
+                    items.AddSimpleFor(m => m.UsuarioID)
+                        .Label(l => l.Text("ID Usuario *"))
+                        .Editor(e => e.NumberBox()
+                            .ShowSpinButtons(true))
+                        .ValidationRules(re => re.AddRequired());
+
+                    // Campo PublicacionID (opcional)
+                    items.AddSimpleFor(m => m.PublicacionID)
+                        .Label(l => l.Text("ID Publicación (Opcional)"))
+                        .Editor(e => e.NumberBox()
+                            .ShowSpinButtons(true));
+
+                    // Campo ComentarioID (opcional)
+                    items.AddSimpleFor(m => m.ComentarioID)
+                        .Label(l => l.Text("ID Comentario (Opcional)"))
+                        .Editor(e => e.NumberBox()
+                            .ShowSpinButtons(true));
+                })
+            )
+        )
+        .Columns(columns => {
+            columns.Add().DataField("Id").Visible(false);
+            columns.Add().DataField("NombreReaccion").Visible(false);
+            columns.Add().DataField("Contenido").Visible(false);
+            columns.Add().DataField("UsuarioID").Visible(false);
+            columns.Add().DataField("PublicacionID").Visible(false);
+            columns.Add().DataField("ComentarioID").Visible(false);
+        })
+    )
+</div>
+
+<div class="button-container">
+    @(Html.DevExtreme().Button()
+        .Text("Volver al Inicio")
+        .Type(ButtonType.Normal)
+        .StylingMode(ButtonStylingMode.Contained)
+        .Icon("home")
+        .OnClick("volverAlInicio")
+        .Width(200)
+    )
+</div>
+<script>
+    function volverAlInicio() {
+        window.location.href = '@Url.Action("Index", "Home")';
+    }
+</script>
+
+<style>
+    .reaccion-container {
+        padding: 20px;
+        background-color: #fff9f9;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        max-width: 800px;
+        margin: 20px auto;
+    }
+
+    .page-title {
+        color: #e74c3c;
+        margin-bottom: 20px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .dx-popup-title {
+        background-color: #e74c3c;
+        color: white;
+    }
+
+    .dx-button-mode-contained {
+        background-color: #e74c3c;
+    }
+
+        .dx-button-mode-contained:hover {
+            background-color: #c0392b;
+        }
+
+    .button-container {
+        margin-top: 20px;
+        text-align: center;
+    }
+</style>

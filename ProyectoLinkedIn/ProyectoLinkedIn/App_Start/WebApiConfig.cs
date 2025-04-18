@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace ProyectoLinkedIn
 {
@@ -10,7 +11,8 @@ namespace ProyectoLinkedIn
         public static void Register(HttpConfiguration config)
         {
             // Configuración y servicios de Web API
-
+            var cors = new EnableCorsAttribute("*", "*", "*"); // Permitir todos
+            config.EnableCors(cors);
             // Rutas de Web API
             config.MapHttpAttributeRoutes();
 
@@ -20,5 +22,6 @@ namespace ProyectoLinkedIn
                 defaults: new { id = RouteParameter.Optional }
             );
         }
+
     }
 }

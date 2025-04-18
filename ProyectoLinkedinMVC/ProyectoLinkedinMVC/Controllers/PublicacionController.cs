@@ -21,10 +21,15 @@ namespace ProyectoLinkedinMVC.Controllers
     using System.Collections.Specialized;
     using System;
     using ProyectoLinkedinMVC.Models;
+    using System.Net.Http.Formatting;
+    using System.Text;
+    using System.Web.Security;
+    using System.Web;
 
     public class PublicacionController : ApiController
     {
         private static readonly HttpClient client = new HttpClient();
+        
 
         [HttpGet]
         public async Task<HttpResponseMessage> Get(DataSourceLoadOptions loadOptions)
@@ -49,6 +54,26 @@ namespace ProyectoLinkedinMVC.Controllers
             }
         }
 
+        [HttpPost]
+        public async Task<HttpResponseMessage> Post(FormDataCollection form)
+        {
+
+            var values = form.Get("values");
+
+            var httpContent = new StringContent(values, System.Text.Encoding.UTF8, "application/json");
+
+            var url = "https://localhost:44345/api/Publicacion";
+            var handler = new HttpClientHandler();
+            handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
+            using (var client = new HttpClient(handler))
+            {
+                var response = await client.PostAsync(url, httpContent);
+
+                var result = response.Content.ReadAsStringAsync().Result;
+            }
+
+            return Request.CreateResponse(HttpStatusCode.Created);
+        }
     }
 
 }

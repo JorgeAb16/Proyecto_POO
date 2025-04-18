@@ -24,6 +24,7 @@ namespace ProyectoLinkedIn.Controllers
                             Id = publicacion.Id,
                             Contenido = publicacion.Contenido,
                             FechaPublicacion = publicacion.Fechapublicacion,
+                            UsuarioId = publicacion.UsuarioId,
                             UsuarioNombre = usuario.Nombre,
 
                             Comentarios = (from comentario in db.Comentario
@@ -111,11 +112,31 @@ namespace ProyectoLinkedIn.Controllers
             return Ok(query);
         }
 
-        public IHttpActionResult Post(Publicacion publicacion)
+        [HttpPost]
+        public IHttpActionResult Post([FromBody] Publicacion publicacion)
         {
-            db.Publicacion.Add(publicacion);
-            db.SaveChanges();
-            return Ok(publicacion);
+            try
+            {
+                if (publicacion.UsuarioId <= 0)
+                    return BadRequest("ID de usuario no válido");
+
+                if (string.IsNullOrEmpty(publicacion.Titulo))
+                    return BadRequest("El título es requerido");
+
+                if (string.IsNullOrEmpty(publicacion.Contenido))
+                    return BadRequest("El contenido es requerido");
+
+                publicacion.Fechapublicacion = DateTime.Now;
+
+                db.Publicacion.Add(publicacion);
+                db.SaveChanges();
+
+                return Ok(publicacion);
+            }
+            catch (Exception ex)
+            {
+                return InternalServerError(ex);
+            }
         }
 
         public IHttpActionResult Put(int id, Publicacion publicacionModificada)

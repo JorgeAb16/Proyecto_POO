@@ -22,7 +22,8 @@
     <DevExtremeCreateAsPartial>False</DevExtremeCreateAsPartial>
     <DevExtremeUseLayout>True</DevExtremeUseLayout>
     <DevExtremeLayoutPage>~/Views/Shared/_Layout.cshtml</DevExtremeLayoutPage>
-    <DevExtremeSelectedDataContextName />
+    <DevExtremeSelectedDataContextName>
+    </DevExtremeSelectedDataContextName>
     <WebStackScaffolding_ViewDialogWidth>600</WebStackScaffolding_ViewDialogWidth>
   </PropertyGroup>
   <ProjectExtensions>

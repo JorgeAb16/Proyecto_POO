@@ -29,12 +29,10 @@ namespace ProyectoLinkedinMVC.Controllers
 
             using (var db = new AuthDbContext())
             {
-                // Buscar el usuario que coincida con el correo y la contraseña
                 var usuario = db.Usuarios.FirstOrDefault(u => u.Correo == Correo && u.Contrasena == Contrasena);
 
                 if (usuario != null)
                 {
-                    // Determinar el rol según el tipo de usuario
                     string roles = "";
                     if (usuario is Administrador)
                     {
@@ -49,21 +47,27 @@ namespace ProyectoLinkedinMVC.Controllers
                         roles = "Normal";
                     }
 
-                    // Crear el ticket de autenticación que incluye el rol
                     var ticket = new FormsAuthenticationTicket(
                         1,
-                        usuario.Correo,
+                        usuario.Id.ToString(), // Almacenar ID en lugar de Correo
                         DateTime.Now,
-                        DateTime.Now.AddMinutes(30), // duración del ticket
+                        DateTime.Now.AddMinutes(30),
                         false,
-                        roles, // aquí se almacena el rol en la propiedad UserData
+                        roles,
                         FormsAuthentication.FormsCookiePath
                     );
 
-                    // Encriptar y agregar el ticket como cookie
                     string encryptedTicket = FormsAuthentication.Encrypt(ticket);
                     var authCookie = new HttpCookie(FormsAuthentication.FormsCookieName, encryptedTicket);
+
+                    // Cookie adicional con ID de usuario
+                    var userCookie = new HttpCookie("UsuarioId", usuario.Id.ToString())
+                    {
+                        Expires = DateTime.Now.AddMinutes(30)
+                    };
+
                     Response.Cookies.Add(authCookie);
+                    Response.Cookies.Add(userCookie);
 
                     return RedirectToAction("Index", "Home");
                 }
@@ -73,11 +77,20 @@ namespace ProyectoLinkedinMVC.Controllers
             return View();
         }
 
-
-
         public ActionResult Logout()
         {
             FormsAuthentication.SignOut();
+
+            // Eliminar cookie de usuario
+            if (Request.Cookies["UsuarioId"] != null)
+            {
+                var userCookie = new HttpCookie("UsuarioId")
+                {
+                    Expires = DateTime.Now.AddDays(-1)
+                };
+                Response.Cookies.Add(userCookie);
+            }
+
             return RedirectToAction("Login");
         }
     }

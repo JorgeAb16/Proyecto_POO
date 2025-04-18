@@ -97,6 +97,8 @@
                     </div>
                 </div>
             </div>
+
+
         </text>)
         .AllowSorting(false)
         .AllowFiltering(false)
@@ -105,3 +107,29 @@
     .ColumnHidingEnabled(true)
     .AllowColumnResizing(false)
 )
+<div class="nueva-publicacion-btn">
+    @Html.ActionLink("Añadir Publicación", "Crear", "Home", null, new { @class = "dx-button dx-button-success" })
+</div>
+</div>
+
+<style>
+
+    /* Estilos para el botón */
+    .dx-button {
+        padding: 8px 15px;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .dx-button-success {
+        background-color: #5cb85c;
+        color: white;
+        border: none;
+    }
+
+        .dx-button-success:hover {
+            background-color: #4cae4c;
+        }
+</style>

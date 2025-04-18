@@ -19,11 +19,21 @@ namespace ProyectoLinkedIn.Controllers
         /// <returns>Una lista de elementos.</returns>
         [HttpGet]
         [Route("api/usuarios")]
-        public IEnumerable<Usuario> Get()
+        public IHttpActionResult Get()
         {
-            return db.Usuario;
+            var usuarios = from usuario in db.Usuario
+                           select new
+                           {
+                               Id = usuario.Id,
+                               Nombre = usuario.Nombre,
+                               Apellido = usuario.Apellido,
+                               Telefono = usuario.Telefono,
+                               Correo = usuario.Correo
+
+                           };
+            return Ok(usuarios);
         }
-        
+
         /// <summary>
         /// Obtiene un usuario por su id.
         /// </summary>

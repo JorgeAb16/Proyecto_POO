@@ -33,5 +33,6 @@ namespace ProyectoLinkedinMVC.Models
         public string Telefono { get => _telefono; set => _telefono = value; }
         public string Correo { get => _correo; set => _correo = value; }
         public string Contrasena { get; set; }
+        public string NombreCompleto { get; set; }
     }
 }

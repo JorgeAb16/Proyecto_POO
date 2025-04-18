@@ -1,12 +1,22 @@
+using Newtonsoft.Json;
+using ProyectoLinkedinMVC.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
+using System.Text;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Security;
+using Microsoft.Extensions.Logging;
 
-namespace ProyectoLinkedinMVC.Controllers {
-    public class HomeController : Controller {
-        public ActionResult Index() {
+namespace ProyectoLinkedinMVC.Controllers
+{
+    public class HomeController : Controller
+    {
+        public ActionResult Index()
+        {
             return View();
         }
         [Authorize(Roles = "Admin")]
@@ -71,6 +81,10 @@ namespace ProyectoLinkedinMVC.Controllers {
         public ActionResult Login()
         {
             return View("~/Views/Login/Login.cshtml");
+        }
+        public ActionResult Crear()
+        {
+            return View();
         }
 
     }

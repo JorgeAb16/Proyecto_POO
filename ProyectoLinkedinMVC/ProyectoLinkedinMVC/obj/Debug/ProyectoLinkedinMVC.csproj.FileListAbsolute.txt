@@ -191,3 +191,17 @@ C:\Users\Precision 5520\Desktop\Repositorio-Proyecto-POO\ProyectoLinkedinMVC\Pro
 C:\Users\Precision 5520\Desktop\Repositorio-Proyecto-POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\obj\Debug\Proyecto.0F93B1FB.Up2Date
 C:\Users\Precision 5520\Desktop\Repositorio-Proyecto-POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\obj\Debug\ProyectoLinkedinMVC.dll
 C:\Users\Precision 5520\Desktop\Repositorio-Proyecto-POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\obj\Debug\ProyectoLinkedinMVC.pdb
+C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\Microsoft.Extensions.Logging.dll
+C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\Microsoft.Extensions.Options.dll
+C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\Microsoft.Extensions.Logging.xml
+C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\Microsoft.Extensions.Options.xml
+C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\ROG STRIX G17\Proyecto_POO\ProyectoLinkedinMVC\ProyectoLinkedinMVC\bin\System.Diagnostics.DiagnosticSource.xml

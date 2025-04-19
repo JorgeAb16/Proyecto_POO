@@ -88,8 +88,15 @@
         .Columns(columns => {
             columns.AddFor(m => m.Id)
                 .Visible(false);
+            columns.AddFor(m => m.Contenido)
+             .Visible(false);
+            columns.AddFor(m => m.Fechapublicacion)
+            .Visible(false);
+            columns.AddFor(m => m.UsuarioId)
+             .Visible(false);
+            columns.AddFor(m => m.PublicacionId)
+             .Visible(false);
 
-            
         })
     )
 </div>

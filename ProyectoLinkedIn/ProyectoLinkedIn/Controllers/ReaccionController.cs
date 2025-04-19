@@ -23,26 +23,30 @@ namespace ProyectoLinkedIn.Controllers
         // GET: api/Reaccion
         public IHttpActionResult Get()
         {
-
             var reacciones = from reaccion in db.Reaccion
-                             join comentario in db.Comentario on reaccion.ComentarioID equals comentario.Id
-                             join usuario in db.Usuario on reaccion.UsuarioID equals usuario.Id
-                             join publicacion in db.Publicacion on reaccion.PublicacionID equals publicacion.Id
+                             join usuario in db.Usuario on reaccion.UsuarioID equals usuario.Id into usuarioJoin
+                             from usuario in usuarioJoin.DefaultIfEmpty()
+
+                             join comentario in db.Comentario on reaccion.ComentarioID equals comentario.Id into comentarioJoin
+                             from comentario in comentarioJoin.DefaultIfEmpty()
+
+                             join publicacion in db.Publicacion on reaccion.PublicacionID equals publicacion.Id into publicacionJoin
+                             from publicacion in publicacionJoin.DefaultIfEmpty()
+
                              select new
                              {
                                  Id = reaccion.Id,
                                  Contenido = reaccion.Contenido,
                                  NombreReaccion = reaccion.NombreReaccion,
-                                 
-                                 
-                                 ComentarioID = comentario.Id,
-                                 ContenidoComentario = comentario.Contenido,
 
-                                 UsuarioID = usuario.Id,
-                                 NombreUsuario = usuario.Nombre,
+                                 ComentarioID = comentario != null ? comentario.Id : (int?)0,
+                                 ContenidoComentario = comentario != null ? comentario.Contenido : "NULL",
 
-                                 publicacionID = publicacion.Id,
-                                 publicacionTitulo = publicacion.Titulo,
+                                 UsuarioID = usuario != null ? usuario.Id : (int?)0,
+                                 NombreUsuario = usuario != null ? usuario.Nombre : "NULL",
+
+                                 PublicacionID = publicacion != null ? publicacion.Id : (int?)0,
+                                 PublicacionTitulo = publicacion != null ? publicacion.Titulo : "NULL"
                              };
 
             return Ok(reacciones);

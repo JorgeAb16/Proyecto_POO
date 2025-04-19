@@ -445,6 +445,7 @@
     <Content Include="Views\Home\Crear.cshtml" />
     <Content Include="Views\Home\Reaccionar.cshtml" />
     <Content Include="Views\Home\Comentar.cshtml" />
+    <Content Include="Views\Home\Empleo.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

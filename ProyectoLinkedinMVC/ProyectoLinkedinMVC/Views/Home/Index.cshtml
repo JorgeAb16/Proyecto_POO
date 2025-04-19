@@ -81,6 +81,13 @@
                                             <%= new Date(comentario.Fecha).toLocaleDateString() %>
                                         </div>
 
+                                        <div style="margin-top: 5px;">
+                                            <a href="@Url.Action("Reaccionar", "Home")?comentarioId=<%- comentario.Id %>"
+                                                class="dx-button dx-button-default dx-button-sm">
+                                                 <i class="dx-icon dx-icon-like"></i> Reaccionar
+                                            </a>
+                                        </div>
+
                                         <!-- Reacciones del comentario -->
                                         <% if(comentario.Reacciones && comentario.Reacciones.length > 0) { %>
                                             <div style="margin-top: 5px; padding: 5px; background: #f0f7ff; border-radius: 4px;">

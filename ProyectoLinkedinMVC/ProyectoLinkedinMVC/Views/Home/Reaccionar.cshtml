@@ -28,6 +28,35 @@
             .Form(f => f
                 .ColCount(1)
                 .Items(items => {
+                    items.AddGroup()
+                        .Caption(ViewBag.ComentarioId != null ? "Información del comentario" : "Información de la publicación")
+                        .Items(groupItems => {
+                            if (ViewBag.ComentarioId != null)
+                            {
+                                groupItems.AddSimple()
+                                    .Label(l => l.Text("ID del comentario actual"))
+                                    .Template(@<text>
+                                        <div style="padding: 8px; background: #f5f5f5; border-radius: 4px;">
+                                            <strong>@ViewBag.ComentarioId</strong>
+                                        </div>
+                                        <div style="margin-top: 5px; font-size: 12px; color: #666;">
+                                            Estás reaccionando a este comentario
+                                        </div>
+                                    </text>);
+                            }
+
+                            groupItems.AddSimple()
+                                .Label(l => l.Text(ViewBag.ComentarioId != null ? "ID de publicación" : "ID de publicación"))
+                                .Template(@<text>
+                                    <div style="padding: 8px; background: #f5f5f5; border-radius: 4px;">
+                                        <strong>@ViewBag.PublicacionId</strong>
+                                    </div>
+                                    <div style="margin-top: 5px; font-size: 12px; color: #666;">
+                                        @(ViewBag.ComentarioId != null ? "Publicación a la que pertenece el comentario" : "Puedes usar esta ID o ingresar una diferente abajo")
+                                    </div>
+                                </text>);
+                        });
+
                     // Campo NombreReaccion con sugerencias
                     items.AddSimpleFor(m => m.NombreReaccion)
                         .Label(l => l.Text("Nombre Reacción *"))
@@ -71,6 +100,7 @@
                         .Label(l => l.Text("ID Publicación (Opcional)"))
                         .Editor(e => e.NumberBox()
                             .ShowSpinButtons(true));
+
 
                     // Campo ComentarioID (opcional)
                     items.AddSimpleFor(m => m.ComentarioID)

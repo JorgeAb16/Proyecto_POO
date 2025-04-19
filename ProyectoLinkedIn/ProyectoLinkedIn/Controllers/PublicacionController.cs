@@ -32,6 +32,7 @@ namespace ProyectoLinkedIn.Controllers
                                            where comentario.PublicacionId == publicacion.Id
                                            select new
                                            {
+                                               Id = comentario.Id,
                                                Por = usuario1.Nombre + " " + usuario1.Apellido,
                                                Contenido = comentario.Contenido,
                                                Fecha = comentario.Fechapublicacion,

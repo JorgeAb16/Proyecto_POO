@@ -62,6 +62,7 @@ namespace ProyectoLinkedinMVC.Controllers
         {
             return View();
         }
+        [Authorize(Roles = "Admin,Empresarial")]
         public ActionResult Vacante()
         {
             return View();
@@ -96,6 +97,16 @@ namespace ProyectoLinkedinMVC.Controllers
         {
             ViewBag.PublicacionId = publicacionId ?? 0;
             ViewBag.ComentarioId = comentarioId ?? 0;
+            return View();
+        }
+        public ActionResult Empleo()
+        {
+            return View();
+
+        }
+  
+        public ActionResult Postular()
+        {
             return View();
         }
     }

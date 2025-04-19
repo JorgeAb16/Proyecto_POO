@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\reaccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|c:\\users\\precision 5520\\desktop\\repositorio-proyecto-poo\\proyectolinkedin\\proyectolinkedin\\controllers\\reaccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\reaccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\vacantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|c:\\users\\precision 5520\\desktop\\repositorio-proyecto-poo\\proyectolinkedin\\proyectolinkedin\\controllers\\comentariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\comentariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\comentariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -142,8 +142,7 @@
               "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\ComentarioController.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAgwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T22:46:32.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T22:46:32.504Z"
             },
             {
               "$type": "Document",
@@ -151,9 +150,9 @@
               "Title": "ReaccionController.cs",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\ReaccionController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\ReaccionController.cs",
-              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\ReaccionController.cs*",
-              "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\ReaccionController.cs*",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAADAAAABlAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\ReaccionController.cs",
+              "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\ReaccionController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwDAAAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T16:13:36.207Z",
               "EditorCaption": ""
@@ -192,8 +191,7 @@
               "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\VacanteController.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T14:01:09.186Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T14:01:09.186Z"
             },
             {
               "$type": "Document",
@@ -205,8 +203,7 @@
               "RelativeToolTip": "ProyectoLinkedIn\\Models\\Reaccion.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwCgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T17:37:31.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T17:37:31.425Z"
             },
             {
               "$type": "Document",

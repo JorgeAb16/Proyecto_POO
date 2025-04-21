@@ -1,0 +1,101 @@
+﻿@{
+    ViewData["Title"] = "Mensajes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Mis Chats</h2>
+
+@(Html.DevExtreme().DataGrid<ProyectoLinkedinMVC.Models.Mensaje>()
+    .DataSource(ds => ds.WebApi()
+        .Controller("Mensaje")
+        .LoadAction("Get")
+        .Key("Id")
+    )
+    .RemoteOperations(true)
+    .ShowBorders(true)
+    .RowAlternationEnabled(true)
+    .HoverStateEnabled(true)
+    .Columns(columns => {
+        columns.Add()
+            .Caption("Contacto")
+            .CellTemplate(@<text>
+                <div style="display: flex; align-items: center;">
+                    <div style="margin-right: 10px;">
+                        <!-- Avatar con iniciales del destinatario -->
+                        <div style="width: 40px; height: 40px; background-color: #eee; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                            <span><%= data.Destinatario ? data.Destinatario.charAt(0) : '?' %></span>
+                        </div>
+                    </div>
+                    <div>
+                        <strong><%= data.Destinatario || 'Destinatario desconocido' %></strong>
+                        <div style="color: #666; font-size: 0.9em;"><%= data.Contenido.length > 30 ? data.Contenido.substring(0, 30) + "..." : data.Contenido %></div>
+                    </div>
+                </div>
+            </text>);
+    })
+    .Sorting(sorting => sorting.Mode(GridSortingMode.None))
+    .Selection(s => s.Mode(SelectionMode.Single))
+    .OnSelectionChanged("selectionChanged")
+    .FilterRow(f => f.Visible(false))
+    .HeaderFilter(f => f.Visible(false))
+    .Paging(p => p.PageSize(10))
+    .Pager(pager => {
+        pager.ShowPageSizeSelector(false);
+        pager.ShowInfo(true);
+    })
+)
+
+<div id="chat-details" style="margin-top: 20px; display: none;">
+    <div class="dx-fieldset">
+        <div class="dx-field">
+            <div class="dx-field-label">Conversación con:</div>
+            <div class="dx-field-value" id="contact-name"></div>
+        </div>
+        <div class="dx-field">
+            <div class="dx-field-label">Mensaje completo:</div>
+            <div class="dx-field-value" id="last-message"></div>
+        </div>
+        <div class="dx-field">
+            <div class="dx-field-label">Fecha:</div>
+            <div class="dx-field-value" id="message-date"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function selectionChanged(e) {
+        const selectedData = e.selectedRowsData[0];
+        if (selectedData) {
+            document.getElementById("contact-name").textContent =
+                selectedData.Destinatario || 'Destinatario desconocido';
+            document.getElementById("last-message").textContent = selectedData.Contenido;
+            document.getElementById("message-date").textContent =
+                new Date(selectedData.Fechadeenvio).toLocaleString();
+
+            document.getElementById("chat-details").style.display = "block";
+        } else {
+            document.getElementById("chat-details").style.display = "none";
+        }
+    }
+</script>
+
+<style>
+    .dx-datagrid-rowsview .dx-row {
+        cursor: pointer;
+    }
+
+        .dx-datagrid-rowsview .dx-row:hover {
+            background-color: #f5f5f5;
+        }
+
+    #chat-details {
+        border: 1px solid #ddd;
+        padding: 15px;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+
+    .dx-datagrid .dx-column-indicators {
+        display: none !important;
+    }
+</style>

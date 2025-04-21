@@ -6,6 +6,8 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using Microsoft.AspNetCore.Mvc;
+
 
 namespace ProyectoLinkedIn.Controllers
 {
@@ -114,5 +116,6 @@ namespace ProyectoLinkedIn.Controllers
             db.SaveChanges();
             return Ok(mensaje);
         }
+
     }
 }

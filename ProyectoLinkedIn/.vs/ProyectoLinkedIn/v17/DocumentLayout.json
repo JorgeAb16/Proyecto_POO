@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\mensajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|c:\\users\\rog strix g17\\proyecto_poo\\proyectolinkedin\\proyectolinkedin\\controllers\\mensajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\mensajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\comentariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|c:\\users\\rog strix g17\\proyecto_poo\\proyectolinkedin\\proyectolinkedin\\controllers\\notificacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\notificacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\notificacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -203,8 +203,7 @@
               "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\NotificacionController.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAQwCwAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T01:32:16.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T01:32:16.474Z"
             },
             {
               "$type": "Document",
@@ -288,8 +287,7 @@
               "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\ComentarioController.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAswEAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T22:46:32.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T22:46:32.504Z"
             },
             {
               "$type": "Document",

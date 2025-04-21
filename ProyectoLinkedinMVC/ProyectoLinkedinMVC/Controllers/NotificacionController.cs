@@ -16,15 +16,25 @@ namespace ProyectoLinkedinMVC.Controllers
     public class NotificacionController : ApiController
     {
         [HttpGet]
-        public async Task<HttpResponseMessage> Get(DataSourceLoadOptions loadOptions)
+        public async Task<HttpResponseMessage> Get(
+             DataSourceLoadOptions loadOptions,
+            [FromUri] int? usuarioId = null) // Parámetro opcional
         {
             var apiUrl = "https://localhost:44345/api/Notificacion";
-
             var respuestaJson = await GetAsync(apiUrl);
-            //System.Diagnostics.Debug.WriteLine(respuestaJson); imprimir info
+
             List<Notificacion> listaNotificacion = JsonConvert.DeserializeObject<List<Notificacion>>(respuestaJson);
+
+            // Aplicar filtro si se especificó usuarioId
+            if (usuarioId.HasValue)
+            {
+                listaNotificacion = listaNotificacion.Where(n => n.DestinatarioId == usuarioId.Value).ToList();
+            }
+
             return Request.CreateResponse(DataSourceLoader.Load(listaNotificacion, loadOptions));
         }
+       
+
 
         public static async Task<string> GetAsync(string uri)
         {

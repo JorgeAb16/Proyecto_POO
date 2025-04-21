@@ -451,6 +451,7 @@
     <Content Include="Views\Home\MiRed.cshtml" />
     <Content Include="Views\Home\Publicacion.cshtml" />
     <Content Include="Views\Home\Mensajes.cshtml" />
+    <Content Include="Views\Home\Notificaciones.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

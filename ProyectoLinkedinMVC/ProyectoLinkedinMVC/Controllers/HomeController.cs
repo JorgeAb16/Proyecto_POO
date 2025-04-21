@@ -84,6 +84,10 @@ namespace ProyectoLinkedinMVC.Controllers
         {
             return View();
         }
+        public ActionResult Notificaciones()
+        {
+            return View();
+        }
         public ActionResult Reaccion()
         {
             return View();

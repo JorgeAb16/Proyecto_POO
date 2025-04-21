@@ -24,7 +24,7 @@
 
     <style>
         #sidebar {
-            width: 15rem; 
+            width: 15rem;
             position: fixed;
             top: 0;
             left: 0;
@@ -81,7 +81,7 @@
         }
 
         #content {
-            flex: 1; 
+            flex: 1;
             padding: 1.5rem;
         }
 
@@ -91,7 +91,7 @@
             left: 15rem;
             right: 0;
             z-index: 2;
-            background-color: #f8f9fa; 
+            background-color: #f8f9fa;
             box-shadow: 0 0.15rem 0.25rem rgba(0, 0, 0, 0.05);
             padding: 0.75rem 1rem;
             display: flex;
@@ -119,9 +119,57 @@
             padding: 1.5rem;
             text-align: center;
             color: #858796;
-            margin-left: 15rem; 
+            margin-left: 15rem;
         }
     </style>
+    <style>
+        /* Estilos responsive para DataGrids */
+        .dx-datagrid {
+            width: 100% !important;
+            min-width: 100%;
+            border-radius: 0.35rem;
+            box-shadow: 0 0.15rem 0.25rem rgba(0, 0, 0, 0.05);
+        }
+
+        .dx-datagrid-headers {
+            background-color: #f8f9fa;
+            border-radius: 0.35rem 0.35rem 0 0;
+        }
+
+        .dx-datagrid-rowsview .dx-row-alt {
+            background-color: rgba(78, 115, 223, 0.05);
+        }
+
+        .dx-datagrid-rowsview .dx-row:hover {
+            background-color: rgba(78, 115, 223, 0.1);
+        }
+
+        /* Ajustes para pantallas pequeñas - FORMA CORRECTA EN RAZOR */
+        @@media (max-width: 992px) {
+            .dx-datagrid {
+                font-size: 0.9rem;
+            }
+
+                .dx-datagrid .dx-toolbar-item {
+                    padding: 0 0.5rem;
+                }
+
+                .dx-datagrid .dx-datagrid-content .dx-data-row > td {
+                    padding: 0.5rem;
+                }
+        }
+
+        @@media (max-width: 768px) {
+            #content-wrapper {
+                margin-left: 0;
+            }
+
+            .dx-datagrid {
+                border-radius: 0;
+            }
+        }
+    </style>
+
 
 </head>
 
@@ -140,17 +188,10 @@
 
             <hr class="sidebar-divider my-0">
 
-            <li class="nav-item active">
-                <a class="nav-link" href="@Url.Action("Index", "Home")">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span>
-                </a>
-            </li>
-
             <hr class="sidebar-divider">
 
             <div class="sidebar-heading">
-                Menu
+                      Menu
             </div>
 
             <li class="nav-item">
@@ -262,6 +303,43 @@
     <script src="~/Content/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="~/Content/vendor/jquery-easing/jquery.easing.min.js"></script>
     @RenderSection("scripts", required: false)
+<script>
+    function adjustGridLayout(e) {
+        resizeGrid(e.component);
+
+        $(window).on('resize', function () {
+            resizeGrid(e.component);
+        });
+    }
+
+    function resizeGrid(grid) {
+        var screenWidth = $(window).width();
+
+        if (screenWidth < 768) {
+            grid.option({
+                columnAutoWidth: true,
+                wordWrapEnabled: true
+            });
+
+            var columns = grid.option('columns');
+            columns.forEach(function (col, index) {
+                if (index > 2 && col.caption !== 'Acciones') {
+                    grid.columnOption(col.dataField || index, 'visible', false);
+                }
+            });
+        } else {
+            grid.option({
+                columnAutoWidth: false,
+                wordWrapEnabled: false
+            });
+
+            var columns = grid.option('columns');
+            columns.forEach(function (col, index) {
+                grid.columnOption(col.dataField || index, 'visible', true);
+            });
+        }
+    }
+</script>
 </body>
 
 </html>

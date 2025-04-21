@@ -121,19 +121,5 @@ namespace ProyectoLinkedIn.Controllers
 
 
 
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
     }
 }

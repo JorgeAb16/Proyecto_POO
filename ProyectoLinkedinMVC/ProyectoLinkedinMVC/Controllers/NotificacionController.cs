@@ -15,6 +15,7 @@ namespace ProyectoLinkedinMVC.Controllers
 {
     public class NotificacionController : ApiController
     {
+        
         [HttpGet]
         public async Task<HttpResponseMessage> Get(
              DataSourceLoadOptions loadOptions,
@@ -33,7 +34,7 @@ namespace ProyectoLinkedinMVC.Controllers
 
             return Request.CreateResponse(DataSourceLoader.Load(listaNotificacion, loadOptions));
         }
-       
+
 
 
         public static async Task<string> GetAsync(string uri)
@@ -86,8 +87,8 @@ namespace ProyectoLinkedinMVC.Controllers
             var key = Convert.ToInt32(form.Get("key")); //llave que estoy modificando
             var values = form.Get("values"); //Los valores que yo modifiqué en formato JSON
 
-            var apiUrlGetNotificacion = "https://localhost:44345/api/Notificacion" + key;
-            var respuestaNotificacion = await GetAsync(apiUrlGetNotificacion = "https://localhost:44345/api/Notificacion" + key);
+            var apiUrlGetNotificacion = "https://localhost:44345/api/Notificacion/" + key;
+            var respuestaNotificacion = await GetAsync(apiUrlGetNotificacion = "https://localhost:44345/api/Notificacion/" + key);
             Notificacion notificacion = JsonConvert.DeserializeObject<Notificacion>(respuestaNotificacion);
 
             JsonConvert.PopulateObject(values, notificacion);
@@ -99,7 +100,7 @@ namespace ProyectoLinkedinMVC.Controllers
             handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
             using (var client = new HttpClient(handler))
             {
-                var url = "https://localhost:44345/api/Notificacion" + key;
+                var url = "https://localhost:44345/api/Notificacion/" + key;
                 var response = await client.PutAsync(url, httpContent);
 
                 var result = response.Content.ReadAsStringAsync().Result;

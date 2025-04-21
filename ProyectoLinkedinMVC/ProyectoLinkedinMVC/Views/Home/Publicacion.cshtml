@@ -3,7 +3,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Publicacion</h2>
+<h2 class="text-center text-primary mb-4">Publicacion</h2>
 
 @(Html.DevExtreme().DataGrid<ProyectoLinkedinMVC.Models.Publicacion>()
     .DataSource(ds => ds.WebApi()
@@ -14,7 +14,41 @@
         .DeleteAction("Delete")
         .Key("Id")
     )
-    .RemoteOperations(true)
+// Configuración Responsive y de Estilo
+.Width("100%")
+.ColumnAutoWidth(true)
+.AllowColumnResizing(true)
+.ColumnMinWidth(120)
+.ColumnResizingMode(ColumnResizingMode.Widget)
+.ShowBorders(true)
+.HoverStateEnabled(true)
+.ShowColumnLines(true)
+.ShowRowLines(true)
+.RowAlternationEnabled(true)
+.WordWrapEnabled(true)
+
+// Configuración de Operaciones
+.RemoteOperations(true)
+.Scrolling(s => s.Mode(GridScrollingMode.Virtual))
+.ColumnHidingEnabled(true)
+
+// Configuración de Filtrado y Búsqueda
+.FilterRow(f => f.Visible(true).ApplyFilter(GridApplyFilterMode.Auto))
+.HeaderFilter(f => f.Visible(true))
+.FilterPanel(f => f.Visible(true))
+.SearchPanel(f => f.Visible(true).Width(300).Placeholder("Buscar..."))
+
+// Configuración de Agrupación
+.GroupPanel(p => p.Visible(true))
+.Grouping(g => g.AutoExpandAll(false))
+
+// Configuración de Paginación
+.Paging(p => p.PageSize(10))
+.Pager(p => p
+    .ShowPageSizeSelector(true)
+    .AllowedPageSizes(new[] { 5, 10, 20 })
+    .ShowInfo(true)
+    .ShowNavigationButtons(true))
     .Columns(columns => {
 
         columns.AddFor(m => m.Id);
@@ -30,28 +64,17 @@
             .DataField("UsuarioNombre")
             .Caption("Nombre de Usuario");
     })
-    .Editing(e => e
+        .Editing(e => e
+        .Mode(GridEditMode.Popup)
         .AllowAdding(true)
         .AllowUpdating(true)
         .AllowDeleting(true)
+        .UseIcons(true)
+        .Popup(p => p
+            .Title("Editar Registro")
+            .Width("70%")
+            .Height("auto")
+        )
     )
-        .RemoteOperations(true)
-   .Paging(p => p.PageSize(10))
-    .Editing(editing =>
-    {
-        editing.Mode(GridEditMode.Row);
-        editing.AllowUpdating(true);
-        editing.AllowAdding(true);
-        editing.UseIcons(true);
-        editing.AllowDeleting(true);
-    })
-
-.Paging(p => p.PageSize(10))
-.FilterRow(f => f.Visible(true))
-.HeaderFilter(f => f.Visible(true))
-.GroupPanel(p => p.Visible(true))
-.Grouping(g => g.AutoExpandAll(false))
-.FilterPanel(f => f.Visible(true))
-.RemoteOperations(true)
-.SearchPanel(f => f.Visible(true))
+    .OnInitialized("adjustGridLayout")
 )

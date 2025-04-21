@@ -12,8 +12,7 @@ namespace ProyectoLinkedIn.Controllers
     public class PublicacionController : ApiController
     {
         private DBContextProject db = new DBContextProject();
-        [HttpGet]
-        [Route("api/Publicaciones")]
+        
         public IHttpActionResult Get()
         {
             var query = from publicacion in db.Publicacion
@@ -23,7 +22,7 @@ namespace ProyectoLinkedIn.Controllers
                             Titulo = publicacion.Titulo,
                             Id = publicacion.Id,
                             Contenido = publicacion.Contenido,
-                            FechaPublicacion = publicacion.Fechapublicacion,
+                            Fechapublicacion = publicacion.Fechapublicacion,
                             UsuarioId = publicacion.UsuarioId,
                             UsuarioNombre = usuario.Nombre,
 

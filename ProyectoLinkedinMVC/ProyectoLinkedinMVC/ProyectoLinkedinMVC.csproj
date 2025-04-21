@@ -449,6 +449,7 @@
     <Content Include="Views\Home\Empleo.cshtml" />
     <Content Include="Views\Home\Postular.cshtml" />
     <Content Include="Views\Home\MiRed.cshtml" />
+    <Content Include="Views\Home\Publicacion.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -40,6 +40,12 @@ namespace ProyectoLinkedinMVC.Controllers
             return View();
         }
         [Authorize(Roles = "Admin")]
+        public ActionResult Publicacion()
+        {
+            return View();
+        }
+
+        [Authorize(Roles = "Admin")]
         public ActionResult Experiencia()
         {
             return View();

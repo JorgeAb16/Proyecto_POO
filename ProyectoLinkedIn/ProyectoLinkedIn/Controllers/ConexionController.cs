@@ -34,6 +34,38 @@ namespace ProyectoLinkedIn.Controllers
 
             return Ok(conexiones);
         }
+        [HttpGet]
+        [Route("api/Conexion/GetAmigosPorUsuario")]
+        public IHttpActionResult GetAmigosPorUsuario(int usuarioId)
+        {
+                var amigos = (from conexion in db.Conexion
+                              join usuario1 in db.Usuario on conexion.Usuario1 equals usuario1.Id
+                              join usuario2 in db.Usuario on conexion.Usuario2 equals usuario2.Id
+                              where conexion._Conexion == "amigos" &&
+                                    (conexion.Usuario1 == usuarioId || conexion.Usuario2 == usuarioId)
+                              select conexion.Usuario1 == usuarioId ?
+                                  new
+                                  {
+                                      Id = usuario2.Id,
+                                      Nombre = usuario2.Nombre,
+                                      Apellido = usuario2.Apellido,
+                                      NombreCompleto = usuario2.Nombre + " " + usuario2.Apellido,
+                                      TipoConexion = conexion._Conexion,
+                                   
+                                  } :
+                                  new
+                                  {
+                                      Id = usuario1.Id,
+                                      Nombre = usuario1.Nombre,
+                                      Apellido = usuario1.Apellido,
+                                      NombreCompleto = usuario1.Nombre + " " + usuario1.Apellido,
+                                      TipoConexion = conexion._Conexion,
+                                     
+                                  });
+
+                return Ok(amigos);
+        }
+
 
         // GET: api/Conexion/5
         public IHttpActionResult Get(int id)
@@ -67,6 +99,7 @@ namespace ProyectoLinkedIn.Controllers
 
             conexion.Usuario1 = usuario1.Id;
             conexion.Usuario2 = usuario2.Id;
+            conexion._Conexion = "amigos";
             db.Conexion.Add(conexion);
             db.SaveChanges();
 

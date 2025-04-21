@@ -448,6 +448,7 @@
     <Content Include="Views\Home\Comentar.cshtml" />
     <Content Include="Views\Home\Empleo.cshtml" />
     <Content Include="Views\Home\Postular.cshtml" />
+    <Content Include="Views\Home\MiRed.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -484,6 +485,7 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Administrador.cs" />
+    <Compile Include="Models\Amigos.cs" />
     <Compile Include="Models\AuthDbContext.cs" />
     <Compile Include="Models\Comentario.cs" />
     <Compile Include="Models\Conexion.cs" />

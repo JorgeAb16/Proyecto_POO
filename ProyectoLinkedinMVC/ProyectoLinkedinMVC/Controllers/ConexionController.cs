@@ -25,6 +25,20 @@ namespace ProyectoLinkedinMVC.Controllers
             List<Conexion> listaConexion = JsonConvert.DeserializeObject<List<Conexion>>(respuestaJson);
             return Request.CreateResponse(DataSourceLoader.Load(listaConexion, loadOptions));
         }
+        [HttpGet]
+        [Route("Conexion/GetAmigosPorUsuario")]
+        public async Task<HttpResponseMessage> GetAmigosPorUsuario(DataSourceLoadOptions loadOptions, int usuarioId)
+        {
+            var apiUrl = $"https://localhost:44345/api/Conexion/GetAmigosPorUsuario?usuarioId={usuarioId}";
+
+            using (var client = new HttpClient())
+            {
+                var respuestaJson = await client.GetStringAsync(apiUrl);
+                List<Amigos> listaAmigos = JsonConvert.DeserializeObject<List<Amigos>>(respuestaJson);
+                return Request.CreateResponse(DataSourceLoader.Load(listaAmigos, loadOptions));
+            }
+        }
+
 
         public static async Task<string> GetAsync(string uri)
         {

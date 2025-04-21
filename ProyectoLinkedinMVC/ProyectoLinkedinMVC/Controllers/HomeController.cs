@@ -109,5 +109,9 @@ namespace ProyectoLinkedinMVC.Controllers
         {
             return View();
         }
+        public ActionResult MiRed()
+        {
+            return View();
+        }
     }
 }

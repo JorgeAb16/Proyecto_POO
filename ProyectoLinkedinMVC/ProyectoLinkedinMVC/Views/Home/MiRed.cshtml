@@ -1,0 +1,92 @@
+﻿@{
+    ViewBag.Title = "Mi Red - Amigos";
+    Layout = "~/Views/Shared/_Layout.cshtml"; // O el layout que uses en tu proyecto
+}
+
+<!-- Contenedor principal -->
+<div class="container" style="margin-top:40px;">
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            <h3>Mis Amigos</h3>
+        </div>
+        <div class="card-body">
+            <!-- Grupo de búsqueda -->
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <div class="input-group">
+                        <span class="input-group-text">ID del Usuario:</span>
+                        <input type="number" id="usuarioIdInput" class="form-control" value="1" />
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <!-- Botón utilizando el widget de DevExtreme -->
+                    <div id="buscarBtn"></div>
+                </div>
+            </div>
+
+            <!-- DataGrid para mostrar los amigos -->
+            @(Html.DevExtreme().DataGrid()
+                .ID("amigosGrid")
+                .DataSource(ds => ds.Mvc()
+                    .Controller("Conexion")
+                    .LoadAction("GetAmigosPorUsuario")
+                    .LoadParams(new { usuarioId = 1 })
+                )
+                .Columns(columns =>
+                {
+                    columns.Add().DataField("NombreCompleto").Caption("Nombre completo");
+                    columns.Add().DataField("TipoConexion").Caption("Tipo de conexión");
+                })
+                .ShowBorders(true)
+                .SearchPanel(sp => sp.Visible(true))
+                .Paging(p => p.PageSize(10))
+                .Pager(pager =>
+                {
+                    pager.ShowPageSizeSelector(true);
+                    pager.AllowedPageSizes(new[] { 5, 10, 20 });
+                    pager.ShowInfo(true);
+                })
+            )
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(function () {
+            // Inicializar el botón de DevExtreme
+            $("#buscarBtn").dxButton({
+                text: "Buscar",
+                type: "success",
+                onClick: function () {
+                    const usuarioId = $('#usuarioIdInput').val();
+                    const grid = $('#amigosGrid').dxDataGrid('instance');
+
+                    // Reconfigurar la fuente de datos con el nuevo parámetro usuarioId
+                    grid.option('dataSource', DevExpress.data.AspNet.createStore({
+                        key: 'Id',
+                        loadUrl: '/Conexion/GetAmigosPorUsuario',
+                        loadParams: { usuarioId: usuarioId }
+                    }));
+
+                    grid.refresh();
+                }
+            });
+        });
+    </script>
+}
+
+<!-- Estilos adicionales para personalización (puedes ajustarlos según tu necesidad) -->
+<style>
+    .card {
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .card-header h3 {
+        margin: 0;
+    }
+
+    .input-group-text {
+        font-weight: bold;
+    }
+</style>

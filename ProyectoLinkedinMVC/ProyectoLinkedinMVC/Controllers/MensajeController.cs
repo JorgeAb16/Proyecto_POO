@@ -4,8 +4,11 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Net.Http.Formatting;
+using System.Net.Http.Headers;
+using System.Text;
 using System.Threading.Tasks;
 using System.Web.Http;
+
 using DevExtreme.AspNet.Data;
 using DevExtreme.AspNet.Mvc;
 using Newtonsoft.Json;
@@ -27,6 +30,44 @@ namespace ProyectoLinkedinMVC.Controllers
             List<Mensaje> listaMensaje = JsonConvert.DeserializeObject<List<Mensaje>>(respuestaJson);
             return Request.CreateResponse(DataSourceLoader.Load(listaMensaje, loadOptions));
         }
+        [HttpGet]
+        [Route("Mensaje/GetChat")]
+        public async Task<HttpResponseMessage> GetChat()
+        {
+            try
+            {
+                var apiUrl = "https://localhost:44345/api/Mensaje/GetChat";
+                var respuestaJson = await GetAsync(apiUrl);
+
+                return new HttpResponseMessage(HttpStatusCode.OK)
+                {
+                    Content = new StringContent(respuestaJson, Encoding.UTF8, "application/json")
+                };
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
+        [HttpPost]
+        [Route("Mensaje/Send")]
+        public async Task<HttpResponseMessage> Send([FromBody] MensajeModel mensaje)
+        {
+            try
+            {
+                var apiUrl = "https://localhost:44345/api/Mensaje/Send";
+                var respuestaJson = await PostAsync(apiUrl, mensaje);
+
+                return new HttpResponseMessage(HttpStatusCode.OK)
+                {
+                    Content = new StringContent(respuestaJson, Encoding.UTF8, "application/json")
+                };
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
 
         public static async Task<string> GetAsync(string uri)
         {
@@ -34,17 +75,41 @@ namespace ProyectoLinkedinMVC.Controllers
             {
                 var handler = new HttpClientHandler();
                 handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
+
                 using (var client = new HttpClient(handler))
                 {
+                    client.Timeout = TimeSpan.FromSeconds(30);
+                    client.DefaultRequestHeaders.Accept.Add(
+                        new MediaTypeWithQualityHeaderValue("application/json"));
+
                     var response = await client.GetAsync(uri);
-                    response.EnsureSuccessStatusCode();
+
+                    if (!response.IsSuccessStatusCode)
+                    {
+                        throw new HttpRequestException(
+                            $"Error: {response.StatusCode} - {response.ReasonPhrase}");
+                    }
+
                     return await response.Content.ReadAsStringAsync();
                 }
             }
             catch (Exception e)
             {
-                var m = e.Message;
-                return null;
+                System.Diagnostics.Debug.WriteLine($"Error en GetAsync: {e}");
+                throw;
+            }
+        }
+        private async Task<string> PostAsync(string uri, object data)
+        {
+            var handler = new HttpClientHandler();
+            handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
+
+            using (var client = new HttpClient(handler))
+            {
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                var response = await client.PostAsJsonAsync(uri, data);
+                response.EnsureSuccessStatusCode();
+                return await response.Content.ReadAsStringAsync();
             }
         }
 

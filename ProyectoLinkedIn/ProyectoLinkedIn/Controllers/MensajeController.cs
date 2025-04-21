@@ -6,7 +6,6 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using Microsoft.AspNetCore.Mvc;
 
 
 namespace ProyectoLinkedIn.Controllers
@@ -18,7 +17,7 @@ namespace ProyectoLinkedIn.Controllers
         /// Obtiene todos los Mensajes.
         /// </summary>
         /// <returns>Una lista de elementos.</returns>
-
+        [HttpGet]
         public IHttpActionResult Get()
         {
 
@@ -39,6 +38,120 @@ namespace ProyectoLinkedIn.Controllers
 
             return Ok(mensajes);
         }
+        [HttpGet]
+        [Route("api/Mensaje/GetChat")]
+        public IHttpActionResult GetChat()
+        {
+            try
+            {
+                // Primero obtenemos todos los mensajes con la información de los usuarios
+                var mensajesQuery = from mensaje in db.Mensaje
+                                    join usuario1 in db.Usuario on mensaje.Remitente_Id equals usuario1.Id
+                                    join usuario2 in db.Usuario on mensaje.Destinatario_Id equals usuario2.Id
+                                    orderby mensaje.Fechadeenvio descending
+                                    select new
+                                    {
+                                        Id = mensaje.Id,
+                                        Remitente_Id = usuario1.Id,
+                                        Destinatario_Id = usuario2.Id,
+                                        Fechadeenvio = mensaje.Fechadeenvio,
+                                        Contenido = mensaje.Contenido,
+                                        Remitente = usuario1.Nombre,
+                                        Destinatario = usuario2.Nombre,
+                                         
+                                    };
+
+                var mensajes = mensajesQuery.ToList();
+
+                // Ahora agrupamos por conversaciones (combinación única de usuarios)
+                var conversaciones = mensajes
+                    .GroupBy(m => new
+                    {
+                        User1 = Math.Min(m.Remitente_Id, m.Destinatario_Id),
+                        User2 = Math.Max(m.Remitente_Id, m.Destinatario_Id)
+                    })
+                    .Select(g => new
+                    {
+                        User1Id = g.Key.User1,
+                        User2Id = g.Key.User2,
+                        User1Name = g.First(m => m.Remitente_Id == g.Key.User1 || m.Destinatario_Id == g.Key.User1).Remitente_Id == g.Key.User1
+                            ? g.First(m => m.Remitente_Id == g.Key.User1).Remitente
+                            : g.First(m => m.Destinatario_Id == g.Key.User1).Destinatario,
+                        User2Name = g.First(m => m.Remitente_Id == g.Key.User2 || m.Destinatario_Id == g.Key.User2).Remitente_Id == g.Key.User2
+                            ? g.First(m => m.Remitente_Id == g.Key.User2).Remitente
+                            : g.First(m => m.Destinatario_Id == g.Key.User2).Destinatario,
+                        UltimoMensaje = g.OrderByDescending(m => m.Fechadeenvio).First(),
+                        TotalMensajes = g.Count(),
+                        Mensajes = g.OrderBy(m => m.Fechadeenvio).Select(m => new
+                        {
+                            m.Id,
+                            m.Remitente_Id,
+                            m.Destinatario_Id,
+                            m.Fechadeenvio,
+                            m.Contenido,
+                            m.Remitente,
+                            m.Destinatario,
+                            EsRemitente = m.Remitente_Id == g.Key.User1
+                        })
+                    })
+                    .OrderByDescending(c => c.UltimoMensaje.Fechadeenvio)
+                    .ToList();
+
+                return Ok(new
+                {
+                    Success = true,
+                    Conversaciones = conversaciones,
+                    TotalConversaciones = conversaciones.Count
+                });
+            }
+            catch (Exception ex)
+            {
+                return Content(HttpStatusCode.InternalServerError, new
+                {
+                    Success = false,
+                    Message = "Error al obtener los mensajes",
+                    Error = ex.Message
+                });
+            }
+        }
+        [HttpPost]
+        [Route("api/Mensaje/Send")]
+        public IHttpActionResult Send([FromBody] Mensaje mensaje)
+        {
+            try
+            {
+                mensaje.Fechadeenvio = DateTime.Now;
+                db.Mensaje.Add(mensaje);
+                db.SaveChanges();
+
+                return Ok(new
+                {
+                    Success = true,
+                    Message = new
+                    {
+                        mensaje.Id,
+                        mensaje.Remitente_Id,
+                        mensaje.Destinatario_Id,
+                        mensaje.Fechadeenvio,
+                        mensaje.Contenido
+                    }
+                });
+            }
+            catch (Exception ex)
+            {
+                return InternalServerError(ex);
+            }
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                db.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
         /// <summary>
         /// Agrega un Mensaje.
         /// </summary>

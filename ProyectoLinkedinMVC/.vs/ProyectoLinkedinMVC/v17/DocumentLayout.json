@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|c:\\users\\precision 5520\\desktop\\repositorio-proyecto-poo\\proyectolinkedinmvc\\proyectolinkedinmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\proyectolinkedinmvc\\views\\home\\mensajes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\views\\home\\mensajes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\proyectolinkedinmvc\\views\\home\\mensaje.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\views\\home\\mensaje.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|c:\\users\\precision 5520\\desktop\\repositorio-proyecto-poo\\proyectolinkedinmvc\\proyectolinkedinmvc\\models\\mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\models\\mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\proyectolinkedinmvc\\controllers\\mensajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\controllers\\mensajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|c:\\users\\precision 5520\\desktop\\repositorio-proyecto-poo\\proyectolinkedinmvc\\proyectolinkedinmvc\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\proyectolinkedinmvc\\controllers\\comentariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\controllers\\comentariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\proyectolinkedinmvc\\controllers\\conexioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\controllers\\conexioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\proyectolinkedinmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|c:\\users\\precision 5520\\desktop\\repositorio-proyecto-poo\\proyectolinkedinmvc\\proyectolinkedinmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\proyectolinkedinmvc\\views\\home\\vacante.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -33,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\proyectolinkedinmvc\\views\\home\\publicacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\views\\home\\publicacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\proyectolinkedinmvc\\views\\home\\mensaje.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\views\\home\\mensaje.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\proyectolinkedinmvc\\views\\home\\habilidades.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -79,10 +103,6 @@
       "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\views\\home\\mired.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\proyectolinkedinmvc\\views\\home\\mensajes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\views\\home\\mensajes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\proyectolinkedinmvc\\views\\home\\empleo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\views\\home\\empleo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -103,14 +123,6 @@
       "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\controllers\\vacantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\proyectolinkedinmvc\\controllers\\conexioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\controllers\\conexioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\proyectolinkedinmvc\\controllers\\mensajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\controllers\\mensajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\proyectolinkedinmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -121,10 +133,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\proyectolinkedinmvc\\controllers\\publicacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\controllers\\publicacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\proyectolinkedinmvc\\controllers\\comentariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|solutionrelative:proyectolinkedinmvc\\controllers\\comentariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EAD67F7E-671F-4CF3-8501-088AEDD0E1C8}|ProyectoLinkedinMVC\\ProyectoLinkedinMVC.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\proyectolinkedinmvc\\controllers\\experienciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -138,11 +146,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 198,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 22,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Mensaje.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Models\\Mensaje.cs",
+              "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Models\\Mensaje.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Models\\Mensaje.cs",
+              "RelativeToolTip": "ProyectoLinkedinMVC\\Models\\Mensaje.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T23:20:10.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Global.asax.cs",
+              "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Global.asax.cs",
+              "RelativeToolTip": "ProyectoLinkedinMVC\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T23:08:56.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Vacante.cshtml",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\Vacante.cshtml",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Views\\Home\\Vacante.cshtml",
@@ -154,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "UsuarioNormal.cshtml",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\UsuarioNormal.cshtml",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Views\\Home\\UsuarioNormal.cshtml",
@@ -166,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "UsuarioEmpresarial.cshtml",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\UsuarioEmpresarial.cshtml",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Views\\Home\\UsuarioEmpresarial.cshtml",
@@ -178,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "Reaccionar.cshtml",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\Reaccionar.cshtml",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Views\\Home\\Reaccionar.cshtml",
@@ -190,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "Reaccion.cshtml",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\Reaccion.cshtml",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Views\\Home\\Reaccion.cshtml",
@@ -202,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "Postular.cshtml",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\Postular.cshtml",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Views\\Home\\Postular.cshtml",
@@ -214,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "MiRed.cshtml",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\MiRed.cshtml",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Views\\Home\\MiRed.cshtml",
@@ -226,19 +260,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "Mensaje.cshtml",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\Mensaje.cshtml",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Views\\Home\\Mensaje.cshtml",
               "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\Mensaje.cshtml",
               "RelativeToolTip": "ProyectoLinkedinMVC\\Views\\Home\\Mensaje.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-21T18:46:49.939Z"
+              "WhenOpened": "2025-04-21T18:46:49.939Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Views\\Home\\Index.cshtml",
@@ -251,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "Habilidades.cshtml",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\Habilidades.cshtml",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Views\\Home\\Habilidades.cshtml",
@@ -263,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "FormacionAcademica.cshtml",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\FormacionAcademica.cshtml",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Views\\Home\\FormacionAcademica.cshtml",
@@ -275,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "Experiencia.cshtml",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\Experiencia.cshtml",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Views\\Home\\Experiencia.cshtml",
@@ -287,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "Empresa.cshtml",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\Empresa.cshtml",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Views\\Home\\Empresa.cshtml",
@@ -299,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "Empleo.cshtml",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\Empleo.cshtml",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Views\\Home\\Empleo.cshtml",
@@ -311,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "Crear.cshtml",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\Crear.cshtml",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Views\\Home\\Crear.cshtml",
@@ -323,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "Comentario.cshtml",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\Comentario.cshtml",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Views\\Home\\Comentario.cshtml",
@@ -335,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "Comentar.cshtml",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\Comentar.cshtml",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Views\\Home\\Comentar.cshtml",
@@ -347,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "Administrador.cshtml",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\Administrador.cshtml",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Views\\Home\\Administrador.cshtml",
@@ -359,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "NotificacionController.cs",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Controllers\\NotificacionController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Controllers\\NotificacionController.cs",
@@ -371,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "Notificacion.cshtml",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\Notificacion.cshtml",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Views\\Home\\Notificacion.cshtml",
@@ -383,31 +418,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 0,
               "Title": "Mensajes.cshtml",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\Mensajes.cshtml",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Views\\Home\\Mensajes.cshtml",
               "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\Mensajes.cshtml",
               "RelativeToolTip": "ProyectoLinkedinMVC\\Views\\Home\\Mensajes.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAYwO8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-21T15:20:51.062Z"
+              "WhenOpened": "2025-04-21T15:20:51.062Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 6,
               "Title": "ConexionController.cs",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Controllers\\ConexionController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Controllers\\ConexionController.cs",
               "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Controllers\\ConexionController.cs",
               "RelativeToolTip": "ProyectoLinkedinMVC\\Controllers\\ConexionController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T07:12:56.695Z"
+              "WhenOpened": "2025-04-21T07:12:56.695Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "Notificaciones.cshtml",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\Notificaciones.cshtml",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Views\\Home\\Notificaciones.cshtml",
@@ -419,31 +456,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 3,
               "Title": "MensajeController.cs",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Controllers\\MensajeController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Controllers\\MensajeController.cs",
               "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Controllers\\MensajeController.cs",
               "RelativeToolTip": "ProyectoLinkedinMVC\\Controllers\\MensajeController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAArwDYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAADIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T05:58:29.759Z"
+              "WhenOpened": "2025-04-21T05:58:29.759Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ProyectoLinkedinMVC\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAD4BAAAAAAAAAAAAAMEAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-21T05:14:37.771Z"
+              "WhenOpened": "2025-04-21T05:14:37.771Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "VacanteController.cs",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Controllers\\VacanteController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Controllers\\VacanteController.cs",
@@ -455,7 +494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "PublicacionController.cs",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Controllers\\PublicacionController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Controllers\\PublicacionController.cs",
@@ -467,7 +506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Controllers\\HomeController.cs",
@@ -479,7 +518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "Conexion.cshtml",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\Conexion.cshtml",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Views\\Home\\Conexion.cshtml",
@@ -491,7 +530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "Publicacion.cshtml",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Views\\Home\\Publicacion.cshtml",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Views\\Home\\Publicacion.cshtml",
@@ -503,7 +542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "ExperienciaController.cs",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Controllers\\ExperienciaController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Controllers\\ExperienciaController.cs",
@@ -515,7 +554,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 5,
               "Title": "ComentarioController.cs",
               "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedinMVC\\ProyectoLinkedinMVC\\Controllers\\ComentarioController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedinMVC\\Controllers\\ComentarioController.cs",
@@ -523,7 +562,8 @@
               "RelativeToolTip": "ProyectoLinkedinMVC\\Controllers\\ComentarioController.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAAAAFUAAABrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T04:15:58.447Z"
+              "WhenOpened": "2025-04-21T04:15:58.447Z",
+              "EditorCaption": ""
             }
           ]
         }

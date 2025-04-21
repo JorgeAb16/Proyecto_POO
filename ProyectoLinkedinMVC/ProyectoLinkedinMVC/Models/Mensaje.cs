@@ -34,4 +34,10 @@ namespace ProyectoLinkedinMVC.Models
         public string Remitente { get; set; }
         public string Destinatario { get; set; }
     }
+    public class MensajeModel
+    {
+        public int Remitente_Id { get; set; }
+        public int Destinatario_Id { get; set; }
+        public string Contenido { get; set; }
+    }
 }

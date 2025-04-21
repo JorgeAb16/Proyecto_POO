@@ -10,7 +10,8 @@ namespace ProyectoLinkedIn
     {
         public static void Register(HttpConfiguration config)
         {
-         
+            // En WebApiConfig.cs
+            config.EnableCors(new EnableCorsAttribute("*", "*", "*"));
             // Rutas de Web API
             config.MapHttpAttributeRoutes();
 

@@ -45,7 +45,7 @@ namespace ProyectoLinkedIn.Controllers
         
         public IHttpActionResult PutAdmin(Administrador administrador)
         {
-            
+            int id = administrador.Id;
             db.Entry(administrador).State = EntityState.Modified;
             db.SaveChanges();
             return Ok(administrador);

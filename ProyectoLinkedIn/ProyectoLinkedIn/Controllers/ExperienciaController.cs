@@ -48,21 +48,12 @@ namespace ProyectoLinkedIn.Controllers
         // GET: api/Experiencia/5
         public IHttpActionResult Get(int id)
         {
-
-            var experiencias = from experiencia in db.Experiencia
-                               join usuario in db.Usuario on experiencia.UsuarioID equals usuario.Id
-                               where experiencia.Id == id
-                               select new
-                               {
-                                   Id = experiencia.Id,
-                                   UsuarioId = usuario.Id,
-                                   UsuarioNombre = usuario.Nombre,
-                                   Empresa = experiencia.Empresa,
-                                   Cargo = experiencia.Cargo,
-                                   FechaInicio = experiencia.Fecha_inicio,
-                                   FechaFin = experiencia.Fecha_fin
-                               };
-            return Ok(experiencias);
+            var exp = db.Experiencia.Find(id);
+            if (exp == null)
+            {
+                return NotFound();
+            }
+            return Ok(exp);
         }
 
         /// <summary>
@@ -86,8 +77,9 @@ namespace ProyectoLinkedIn.Controllers
         /// <response code="200">Devuelve el valor encontrado</response>
         /// <response code="404">Si el valor no es encontrado</response>
         // PUT: api/Experiencia/5
-        public IHttpActionResult Put(int id, Experiencia experienciaM)
+        public IHttpActionResult Put(Experiencia experienciaM)
         {
+            int id = experienciaM.Id;
             db.Entry(experienciaM).State = EntityState.Modified;
             db.SaveChanges();
             return Ok(experienciaM);

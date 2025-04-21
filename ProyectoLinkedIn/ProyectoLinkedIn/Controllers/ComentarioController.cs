@@ -39,25 +39,12 @@ namespace ProyectoLinkedIn.Controllers
         // GET: api/Comentario/5
         public IHttpActionResult Get(int id)
         {
-            var comentarios = from comentario in db.Comentario
-                              join usuario in db.Usuario on comentario.UsuarioId equals usuario.Id
-                              join publicacion in db.Publicacion on comentario.PublicacionId equals publicacion.Id
-                              where comentario.Id == id
-                              select new
-                              {
-                                  ComentarioId = comentario.Id,
-
-                                  IdUsuario = usuario.Id,
-                                  UsuarioNombre = usuario.Nombre,
-
-                                  publicacionId = publicacion.Id,
-                                  publicacionTitulo = publicacion.Titulo,
-
-                                  Contenido = comentario.Contenido,
-                                  FechaPublicacion = comentario.Fechapublicacion,
-                              };
-
-            return Ok(comentarios);
+            Comentario coment = db.Comentario.Find(id);
+            if (coment == null)
+            {
+                return NotFound();
+            }
+            return Ok(coment);
         }
 
         // POST: api/Comentario
@@ -70,8 +57,9 @@ namespace ProyectoLinkedIn.Controllers
         }
 
         // PUT: api/Comentario/5
-        public IHttpActionResult Put(int id, Comentario comentarioModificado)
+        public IHttpActionResult Put(Comentario comentarioModificado)
         {
+            int id = comentarioModificado.Id;
             db.Entry(comentarioModificado).State = EntityState.Modified;
             db.SaveChanges();
             return Ok(comentarioModificado);

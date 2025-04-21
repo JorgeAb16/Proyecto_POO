@@ -64,54 +64,14 @@ namespace ProyectoLinkedIn.Controllers
 
         public IHttpActionResult Get(int id)
         {
-            var query = from publicacion in db.Publicacion
-                        join usuario in db.Usuario on publicacion.UsuarioId equals usuario.Id
-                        where publicacion.Id == id
-                        select new
-                        {
-                            Titulo = publicacion.Titulo,
-                            Id = publicacion.Id,
-                            Contenido = publicacion.Contenido,
-                            FechaPublicacion = publicacion.Fechapublicacion,
-                            UsuarioNombre = usuario.Nombre,
-
-                            Comentarios = (from comentario in db.Comentario
-                                           join publicacion1 in db.Publicacion on comentario.PublicacionId equals publicacion1.Id
-                                           join usuario1 in db.Usuario on comentario.UsuarioId equals usuario1.Id
-                                           where comentario.PublicacionId == publicacion1.Id
-                                           select new
-                                           {
-                                               Por = usuario1.Nombre + " " + usuario1.Apellido,
-                                               Contenido = comentario.Contenido,
-                                               Fecha = comentario.Fechapublicacion,
-                                               Reacciones = (from reacciones in db.Reaccion
-                                                             join usuario2 in db.Usuario on reacciones.UsuarioID equals usuario2.Id
-                                                             where reacciones.ComentarioID == comentario.Id
-                                                             select new
-                                                             {
-                                                                 Por = usuario2.Nombre + " " + usuario2.Apellido,
-                                                                 Contenido = reacciones.Contenido,
-                                                                 Nombre = reacciones.NombreReaccion
-
-                                                             })
-                                           }),
-
-                            Reacciones = (from reacciones1 in db.Reaccion
-                                          join publicacion1 in db.Publicacion on reacciones1.PublicacionID equals publicacion1.Id
-                                          join usuario2 in db.Usuario on reacciones1.UsuarioID equals usuario2.Id
-                                          where reacciones1.PublicacionID == publicacion1.Id
-                                          select new
-                                          {
-                                              Por = usuario2.Nombre + " " + usuario2.Apellido,
-                                              Contenido = reacciones1.Contenido,
-                                              Nombre = reacciones1.NombreReaccion
-
-                                          })
-
-                        };
-
-            return Ok(query);
+            var publica = db.Publicacion.Find(id);
+            if (publica == null)
+            {
+                return NotFound();
+            }
+            return Ok(publica);
         }
+
 
         [HttpPost]
         public IHttpActionResult Post([FromBody] Publicacion publicacion)
@@ -140,8 +100,9 @@ namespace ProyectoLinkedIn.Controllers
             }
         }
 
-        public IHttpActionResult Put(int id, Publicacion publicacionModificada)
+        public IHttpActionResult Put(Publicacion publicacionModificada)
         {
+            int id = publicacionModificada.Id;
             db.Entry(publicacionModificada).State = EntityState.Modified;
             db.SaveChanges();
             return Ok(publicacionModificada);

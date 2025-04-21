@@ -32,22 +32,15 @@ namespace ProyectoLinkedIn.Controllers
         }
 
         // GET: api/Vacante/5
+        [HttpGet]
         public IHttpActionResult Get(int id)
         {
-            var vacantes = from vacante in db.Vacante
-                           join empresa in db.Empresa on vacante.EmpresaId equals empresa.Id
-                           where vacante.Id == id
-                           select new
-                           {
-                               VacanteId = vacante.Id,
-                               Titulo = vacante.Titulo,
-                               Descripcion = vacante.Descripcion,
-                               Requisitos = vacante.Requisitos,
-                               Salario = vacante.Salario,
-                               Ubicacion = vacante.Ubicacion,
-                               Empresa = empresa.Nombre,
-                           };
-            return Ok(vacantes);
+            var vacante = db.Vacante.Find(id);
+            if (vacante == null)
+            {
+                return NotFound();
+            }
+            return Ok(vacante);
         }
 
         // POST: api/Vacante
@@ -59,8 +52,9 @@ namespace ProyectoLinkedIn.Controllers
         }
 
         // PUT: api/Vacante/5
-        public IHttpActionResult Put(int id, Vacante vacanteModificada)
+        public IHttpActionResult Put(Vacante vacanteModificada)
         {
+            int id = vacanteModificada.Id;
             db.Entry(vacanteModificada).State = EntityState.Modified;
             db.SaveChanges();
             return Ok(vacanteModificada);

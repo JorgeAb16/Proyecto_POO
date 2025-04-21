@@ -38,8 +38,9 @@ namespace ProyectoLinkedIn.Controllers
         }
 
         // PUT: api/Empresa/5
-        public IHttpActionResult Put(int id, Empresa empresaModificada)
+        public IHttpActionResult Put(Empresa empresaModificada)
         {
+            int id = empresaModificada.Id;
             db.Entry(empresaModificada).State = EntityState.Modified;
             db.SaveChanges();
             return Ok(empresaModificada);

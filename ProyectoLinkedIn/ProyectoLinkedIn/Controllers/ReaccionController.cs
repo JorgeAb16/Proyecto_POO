@@ -59,30 +59,17 @@ namespace ProyectoLinkedIn.Controllers
         /// <response code="200">Devuelve el valor encontrado</response>
         /// <response code="404">Si el valor no es encontrado</response>
         // GET: api/Reaccion/5
+        [HttpGet]
         public IHttpActionResult Get(int id)
         {
-            var reacciones = from reaccion in db.Reaccion
-                             join comentario in db.Comentario on reaccion.ComentarioID equals comentario.Id
-                             join usuario in db.Usuario on reaccion.UsuarioID equals usuario.Id
-                             join publicacion in db.Publicacion on reaccion.PublicacionID equals publicacion.Id
-                             where reaccion.Id == id
-                             select new
-                             {
-                                 ReaccionId = reaccion.Id,
-                                 ReaccionContenido = reaccion.Contenido,
-
-                                 ComentarioId = comentario.Id,
-
-                                 IdUsuario = usuario.Id,
-                                 UsuarioNombre = usuario.Nombre,
-
-                                 publicacionId = publicacion.Id,
-                                 publicacionTitulo = publicacion.Titulo,
-                             };
-
-            return Ok(reacciones);
-
+            var reaccion = db.Reaccion.Find(id);
+            if (reaccion == null)
+            {
+                return NotFound();
+            }
+            return Ok(reaccion);
         }
+
 
         /// <summary>
         /// Inserta una Reaccion.
@@ -105,12 +92,12 @@ namespace ProyectoLinkedIn.Controllers
         /// <response code="200">Devuelve el valor encontrado</response>
         /// <response code="404">Si el valor no es encontrado</response>
         // PUT: api/Reaccion/5
-        public IHttpActionResult Put(int id, Reaccion reaccionM)
+        public IHttpActionResult Put(Reaccion reaccion)
         {
-
-            db.Entry(reaccionM).State = EntityState.Modified;
+            int id = reaccion.Id;
+            db.Entry(reaccion).State = EntityState.Modified;
             db.SaveChanges();
-            return Ok(reaccionM);
+            return Ok(reaccion);
         }
 
 

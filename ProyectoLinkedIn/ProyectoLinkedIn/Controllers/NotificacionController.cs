@@ -32,18 +32,14 @@ namespace ProyectoLinkedIn.Controllers
         // GET: api/Notificacion/5
         public IHttpActionResult Get(int id)
         {
-            var notificaciones = from notificacion in db.Notificacion
-                                 join usuario in db.Usuario on notificacion.DestinatarioId equals usuario.Id
-                                 where notificacion.Id == id
-                                 select new
-                                 {
-                                     NotificacionId = notificacion.Id,
-                                     Mensaje = notificacion.Mensaje,
-                                     Destinatario = usuario.Nombre,
-                                     FechaEnvio = notificacion.Fechaenvio,
-                                 };
-            return Ok(notificaciones);
+            var noti = db.Notificacion.Find(id);
+            if (noti == null)
+            {
+                return NotFound();
+            }
+            return Ok(noti);
         }
+
 
         // POST: api/Notificacion
         public IHttpActionResult Post(Notificacion notificacion)
@@ -54,8 +50,9 @@ namespace ProyectoLinkedIn.Controllers
         }
 
         // PUT: api/Notificacion/5
-        public IHttpActionResult Put(int id, Notificacion notificacionModificada)
+        public IHttpActionResult Put(Notificacion notificacionModificada)
         {
+            int id = notificacionModificada.Id;
             db.Entry(notificacionModificada).State = EntityState.Modified;
             db.SaveChanges();
             return Ok(notificacionModificada);

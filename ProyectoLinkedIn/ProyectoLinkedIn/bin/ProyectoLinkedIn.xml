@@ -528,7 +528,7 @@
             <response code="200">Devuelve el valor encontrado</response>
             <response code="404">Si el valor no es encontrado</response>
         </member>
-        <member name="M:ProyectoLinkedIn.Controllers.ExperienciaController.Put(System.Int32,ProyectoLinkedIn.Models.Experiencia)">
+        <member name="M:ProyectoLinkedIn.Controllers.ExperienciaController.Put(ProyectoLinkedIn.Models.Experiencia)">
             <summary>
             Modifica un objeto Experiencia.
             </summary>
@@ -568,7 +568,7 @@
             <response code="200">Devuelve el valor encontrado</response>
             <response code="404">Si el valor no es encontrado</response>
         </member>
-        <member name="M:ProyectoLinkedIn.Controllers.FormacionAcademicaController.Put(System.Int32,ProyectoLinkedIn.Models.Formacion_Academica)">
+        <member name="M:ProyectoLinkedIn.Controllers.FormacionAcademicaController.Put(ProyectoLinkedIn.Models.Formacion_Academica)">
             <summary>
             Modifica una FormacionAcademica.
             </summary>
@@ -652,7 +652,7 @@
             <response code="200">Devuelve el valor encontrado</response>
             <response code="404">Si el valor no es encontrado</response>
         </member>
-        <member name="M:ProyectoLinkedIn.Controllers.ReaccionController.Put(System.Int32,ProyectoLinkedIn.Models.Reaccion)">
+        <member name="M:ProyectoLinkedIn.Controllers.ReaccionController.Put(ProyectoLinkedIn.Models.Reaccion)">
             <summary>
             Modifica una Reaccion por ID.
             </summary>

@@ -48,23 +48,14 @@ namespace ProyectoLinkedIn.Controllers
         // GET: api/FormacionAcademica/5
         public IHttpActionResult Get(int id)
         {
-
-            var formaciones = from formacion in db.FormacionAcademica
-                              join usuario in db.Usuario on formacion.UsuarioID equals usuario.Id
-                              where formacion.Id == id
-                              select new
-                              {
-                                  Id = formacion.Id,
-                                  UsuarioId = usuario.Id,
-                                  UsuarioNombre = usuario.Nombre,
-                                  Titulo = formacion.Titulo,
-                                  Grado = formacion.Grado,
-                                  Descripcion = formacion.Descripcion,
-                                  FechaAdquisicion = formacion.Fecha_adquisicion,
-                                  InstitucionEducativa = formacion.Institucion_educativa
-                              };
-            return Ok(formaciones);
+            var formacion= db.FormacionAcademica.Find(id);
+            if (formacion == null)
+            {
+                return NotFound();
+            }
+            return Ok(formacion);
         }
+
 
         /// <summary>
         /// Inserta una FormacionAcademica.
@@ -87,8 +78,9 @@ namespace ProyectoLinkedIn.Controllers
         /// <response code="200">Devuelve el valor encontrado</response>
         /// <response code="404">Si el valor no es encontrado</response>
         // PUT: api/FormacionAcademica/5
-        public IHttpActionResult Put(int id, Formacion_Academica formacionM)
+        public IHttpActionResult Put(Formacion_Academica formacionM)
         {
+            int id = formacionM.Id;
             db.Entry(formacionM).State = EntityState.Modified;
             db.SaveChanges();
             return Ok(formacionM);

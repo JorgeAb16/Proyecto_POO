@@ -19,8 +19,9 @@
 
         columns.AddFor(m => m.Id);
 
-        
-        columns.AddFor(m => m.Usuario1)
+
+        columns.AddFor(m => m.Usuario1);
+        columns.Add()
             .DataField("Nombre1")
             .Caption("Nombre de Usuario 1");
 

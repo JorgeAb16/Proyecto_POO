@@ -23,18 +23,18 @@ namespace ProyectoLinkedinMVC.Models
         {
             Id = id;
             Cargo = cargo;
-            FechaInicio = fecha_inicio;
-            FechaFin = fecha_fin;
+            Fecha_inicio = fecha_inicio;
+            Fecha_fin = fecha_fin;
             Empresa = empresa;
-            UsuarioId = usuarioID;
+            UsuarioID = usuarioID;
         }
 
         public int Id { get => _id; set => _id = value; }
         public string Cargo { get => _cargo; set => _cargo = value; }
-        public DateTime FechaInicio { get => _fecha_inicio; set => _fecha_inicio = value; }
-        public DateTime FechaFin { get => _fecha_fin; set => _fecha_fin = value; }
+        public DateTime Fecha_inicio { get => _fecha_inicio; set => _fecha_inicio = value; }
+        public DateTime Fecha_fin { get => _fecha_fin; set => _fecha_fin = value; }
         public string Empresa { get => _empresa; set => _empresa = value; }
-        public int UsuarioId { get => _usuarioID; set => _usuarioID = value; }
+        public int UsuarioID { get => _usuarioID; set => _usuarioID = value; }
         public string UsuarioNombre { get; set; }
     }
 }

@@ -1,137 +1,145 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\",
+  "WorkspaceRootPath": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\experienciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\experienciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|c:\\users\\precision 5520\\desktop\\repositorio-proyecto-poo\\proyectolinkedin\\proyectolinkedin\\models\\formacion_academica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\formacion_academica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|c:\\users\\rog strix g17\\proyecto_poo\\proyectolinkedin\\proyectolinkedin\\controllers\\formacionacademicacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\formacionacademicacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\formacionacademicacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\notificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\notificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\\build\\net46\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\\build\\net46\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:1:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:1:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\usuarionormalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\usuarionormalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\vacantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\vacantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\usarioempresarialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\usarioempresarialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\reaccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\reaccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\publicacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\publicacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\notificacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\notificacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\mensajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\mensajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\habilidadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\habilidadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\comentariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\comentariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\conexioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\conexioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\empresacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\empresacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\adminstradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\adminstradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\publicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\publicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\reaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\reaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\app_start\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\app_start\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\vacante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\vacante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\experiencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\experiencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\experiencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:2:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\proyectolinkedin\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|c:\\users\\precision 5520\\desktop\\repositorio-proyecto-poo\\proyectolinkedin\\proyectolinkedin\\models\\usuario_normal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\usuario_normal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|c:\\users\\precision 5520\\desktop\\repositorio-proyecto-poo\\proyectolinkedin\\proyectolinkedin\\controllers\\experienciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\experienciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\comentariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\comentariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\publicacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\publicacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\reaccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\reaccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\conexioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\conexioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\notificacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\notificacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\habilidadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\habilidadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\notificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\notificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\\build\\net46\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\\build\\net46\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:1:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\usuarionormalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\usuarionormalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\vacantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\vacantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\usarioempresarialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\usarioempresarialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\mensajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\mensajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\empresacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\empresacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\controllers\\adminstradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\controllers\\adminstradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\publicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\publicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\reaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\reaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\app_start\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\app_start\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\models\\vacante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\models\\vacante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\proyectolinkedin\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:2:0:{000EBFB0-8A62-4EFE-A0C1-405A7259A16B}|ProyectoLinkedIn\\ProyectoLinkedIn.csproj|solutionrelative:proyectolinkedin\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -142,100 +150,171 @@
       "DocumentGroups": [
         {
           "DockedWidth": 198,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Mensaje.cs",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Mensaje.cs",
-              "RelativeDocumentMoniker": "ProyectoLinkedIn\\Models\\Mensaje.cs",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Mensaje.cs",
-              "RelativeToolTip": "ProyectoLinkedIn\\Models\\Mensaje.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Formacion_Academica.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Formacion_Academica.cs",
+              "RelativeDocumentMoniker": "ProyectoLinkedIn\\Models\\Formacion_Academica.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Formacion_Academica.cs",
+              "RelativeToolTip": "ProyectoLinkedIn\\Models\\Formacion_Academica.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCQAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T01:43:27.557Z"
+              "WhenOpened": "2025-04-22T05:21:24.062Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\\build\\net46\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props",
-              "RelativeDocumentMoniker": "packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\\build\\net46\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\\build\\net46\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props",
-              "RelativeToolTip": "packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\\build\\net46\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAiwB4AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-04-22T01:40:51.447Z"
+              "DocumentIndex": 3,
+              "Title": "Usuario_Normal.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Usuario_Normal.cs",
+              "RelativeDocumentMoniker": "ProyectoLinkedIn\\Models\\Usuario_Normal.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Usuario_Normal.cs",
+              "RelativeToolTip": "ProyectoLinkedIn\\Models\\Usuario_Normal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T05:18:01.608Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "UsuarioNormalController.cs",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\UsuarioNormalController.cs",
-              "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\UsuarioNormalController.cs",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\UsuarioNormalController.cs",
-              "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\UsuarioNormalController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAgwEgAAABIAAAAAAAAAA==",
+              "Title": "ReaccionController.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\ReaccionController.cs",
+              "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\ReaccionController.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\ReaccionController.cs",
+              "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\ReaccionController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwBAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T13:00:43.633Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PublicacionController.cs",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\PublicacionController.cs",
-              "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\PublicacionController.cs",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\PublicacionController.cs",
-              "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\PublicacionController.cs",
-              "ViewState": "AgIAAHkAAAAAAAAAAAAkwJAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T17:23:23.25Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ConexionController.cs",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\ConexionController.cs",
-              "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\ConexionController.cs",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\ConexionController.cs",
-              "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\ConexionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKIAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T14:17:08.539Z"
+              "WhenOpened": "2025-04-09T16:13:36.207Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "FormacionAcademicaController.cs",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\FormacionAcademicaController.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\FormacionAcademicaController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\FormacionAcademicaController.cs",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\FormacionAcademicaController.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\FormacionAcademicaController.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\FormacionAcademicaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwCUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-11T04:03:03.083Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "packages.config",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\packages.config",
-              "RelativeDocumentMoniker": "ProyectoLinkedIn\\packages.config",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\packages.config",
-              "RelativeToolTip": "ProyectoLinkedIn\\packages.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-04-22T01:41:55.172Z"
+              "DocumentIndex": 5,
+              "Title": "ComentarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\ComentarioController.cs",
+              "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\ComentarioController.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\ComentarioController.cs",
+              "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\ComentarioController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwDAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T22:46:32.504Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 4,
+              "Title": "ExperienciaController.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\ExperienciaController.cs",
+              "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\ExperienciaController.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\ExperienciaController.cs",
+              "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\ExperienciaController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwCkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T14:01:53.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Experiencia.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Experiencia.cs",
+              "RelativeDocumentMoniker": "ProyectoLinkedIn\\Models\\Experiencia.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Experiencia.cs",
+              "RelativeToolTip": "ProyectoLinkedIn\\Models\\Experiencia.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T14:01:46.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConexionController.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\ConexionController.cs",
+              "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\ConexionController.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\ConexionController.cs",
+              "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\ConexionController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwKIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T14:17:08.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PublicacionController.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\PublicacionController.cs",
+              "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\PublicacionController.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\PublicacionController.cs",
+              "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\PublicacionController.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAgwJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T17:23:23.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NotificacionController.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\NotificacionController.cs",
+              "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\NotificacionController.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\NotificacionController.cs",
+              "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\NotificacionController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwF4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T01:32:16.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HabilidadesController.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\HabilidadesController.cs",
+              "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\HabilidadesController.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\HabilidadesController.cs",
+              "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\HabilidadesController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwBMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T13:48:37.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T05:31:19.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "MensajeController.cs",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\MensajeController.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\MensajeController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\MensajeController.cs",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\MensajeController.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\MensajeController.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\MensajeController.cs",
               "ViewState": "AgIAAOAAAAAAAAAAAAAswPMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -243,23 +322,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "NotificacionController.cs",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\NotificacionController.cs",
-              "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\NotificacionController.cs",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\NotificacionController.cs",
-              "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\NotificacionController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAgwF4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T01:32:16.474Z"
+              "DocumentIndex": 16,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\packages.config",
+              "RelativeDocumentMoniker": "ProyectoLinkedIn\\packages.config",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\packages.config",
+              "RelativeToolTip": "ProyectoLinkedIn\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-22T01:41:55.172Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
+              "Title": "UsuarioNormalController.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\UsuarioNormalController.cs",
+              "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\UsuarioNormalController.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\UsuarioNormalController.cs",
+              "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\UsuarioNormalController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwEgAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T13:00:43.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\\build\\net46\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props",
+              "RelativeDocumentMoniker": "packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\\build\\net46\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\\build\\net46\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props",
+              "RelativeToolTip": "packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\\build\\net46\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAiwB4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-04-22T01:40:51.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Mensaje.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Mensaje.cs",
+              "RelativeDocumentMoniker": "ProyectoLinkedIn\\Models\\Mensaje.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Mensaje.cs",
+              "RelativeToolTip": "ProyectoLinkedIn\\Models\\Mensaje.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T01:43:27.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "VacanteController.cs",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\VacanteController.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\VacanteController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\VacanteController.cs",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\VacanteController.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\VacanteController.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\VacanteController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -267,11 +382,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\UsuarioController.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAYwBMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -279,11 +394,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 19,
               "Title": "UsarioEmpresarialController.cs",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\UsarioEmpresarialController.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\UsarioEmpresarialController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\UsarioEmpresarialController.cs",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\UsarioEmpresarialController.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\UsarioEmpresarialController.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\UsarioEmpresarialController.cs",
               "ViewState": "AgIAAFMAAAAAAAAAAAAgwGgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -291,36 +406,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "HabilidadesController.cs",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\HabilidadesController.cs",
-              "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\HabilidadesController.cs",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\HabilidadesController.cs",
-              "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\HabilidadesController.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAkwBMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T13:48:37.652Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ExperienciaController.cs",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\ExperienciaController.cs",
-              "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\ExperienciaController.cs",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\ExperienciaController.cs",
-              "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\ExperienciaController.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAEwFUAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T14:01:53.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "EmpresaController.cs",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\EmpresaController.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\EmpresaController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\EmpresaController.cs",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\EmpresaController.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\EmpresaController.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\EmpresaController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -328,23 +418,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ComentarioController.cs",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\ComentarioController.cs",
-              "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\ComentarioController.cs",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\ComentarioController.cs",
-              "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\ComentarioController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAYwFgAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T22:46:32.504Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "AdminstradorController.cs",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\AdminstradorController.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\AdminstradorController.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\AdminstradorController.cs",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\AdminstradorController.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\AdminstradorController.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\AdminstradorController.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAgwEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -352,23 +430,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ReaccionController.cs",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\ReaccionController.cs",
-              "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\ReaccionController.cs",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\ReaccionController.cs",
-              "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\ReaccionController.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAgwBAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T16:13:36.207Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "Publicacion.cs",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Publicacion.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Publicacion.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Models\\Publicacion.cs",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Publicacion.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Publicacion.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Models\\Publicacion.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -376,11 +442,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "Reaccion.cs",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Reaccion.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Reaccion.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Models\\Reaccion.cs",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Reaccion.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Reaccion.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Models\\Reaccion.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAwCgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -388,11 +454,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "WebApiConfig.cs",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\App_Start\\WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\App_Start\\WebApiConfig.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\App_Start\\WebApiConfig.cs",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\App_Start\\WebApiConfig.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\App_Start\\WebApiConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -400,11 +466,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Conexion.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Models\\Conexion.cs",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Conexion.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Conexion.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Models\\Conexion.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -412,11 +478,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "Comentario.cs",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Comentario.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Comentario.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Models\\Comentario.cs",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Comentario.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Comentario.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Models\\Comentario.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -424,23 +490,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ProyectoLinkedIn\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ProyectoLinkedIn\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T05:31:19.124Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "SwaggerConfig.cs",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\App_Start\\SwaggerConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\App_Start\\SwaggerConfig.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\App_Start\\SwaggerConfig.cs",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\App_Start\\SwaggerConfig.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\App_Start\\SwaggerConfig.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\App_Start\\SwaggerConfig.cs",
               "ViewState": "AgIAAOUAAAAAAAAAAAAQwP8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -448,11 +502,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Usuario.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Models\\Usuario.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwBsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -460,11 +514,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "Notificacion.cs",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Notificacion.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Notificacion.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Models\\Notificacion.cs",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Notificacion.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Notificacion.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Models\\Notificacion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -472,11 +526,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "RouteConfig.cs",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\App_Start\\RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\App_Start\\RouteConfig.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\App_Start\\RouteConfig.cs",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\App_Start\\RouteConfig.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\App_Start\\RouteConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -484,11 +538,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "Global.asax.cs",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Global.asax.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Global.asax.cs",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Global.asax.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Global.asax.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAowBQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -496,11 +550,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Web.config",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Web.config",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Web.config",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Web.config",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Web.config",
               "RelativeToolTip": "ProyectoLinkedIn\\Web.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
@@ -509,23 +563,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Experiencia.cs",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Experiencia.cs",
-              "RelativeDocumentMoniker": "ProyectoLinkedIn\\Models\\Experiencia.cs",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Experiencia.cs",
-              "RelativeToolTip": "ProyectoLinkedIn\\Models\\Experiencia.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T14:01:46.077Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "Vacante.cs",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Vacante.cs",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Vacante.cs",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Models\\Vacante.cs",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Vacante.cs",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Models\\Vacante.cs",
               "RelativeToolTip": "ProyectoLinkedIn\\Models\\Vacante.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -533,11 +575,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Web.config",
+              "DocumentMoniker": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Web.config",
               "RelativeDocumentMoniker": "ProyectoLinkedIn\\Web.config",
-              "ToolTip": "C:\\Users\\ROG STRIX G17\\Proyecto_POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Web.config",
+              "ToolTip": "C:\\Users\\Precision 5520\\Desktop\\Repositorio-Proyecto-POO\\ProyectoLinkedIn\\ProyectoLinkedIn\\Web.config",
               "RelativeToolTip": "ProyectoLinkedIn\\Web.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",

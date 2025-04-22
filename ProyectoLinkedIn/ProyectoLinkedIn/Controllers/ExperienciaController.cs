@@ -30,12 +30,12 @@ namespace ProyectoLinkedIn.Controllers
                                select new
                                {
                                    Id = experiencia.Id,
-                                   UsuarioId = usuario.Id,
+                                   UsuarioID = usuario.Id,
                                    UsuarioNombre = usuario.Nombre,
                                    Empresa = experiencia.Empresa,
                                    Cargo = experiencia.Cargo,
-                                   FechaInicio = experiencia.Fecha_inicio,
-                                   FechaFin = experiencia.Fecha_fin
+                                   Fecha_inicio = experiencia.Fecha_inicio,
+                                   Fecha_fin = experiencia.Fecha_fin
                                };
 
             return Ok(experiencias);

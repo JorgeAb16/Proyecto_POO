@@ -28,13 +28,13 @@ namespace ProyectoLinkedIn.Controllers
                               select new
                               {
                                   Id = formacion.Id,
-                                  UsuarioId = usuario.Id,
+                                  UsuarioID = usuario.Id,
                                   UsuarioNombre = usuario.Nombre,
                                   Titulo = formacion.Titulo,
                                   Grado = formacion.Grado,
                                   Descripcion = formacion.Descripcion,
-                                  FechaAdquisicion = formacion.Fecha_adquisicion,
-                                  InstitucionEducativa = formacion.Institucion_educativa
+                                  Fecha_adquisicion= formacion.Fecha_adquisicion,
+                                  Institucion_educativa = formacion.Institucion_educativa
                               };
             return Ok(formaciones);
         }

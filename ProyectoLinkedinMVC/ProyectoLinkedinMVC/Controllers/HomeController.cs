@@ -63,10 +63,12 @@ namespace ProyectoLinkedinMVC.Controllers
         {
             return View();
         }
+        [Authorize(Roles = "Admin")]
         public ActionResult Comentario()
         {
             return View();
         }
+        [Authorize(Roles = "Admin")]
         public ActionResult Mensaje()
         {
             return View();
@@ -76,10 +78,12 @@ namespace ProyectoLinkedinMVC.Controllers
         {
             return View();
         }
+        [Authorize(Roles = "Admin")]
         public ActionResult Conexion()
         {
             return View();
         }
+        [Authorize(Roles = "Admin")]
         public ActionResult Notificacion()
         {
             return View();
@@ -88,6 +92,7 @@ namespace ProyectoLinkedinMVC.Controllers
         {
             return View();
         }
+        [Authorize(Roles = "Admin")]
         public ActionResult Reaccion()
         {
             return View();

@@ -5,6 +5,16 @@
 
 <h2 class="text-center text-primary mb-4">UsuarioEmpresarial</h2>
 
+<style>
+    .dx-datagrid-text-content {
+        font-weight: bold !important;
+    }
+
+    .dx-datagrid-action {
+        text-align: center !important;
+    }
+</style>
+
 @(Html.DevExtreme().DataGrid<ProyectoLinkedinMVC.Models.Usuario_Empresarial>()
     .DataSource(ds => ds.WebApi()
         .Controller("UsuarioEmpresa")
@@ -34,12 +44,12 @@
 
 // Configuración de Filtrado y Búsqueda
 .FilterRow(f => f.Visible(true).ApplyFilter(GridApplyFilterMode.Auto))
-.HeaderFilter(f => f.Visible(true))
+.HeaderFilter(f => f.Visible(false))
 .FilterPanel(f => f.Visible(true))
 .SearchPanel(f => f.Visible(true).Width(300).Placeholder("Buscar..."))
 
 // Configuración de Agrupación
-.GroupPanel(p => p.Visible(true))
+.GroupPanel(p => p.Visible(false))
 .Grouping(g => g.AutoExpandAll(false))
 
 // Configuración de Paginación

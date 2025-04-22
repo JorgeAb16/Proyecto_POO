@@ -26,7 +26,7 @@ namespace ProyectoLinkedIn.Controllers
         {
             var experiencias = from experiencia in db.Experiencia
                                join usuario in db.Usuario on experiencia.UsuarioID equals usuario.Id
-                               join empresa in db.Empresa on experiencia.Empresa equals empresa.Nombre
+                               
                                select new
                                {
                                    Id = experiencia.Id,
@@ -37,6 +37,7 @@ namespace ProyectoLinkedIn.Controllers
                                    FechaInicio = experiencia.Fecha_inicio,
                                    FechaFin = experiencia.Fecha_fin
                                };
+
             return Ok(experiencias);
         }
 

@@ -12,7 +12,12 @@ namespace ProyectoLinkedIn.Controllers
     public class PublicacionController : ApiController
     {
         private DBContextProject db = new DBContextProject();
-        
+        /// <summary>
+        /// Obtiene todas las publicaciones.
+        /// </summary>
+        /// <returns>Una lista de publicaciones.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         public IHttpActionResult Get()
         {
             var query = from publicacion in db.Publicacion
@@ -60,7 +65,12 @@ namespace ProyectoLinkedIn.Controllers
             return Ok(query);
         }
 
-
+        /// <summary>
+        /// Obtiene una publicacion por id.
+        /// </summary>
+        /// <returns>Una publicacion.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         public IHttpActionResult Get(int id)
         {
             var publica = db.Publicacion.Find(id);
@@ -70,8 +80,12 @@ namespace ProyectoLinkedIn.Controllers
             }
             return Ok(publica);
         }
-
-
+        /// <summary>
+        /// Añade una publicacion.
+        /// </summary>
+        /// <returns>Una publicacion.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         [HttpPost]
         public IHttpActionResult Post([FromBody] Publicacion publicacion)
         {
@@ -98,7 +112,12 @@ namespace ProyectoLinkedIn.Controllers
                 return InternalServerError(ex);
             }
         }
-
+        /// <summary>
+        /// Modifica una publicacion por id.
+        /// </summary>
+        /// <returns>Una publicacion.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         public IHttpActionResult Put(Publicacion publicacionModificada)
         {
             int id = publicacionModificada.Id;
@@ -106,7 +125,12 @@ namespace ProyectoLinkedIn.Controllers
             db.SaveChanges();
             return Ok(publicacionModificada);
         }
-
+        /// <summary>
+        /// Elimina una publicacion por id.
+        /// </summary>
+        /// <returns>nada.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         public IHttpActionResult Delete(int id)
         {
             Publicacion publicacion = db.Publicacion.Find(id);

@@ -13,6 +13,12 @@ namespace ProyectoLinkedIn.Controllers
     public class NotificacionController : ApiController
     {
         private DBContextProject db = new DBContextProject();
+        /// <summary>
+        /// Obtiene todas las notificaciones.
+        /// </summary>
+        /// <returns>Una lista de  notificaciones.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         // GET: api/Notificacion
         public IHttpActionResult Get()
         {
@@ -28,7 +34,12 @@ namespace ProyectoLinkedIn.Controllers
                            };
             return Ok(notificaciones);
         }
-
+        /// <summary>
+        /// Obtiene una notificacion por id.
+        /// </summary>
+        /// <returns>Una notificacion.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         // GET: api/Notificacion/5
         public IHttpActionResult Get(int id)
         {
@@ -39,8 +50,12 @@ namespace ProyectoLinkedIn.Controllers
             }
             return Ok(noti);
         }
-
-
+        /// <summary>
+        /// Añade una notificacion.
+        /// </summary>
+        /// <returns>Una notificacion.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         // POST: api/Notificacion
         public IHttpActionResult Post(Notificacion notificacion)
         {
@@ -48,7 +63,12 @@ namespace ProyectoLinkedIn.Controllers
             db.SaveChanges();
             return Ok(notificacion);
         }
-
+        /// <summary>
+        /// Modifica una notificacion por id.
+        /// </summary>
+        /// <returns>Una notifcacion.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         // PUT: api/Notificacion/5
         public IHttpActionResult Put(Notificacion notificacionModificada)
         {
@@ -57,7 +77,12 @@ namespace ProyectoLinkedIn.Controllers
             db.SaveChanges();
             return Ok(notificacionModificada);
         }
-
+        /// <summary>
+        /// Elimina una notificacion.
+        /// </summary>
+        /// <returns>Una notifcacion.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         // DELETE: api/Notificacion/5
         public IHttpActionResult Delete(int id)
         {

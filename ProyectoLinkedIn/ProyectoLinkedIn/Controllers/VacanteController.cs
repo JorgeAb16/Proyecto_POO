@@ -12,6 +12,12 @@ namespace ProyectoLinkedIn.Controllers
     public class VacanteController : ApiController
     {
         private DBContextProject db = new DBContextProject();
+        /// <summary>
+        /// Obtiene todas las vacantes.
+        /// </summary>
+        /// <returns>una lista de vacantes.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         // GET: api/Vacante
         public IHttpActionResult Get()
         {
@@ -30,7 +36,12 @@ namespace ProyectoLinkedIn.Controllers
                                };
             return Ok(vacantes);
         }
-
+        /// <summary>
+        /// Obtiene una vacante por id.
+        /// </summary>
+        /// <returns>una vacante.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         // GET: api/Vacante/5
         [HttpGet]
         public IHttpActionResult Get(int id)
@@ -42,7 +53,12 @@ namespace ProyectoLinkedIn.Controllers
             }
             return Ok(vacante);
         }
-
+        /// <summary>
+        /// Añade una vacante.
+        /// </summary>
+        /// <returns>una vacante.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         // POST: api/Vacante
         public IHttpActionResult Post(Vacante vacante)
         {
@@ -50,7 +66,12 @@ namespace ProyectoLinkedIn.Controllers
             db.SaveChanges();
             return Ok(vacante);
         }
-
+        /// <summary>
+        /// Modifica una vacante por id.
+        /// </summary>
+        /// <returns>una vacante.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         // PUT: api/Vacante/5
         public IHttpActionResult Put(Vacante vacanteModificada)
         {
@@ -59,7 +80,12 @@ namespace ProyectoLinkedIn.Controllers
             db.SaveChanges();
             return Ok(vacanteModificada);
         }
-
+        /// <summary>
+        /// Elimina una vacante por id.
+        /// </summary>
+        /// <returns>nada.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         // DELETE: api/Vacante/5
         public IHttpActionResult Delete(int id)
         {

@@ -12,6 +12,12 @@ namespace ProyectoLinkedIn.Controllers
     public class ConexionController : ApiController
     {
         private DBContextProject db = new DBContextProject();
+        /// <summary>
+        /// Obtiene todas las Conexiones.
+        /// </summary>
+        /// <returns>Una lista de Conexiones.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         // GET: api/Conexion
         public IHttpActionResult Get()
         {
@@ -34,6 +40,12 @@ namespace ProyectoLinkedIn.Controllers
 
             return Ok(conexiones);
         }
+        /// <summary>
+        /// Obtiene todos los amigos filtrando por usuario.
+        /// </summary>
+        /// <returns>Una lista de Usuarios.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         [HttpGet]
         [Route("api/Conexion/GetAmigosPorUsuario")]
         public IHttpActionResult GetAmigosPorUsuario(int usuarioId)
@@ -65,8 +77,12 @@ namespace ProyectoLinkedIn.Controllers
 
                 return Ok(amigos);
         }
-
-
+        /// <summary>
+        /// Obtiene una conexion por id.
+        /// </summary>
+        /// <returns>Una conexion.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         // GET: api/Conexion/5
         public IHttpActionResult Get(int id)
         {
@@ -77,7 +93,12 @@ namespace ProyectoLinkedIn.Controllers
             }
             return Ok(conexion);
         }
-
+        /// <summary>
+        /// Añade una conexion.
+        /// </summary>
+        /// <returns>Una conexion.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         // POST: api/Conexion
         public IHttpActionResult Post(Conexion conexion)
         {
@@ -106,7 +127,12 @@ namespace ProyectoLinkedIn.Controllers
 
             return Ok(conexion);
         }
-
+        /// <summary>
+        /// Añade una conexion.
+        /// </summary>
+        /// <returns>Una conexion.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         // PUT: api/Conexion/5
         public IHttpActionResult Put(Conexion conexion)
         {
@@ -133,7 +159,12 @@ namespace ProyectoLinkedIn.Controllers
             db.SaveChanges();
             return Ok(conexion);
         }
-
+        /// <summary>
+        /// Elimina una conexion.
+        /// </summary>
+        /// <returns>Una conexion.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         // DELETE: api/Conexion/5
         public IHttpActionResult Delete(int id)
         {

@@ -50,6 +50,12 @@ namespace ProyectoLinkedIn.Controllers
             db.SaveChanges();
             return Ok(usuario);
         }
+        /// <summary>
+        /// Obtiene un usuario por id.
+        /// </summary>
+        /// <returns>Un usuario.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         public IHttpActionResult Get(int id)
         {
             Usuario usuario = db.Usuario.Find(id);
@@ -59,6 +65,12 @@ namespace ProyectoLinkedIn.Controllers
             }
             return Ok(usuario);
         }
+        /// <summary>
+        /// Elimina un usuario por id.
+        /// </summary>
+        /// <returns>nada.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         public IHttpActionResult Delete(int id)
         {
             Usuario usuario = db.Usuario.Find(id);

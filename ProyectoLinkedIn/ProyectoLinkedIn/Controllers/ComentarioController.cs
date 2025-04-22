@@ -13,6 +13,10 @@ namespace ProyectoLinkedIn.Controllers
     {
         private DBContextProject db = new DBContextProject();
         // GET: api/Comentario
+        /// <summary>
+        /// Obtiene todos los comentarios.
+        /// </summary>
+        /// <returns>Objetos tipo comentario.</returns>
         public IHttpActionResult Get()
         {
 
@@ -35,7 +39,12 @@ namespace ProyectoLinkedIn.Controllers
 
             return Ok(comentarios);
         }
-
+        /// <summary>
+        /// Obtiene un comentario por id.
+        /// </summary>
+        /// <returns>Un comentario.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         // GET: api/Comentario/5
         public IHttpActionResult Get(int id)
         {
@@ -46,7 +55,12 @@ namespace ProyectoLinkedIn.Controllers
             }
             return Ok(coment);
         }
-
+        /// <summary>
+        /// Añade un comentario.
+        /// </summary>
+        /// <returns>Un comentario.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         // POST: api/Comentario
         public IHttpActionResult Post(Comentario comentario)
         {
@@ -55,7 +69,12 @@ namespace ProyectoLinkedIn.Controllers
             db.SaveChanges();
             return Ok(comentario);
         }
-
+        /// <summary>
+        /// Modifica un comentario.
+        /// </summary>
+        /// <returns>Un comentario.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         // PUT: api/Comentario/5
         public IHttpActionResult Put(Comentario comentarioModificado)
         {
@@ -64,7 +83,12 @@ namespace ProyectoLinkedIn.Controllers
             db.SaveChanges();
             return Ok(comentarioModificado);
         }
-
+        /// <summary>
+        /// Elimina un comentario.
+        /// </summary>
+        /// <returns>Un comentario.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         // DELETE: api/Comentario/5
         public IHttpActionResult Delete(int id)
         {

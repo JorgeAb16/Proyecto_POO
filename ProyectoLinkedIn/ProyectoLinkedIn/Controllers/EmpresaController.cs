@@ -12,12 +12,23 @@ namespace ProyectoLinkedIn.Controllers
     public class EmpresaController : ApiController
     {
         private DBContextProject db = new DBContextProject();
+        /// <summary>
+        /// Obtiene todas las empresas.
+        /// </summary>
+        /// <returns>Una lista de empresa.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         // GET: api/Empresa
         public IEnumerable<Empresa> Get()
         {
             return db.Empresa;
         }
-
+        /// <summary>
+        /// Obtiene una empresa por id.
+        /// </summary>
+        /// <returns>Una empresa.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         // GET: api/Empresa/5
         public IHttpActionResult Get(int id)
         {
@@ -28,7 +39,12 @@ namespace ProyectoLinkedIn.Controllers
             }
             return Ok(empresa);
         }
-
+        /// <summary>
+        /// Añade una empresa.
+        /// </summary>
+        /// <returns>Una empresa.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         // POST: api/Empresa
         public IHttpActionResult Post(Empresa empresa)
         {
@@ -36,7 +52,12 @@ namespace ProyectoLinkedIn.Controllers
             db.SaveChanges();
             return Ok(empresa);
         }
-
+        /// <summary>
+        /// Modifica una emmpresa.
+        /// </summary>
+        /// <returns>Una empresa.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         // PUT: api/Empresa/5
         public IHttpActionResult Put(Empresa empresaModificada)
         {
@@ -45,7 +66,12 @@ namespace ProyectoLinkedIn.Controllers
             db.SaveChanges();
             return Ok(empresaModificada);
         }
-
+        /// <summary>
+        /// Elimina una empresa.
+        /// </summary>
+        /// <returns>Una empresa.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         // DELETE: api/Empresa/5
         public IHttpActionResult Delete(int id)
         {

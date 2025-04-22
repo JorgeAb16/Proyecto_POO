@@ -38,13 +38,18 @@ namespace ProyectoLinkedIn.Controllers
 
             return Ok(mensajes);
         }
+        /// <summary>
+        /// obtiene mensajes por fecha de envio descendente.
+        /// </summary>
+        /// <returns>Una lista de mensajes.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         [HttpGet]
         [Route("api/Mensaje/GetChat")]
         public IHttpActionResult GetChat()
         {
             try
             {
-                // Primero obtenemos todos los mensajes con la información de los usuarios
                 var mensajesQuery = from mensaje in db.Mensaje
                                     join usuario1 in db.Usuario on mensaje.Remitente_Id equals usuario1.Id
                                     join usuario2 in db.Usuario on mensaje.Destinatario_Id equals usuario2.Id
@@ -63,7 +68,6 @@ namespace ProyectoLinkedIn.Controllers
 
                 var mensajes = mensajesQuery.ToList();
 
-                // Ahora agrupamos por conversaciones (combinación única de usuarios)
                 var conversaciones = mensajes
                     .GroupBy(m => new
                     {
@@ -114,6 +118,12 @@ namespace ProyectoLinkedIn.Controllers
                 });
             }
         }
+        /// <summary>
+        /// Añade un mensaje.
+        /// </summary>
+        /// <returns>Una mensaje.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         [HttpPost]
         [Route("api/Mensaje/Send")]
         public IHttpActionResult Send([FromBody] Mensaje mensaje)
@@ -184,7 +194,7 @@ namespace ProyectoLinkedIn.Controllers
         }
 
         /// <summary>
-        /// Modifica un Administrador por su id.
+        /// Modifica un Mensaje por su id.
         /// </summary>
         /// <returns>Ejemplo de solicitud.</returns>
         
@@ -213,6 +223,12 @@ namespace ProyectoLinkedIn.Controllers
             db.SaveChanges();
             return Ok(mensaje);
         }
+        /// <summary>
+        /// Obtiene un mensaje por id.
+        /// </summary>
+        /// <returns>Un mensaje.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         public IHttpActionResult Get(int id)
         {
             Mensaje mensaje = db.Mensaje.Find(id);
@@ -222,6 +238,12 @@ namespace ProyectoLinkedIn.Controllers
             }
             return Ok(mensaje);
         }
+        /// <summary>
+        /// Elimina un mensaje.
+        /// </summary>
+        /// <returns>Un mensaje.</returns>
+        /// <response code="200">Devuelve el valor encontrado</response>
+        /// <response code="404">Si el valor no es encontrado</response>
         public IHttpActionResult Delete(int id)
         {
             Mensaje mensaje = db.Mensaje.Find(id);
@@ -229,10 +251,6 @@ namespace ProyectoLinkedIn.Controllers
             db.SaveChanges();
             return Ok(mensaje);
         }
-
-
-
-
 
     }
 }

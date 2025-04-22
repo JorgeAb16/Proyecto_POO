@@ -504,6 +504,172 @@
             </summary>
             <returns>Un objeto Administrador.</returns>
         </member>
+        <member name="M:ProyectoLinkedIn.Controllers.ComentarioController.Get">
+            <summary>
+            Obtiene todos los comentarios.
+            </summary>
+            <returns>Objetos tipo comentario.</returns>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.ComentarioController.Get(System.Int32)">
+            <summary>
+            Obtiene un comentario por id.
+            </summary>
+            <returns>Un comentario.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.ComentarioController.Post(ProyectoLinkedIn.Models.Comentario)">
+            <summary>
+            Añade un comentario.
+            </summary>
+            <returns>Un comentario.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.ComentarioController.Put(ProyectoLinkedIn.Models.Comentario)">
+            <summary>
+            Modifica un comentario.
+            </summary>
+            <returns>Un comentario.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.ComentarioController.Delete(System.Int32)">
+            <summary>
+            Elimina un comentario.
+            </summary>
+            <returns>Un comentario.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.ConexionController.Get">
+            <summary>
+            Obtiene todas las Conexiones.
+            </summary>
+            <returns>Una lista de Conexiones.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.ConexionController.GetAmigosPorUsuario(System.Int32)">
+            <summary>
+            Obtiene todos los amigos filtrando por usuario.
+            </summary>
+            <returns>Una lista de Usuarios.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.ConexionController.Get(System.Int32)">
+            <summary>
+            Obtiene una conexion por id.
+            </summary>
+            <returns>Una conexion.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.ConexionController.Post(ProyectoLinkedIn.Models.Conexion)">
+            <summary>
+            Añade una conexion.
+            </summary>
+            <returns>Una conexion.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.ConexionController.Put(ProyectoLinkedIn.Models.Conexion)">
+            <summary>
+            Añade una conexion.
+            </summary>
+            <returns>Una conexion.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.ConexionController.Delete(System.Int32)">
+            <summary>
+            Elimina una conexion.
+            </summary>
+            <returns>Una conexion.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.NotificacionController.Get">
+            <summary>
+            Obtiene todas las notificaciones.
+            </summary>
+            <returns>Una lista de  notificaciones.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.NotificacionController.Get(System.Int32)">
+            <summary>
+            Obtiene una notificacion por id.
+            </summary>
+            <returns>Una notificacion.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.NotificacionController.Post(ProyectoLinkedIn.Models.Notificacion)">
+            <summary>
+            Añade una notificacion.
+            </summary>
+            <returns>Una notificacion.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.NotificacionController.Put(ProyectoLinkedIn.Models.Notificacion)">
+            <summary>
+            Modifica una notificacion por id.
+            </summary>
+            <returns>Una notifcacion.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.NotificacionController.Delete(System.Int32)">
+            <summary>
+            Elimina una notificacion.
+            </summary>
+            <returns>Una notifcacion.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.EmpresaController.Get">
+            <summary>
+            Obtiene todas las empresas.
+            </summary>
+            <returns>Una lista de empresa.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.EmpresaController.Get(System.Int32)">
+            <summary>
+            Obtiene una empresa por id.
+            </summary>
+            <returns>Una empresa.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.EmpresaController.Post(ProyectoLinkedIn.Models.Empresa)">
+            <summary>
+            Añade una empresa.
+            </summary>
+            <returns>Una empresa.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.EmpresaController.Put(ProyectoLinkedIn.Models.Empresa)">
+            <summary>
+            Modifica una emmpresa.
+            </summary>
+            <returns>Una empresa.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.EmpresaController.Delete(System.Int32)">
+            <summary>
+            Elimina una empresa.
+            </summary>
+            <returns>Una empresa.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
         <member name="M:ProyectoLinkedIn.Controllers.ExperienciaController.Get">
             <summary>
             Obtiene todas las Experiencias.
@@ -617,6 +783,22 @@
             </summary>
             <returns>Una lista de elementos.</returns>
         </member>
+        <member name="M:ProyectoLinkedIn.Controllers.MensajeController.GetChat">
+            <summary>
+            obtiene mensajes por fecha de envio descendente.
+            </summary>
+            <returns>Una lista de mensajes.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.MensajeController.Send(ProyectoLinkedIn.Models.Mensaje)">
+            <summary>
+            Añade un mensaje.
+            </summary>
+            <returns>Una mensaje.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
         <member name="M:ProyectoLinkedIn.Controllers.MensajeController.PostMensaje(ProyectoLinkedIn.Models.Mensaje)">
             <summary>
             Agrega un Mensaje.
@@ -624,9 +806,65 @@
         </member>
         <member name="M:ProyectoLinkedIn.Controllers.MensajeController.PutMensaje(ProyectoLinkedIn.Models.Mensaje)">
             <summary>
-            Modifica un Administrador por su id.
+            Modifica un Mensaje por su id.
             </summary>
             <returns>Ejemplo de solicitud.</returns>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.MensajeController.Get(System.Int32)">
+            <summary>
+            Obtiene un mensaje por id.
+            </summary>
+            <returns>Un mensaje.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.MensajeController.Delete(System.Int32)">
+            <summary>
+            Elimina un mensaje.
+            </summary>
+            <returns>Un mensaje.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.PublicacionController.Get">
+            <summary>
+            Obtiene todas las publicaciones.
+            </summary>
+            <returns>Una lista de publicaciones.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.PublicacionController.Get(System.Int32)">
+            <summary>
+            Obtiene una publicacion por id.
+            </summary>
+            <returns>Una publicacion.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.PublicacionController.Post(ProyectoLinkedIn.Models.Publicacion)">
+            <summary>
+            Añade una publicacion.
+            </summary>
+            <returns>Una publicacion.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.PublicacionController.Put(ProyectoLinkedIn.Models.Publicacion)">
+            <summary>
+            Modifica una publicacion por id.
+            </summary>
+            <returns>Una publicacion.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.PublicacionController.Delete(System.Int32)">
+            <summary>
+            Elimina una publicacion por id.
+            </summary>
+            <returns>nada.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
         </member>
         <member name="M:ProyectoLinkedIn.Controllers.ReaccionController.Get">
             <summary>
@@ -703,6 +941,22 @@
             Modifica un Usuario Normal por su id.
             </summary>
         </member>
+        <member name="M:ProyectoLinkedIn.Controllers.UsuarioNormalController.Get(System.Int32)">
+            <summary>
+            Obtiene un usuario por id.
+            </summary>
+            <returns>Un usuario.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.UsuarioNormalController.Delete(System.Int32)">
+            <summary>
+            Elimina un usuario por id.
+            </summary>
+            <returns>nada.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
         <member name="M:ProyectoLinkedIn.Controllers.UsarioEmpresarialController.Get">
             <summary>
             Obtiene todos los Usuarios Empresariales.
@@ -719,6 +973,62 @@
             Modifica un Usuario Empresarial por su id.
             </summary>
             <returns>Ejemplo de solicitud.</returns>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.UsarioEmpresarialController.Get(System.Int32)">
+            <summary>
+            Obtiene un usuario por id.
+            </summary>
+            <returns>Un usuario.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.UsarioEmpresarialController.Delete(System.Int32)">
+            <summary>
+            Elimina un usuario por id.
+            </summary>
+            <returns>nada.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.VacanteController.Get">
+            <summary>
+            Obtiene todas las vacantes.
+            </summary>
+            <returns>una lista de vacantes.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.VacanteController.Get(System.Int32)">
+            <summary>
+            Obtiene una vacante por id.
+            </summary>
+            <returns>una vacante.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.VacanteController.Post(ProyectoLinkedIn.Models.Vacante)">
+            <summary>
+            Añade una vacante.
+            </summary>
+            <returns>una vacante.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.VacanteController.Put(ProyectoLinkedIn.Models.Vacante)">
+            <summary>
+            Modifica una vacante por id.
+            </summary>
+            <returns>una vacante.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
+        </member>
+        <member name="M:ProyectoLinkedIn.Controllers.VacanteController.Delete(System.Int32)">
+            <summary>
+            Elimina una vacante por id.
+            </summary>
+            <returns>nada.</returns>
+            <response code="200">Devuelve el valor encontrado</response>
+            <response code="404">Si el valor no es encontrado</response>
         </member>
     </members>
 </doc>

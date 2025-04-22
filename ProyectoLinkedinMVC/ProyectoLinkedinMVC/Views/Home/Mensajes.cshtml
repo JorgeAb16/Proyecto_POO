@@ -1,109 +1,114 @@
-﻿@{
-    ViewData["Title"] = "Mensajes";
-    Layout = "~/Views/Shared/_Layout.cshtml";
-}
-
-<style>
-    .chat-container {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
+﻿
+    @{
+        ViewData["Title"] = "Mensajes";
+        Layout = "~/Views/Shared/_Layout.cshtml";
     }
 
-    .user-selection {
-        background-color: #f8f9fa;
-        padding: 15px;
-        border-radius: 8px;
-        margin-bottom: 20px;
-    }
+    <style>
+        .chat-container {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
-    .conversation-group {
-        margin-bottom: 20px;
-        border: 1px solid #e0e0e0;
-        border-radius: 8px;
-        overflow: hidden;
-    }
+        .user-selection {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
 
-    .conversation-header {
-        background-color: #f8f9fa;
-        padding: 12px 15px;
-        border-bottom: 1px solid #e0e0e0;
-        font-weight: bold;
-    }
+        .conversation-group {
+            margin-bottom: 20px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+        }
 
-    .message-list {
-        padding: 10px;
-        max-height: 400px;
-        overflow-y: auto;
-    }
+        .conversation-header {
+            background-color: #f8f9fa;
+            padding: 12px 15px;
+            border-bottom: 1px solid #e0e0e0;
+            font-weight: bold;
+        }
 
-    .message {
-        padding: 10px;
-        margin-bottom: 10px;
-        border-radius: 8px;
-        max-width: 70%;
-    }
+        .message-list {
+            padding: 10px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
 
-    .message-sent {
-        background-color: #e3f2fd;
-        margin-left: auto;
-    }
+        .message {
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            max-width: 70%;
+        }
 
-    .message-received {
-        background-color: #f1f1f1;
-        margin-right: auto;
-    }
+        .message-sent {
+            background-color: #e3f2fd;
+            margin-left: auto;
+        }
 
-    .message-time {
-        font-size: 0.8em;
-        color: #666;
-        text-align: right;
-        margin-top: 5px;
-    }
+        .message-received {
+            background-color: #f1f1f1;
+            margin-right: auto;
+        }
 
-    .message-input-container {
-        display: flex;
-        gap: 10px;
-        padding: 15px;
-        background-color: #f8f9fa;
-        border-top: 1px solid #e0e0e0;
-    }
+        .message-header {
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
 
-    .message-input {
-        flex-grow: 1;
-    }
-</style>
+        .message-time {
+            font-size: 0.8em;
+            color: #666;
+            text-align: right;
+        }
 
-<div class="chat-container">
-    <h2>Mensajes</h2>
+        .message-input-container {
+            display: flex;
+            gap: 10px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-top: 1px solid #e0e0e0;
+        }
 
-    <div class="user-selection">
-        <div class="form-group">
-            <label>Tu ID:</label>
-            <input type="number" id="userId" class="form-control">
+        .message-input {
+            flex-grow: 1;
+        }
+    </style>
+
+    <div class="chat-container">
+        <h2>Mensajes</h2>
+
+        <div class="user-selection">
+            <div class="form-group">
+                <label>Tu ID:</label>
+                <input type="number" id="userId" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>ID Destinatario:</label>
+                <input type="number" id="recipientId" class="form-control">
+            </div>
+            <button id="loadChatsBtn" class="btn btn-primary">Cargar Conversación</button>
         </div>
-        <div class="form-group">
-            <label>ID Destinatario:</label>
-            <input type="number" id="recipientId" class="form-control">
+
+        <div id="conversationContainer">
+            <div class="alert alert-info">
+                Ingresa los IDs y haz clic en "Cargar Conversación"
+            </div>
         </div>
-        <button id="loadChatsBtn" class="btn btn-primary">Cargar Conversación</button>
+
+        <div id="messageComposer" class="message-input-container" style="display: none;">
+            <input type="text" id="messageInput" class="form-control message-input" placeholder="Escribe tu mensaje...">
+            <button id="sendMessageBtn" class="btn btn-primary">Enviar</button>
+        </div>
     </div>
 
-    <div id="conversationContainer">
-        <div class="alert alert-info">
-            Ingresa los IDs y haz clic en "Cargar Conversación"
-        </div>
-    </div>
-
-    <div id="messageComposer" class="message-input-container" style="display: none;">
-        <input type="text" id="messageInput" class="form-control message-input" placeholder="Escribe tu mensaje...">
-        <button id="sendMessageBtn" class="btn btn-primary">Enviar</button>
-    </div>
-</div>
-
-@section Scripts {
-    <script>
+    @section Scripts {
+        <script>
         $(document).ready(function() {
             $('#loadChatsBtn').click(loadConversation);
             $('#sendMessageBtn').click(sendMessage);
@@ -149,7 +154,7 @@
                 $container.html(`
                     <div class="conversation-group">
                         <div class="conversation-header">
-                            Conversación entre ${userId} y ${recipientId} (nueva)
+                            Nueva conversación
                         </div>
                         <div class="message-list">
                             <div class="text-muted">No hay mensajes aún</div>
@@ -159,10 +164,13 @@
                 return;
             }
 
+            const otherUserId = userId == conversation.User1Id ? conversation.User2Id : conversation.User1Id;
+            const otherUserName = userId == conversation.User1Id ? conversation.User2Name : conversation.User1Name;
+
             $container.html(`
                 <div class="conversation-group">
                     <div class="conversation-header">
-                        Conversación entre ${conversation.User1Id} y ${conversation.User2Id}
+                        Conversación con ${otherUserName}
                     </div>
                     <div class="message-list" id="messageList"></div>
                 </div>
@@ -220,8 +228,11 @@
 
         function addMessageToView(message, currentUserId) {
             const isSent = message.Remitente_Id == currentUserId;
+            const senderName = isSent ? "Tú" : message.Remitente;
+
             const $message = $(`
                 <div class="message ${isSent ? 'message-sent' : 'message-received'}">
+                    <div class="message-header">${senderName}</div>
                     <div>${message.Contenido}</div>
                     <div class="message-time">${formatDate(message.Fechadeenvio)}</div>
                 </div>
@@ -236,5 +247,5 @@
             const date = new Date(dateString);
             return date.toLocaleDateString() + ' ' + date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
         }
-    </script>
-}
+        </script>
+    }

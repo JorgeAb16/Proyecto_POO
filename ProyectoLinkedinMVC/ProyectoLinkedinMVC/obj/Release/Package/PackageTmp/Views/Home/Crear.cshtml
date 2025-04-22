@@ -1,0 +1,134 @@
+﻿@{
+    ViewData["Title"] = "Crear";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="publicacion-container">
+    <h2 class="page-title">Crear Publicación</h2>
+
+    @(Html.DevExtreme().DataGrid<ProyectoLinkedinMVC.Models.Publicacion>()
+        .ID("gridPublicaciones")
+        .DataSource(ds => ds.WebApi()
+            .Controller("Publicacion")
+            .LoadAction("Get")
+            .InsertAction("Post")
+            .Key("Id")
+        )
+        .RemoteOperations(true)
+        .ShowBorders(true)
+        .RowAlternationEnabled(true)
+        .ColumnAutoWidth(true)
+        .HeaderFilter(headerFilter => headerFilter.Visible(true))
+        .FilterRow(filterRow => filterRow.Visible(true))
+        .Paging(paging => paging.PageSize(10))
+        .Pager(pager => {
+            pager.ShowPageSizeSelector(true);
+            pager.AllowedPageSizes(new[] { 5, 10, 20 });
+            pager.ShowInfo(true);
+        })
+        .Editing(r => r
+            .Mode(GridEditMode.Popup)
+            .AllowAdding(true)
+            .UseIcons(true)
+            .Popup(p => p
+                .Title("Agregar Nueva Publicación")
+                .ShowTitle(true)
+                .Width(600)
+                .Height(450)
+                .Position(pos => pos
+                    .My(HorizontalAlignment.Center, VerticalAlignment.Center)
+                    .At(HorizontalAlignment.Center, VerticalAlignment.Center)
+                )
+            )
+            .Form(f => f
+                .ColCount(1)
+                .Items(items => {
+                    items.AddSimple()
+                        .DataField("Titulo")
+                        .Label(l => l.Text("Título de la publicación"))
+                        .Editor(e => e.TextBox()
+                            .Width("100%")
+                            .Placeholder("Ingrese el título aquí"))
+                        .ValidationRules(rq => rq.AddRequired().Message("El título es requerido"));
+
+                    items.AddSimple()
+                        .DataField("Contenido")
+                        .Label(l => l.Text("Contenido"))
+                        .Editor(e => e.TextArea()
+                            .Height(150)
+                            .Width("100%")
+                            .Placeholder("Escribe el contenido de tu publicación aquí"))
+                        .ValidationRules(rw => rw.AddRequired().Message("El contenido es requerido"));
+
+                    items.AddSimple()
+                        .DataField("UsuarioId")
+                        .Label(l => l.Text("ID de Usuario"))
+                        .Editor(e => e.NumberBox()
+                            .Width("100%")
+                            .ShowSpinButtons(true))
+                        .ValidationRules(re => re.AddRequired().Message("El ID de usuario es requerido"));
+                })
+            )
+        )
+        .Columns(columns => {
+            columns.AddFor(m => m.Id)
+                .Visible(false);
+
+            columns.AddFor(m => m.Titulo)
+                .Visible(false);
+
+            columns.AddFor(m => m.Contenido)
+                .Visible(false);
+
+            columns.AddFor(m => m.UsuarioId)
+                .Visible(false);
+        })
+    )
+</div>
+<div class="button-container">
+    @(Html.DevExtreme().Button()
+            .Text("Volver al Inicio")
+            .Type(ButtonType.Normal)
+            .StylingMode(ButtonStylingMode.Contained)
+            .Icon("home")
+            .OnClick("volverAlInicio")
+            .Width(200)
+        )
+</div>
+
+<style>
+    .publicacion-container {
+        padding: 20px;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .page-title {
+        color: #2c3e50;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+
+    .dx-datagrid {
+        border-radius: 6px;
+        overflow: hidden;
+    }
+
+    .dx-popup-title {
+        background-color: #3498db;
+        color: white;
+        padding: 15px;
+        border-radius: 6px 6px 0 0;
+    }
+
+    .dx-button-mode-contained {
+        background-color: #3498db;
+        color: white;
+    }
+</style>
+<script>
+    function volverAlInicio() {
+        window.location.href = '@Url.Action("Index", "Home")';
+    }
+</script>

@@ -1,0 +1,240 @@
+﻿@{
+    ViewData["Title"] = "Mensajes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .chat-container {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .user-selection {
+        background-color: #f8f9fa;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+
+    .conversation-group {
+        margin-bottom: 20px;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .conversation-header {
+        background-color: #f8f9fa;
+        padding: 12px 15px;
+        border-bottom: 1px solid #e0e0e0;
+        font-weight: bold;
+    }
+
+    .message-list {
+        padding: 10px;
+        max-height: 400px;
+        overflow-y: auto;
+    }
+
+    .message {
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        max-width: 70%;
+    }
+
+    .message-sent {
+        background-color: #e3f2fd;
+        margin-left: auto;
+    }
+
+    .message-received {
+        background-color: #f1f1f1;
+        margin-right: auto;
+    }
+
+    .message-time {
+        font-size: 0.8em;
+        color: #666;
+        text-align: right;
+        margin-top: 5px;
+    }
+
+    .message-input-container {
+        display: flex;
+        gap: 10px;
+        padding: 15px;
+        background-color: #f8f9fa;
+        border-top: 1px solid #e0e0e0;
+    }
+
+    .message-input {
+        flex-grow: 1;
+    }
+</style>
+
+<div class="chat-container">
+    <h2>Mensajes</h2>
+
+    <div class="user-selection">
+        <div class="form-group">
+            <label>Tu ID:</label>
+            <input type="number" id="userId" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>ID Destinatario:</label>
+            <input type="number" id="recipientId" class="form-control">
+        </div>
+        <button id="loadChatsBtn" class="btn btn-primary">Cargar Conversación</button>
+    </div>
+
+    <div id="conversationContainer">
+        <div class="alert alert-info">
+            Ingresa los IDs y haz clic en "Cargar Conversación"
+        </div>
+    </div>
+
+    <div id="messageComposer" class="message-input-container" style="display: none;">
+        <input type="text" id="messageInput" class="form-control message-input" placeholder="Escribe tu mensaje...">
+        <button id="sendMessageBtn" class="btn btn-primary">Enviar</button>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            $('#loadChatsBtn').click(loadConversation);
+            $('#sendMessageBtn').click(sendMessage);
+            $('#messageInput').keypress(function(e) {
+                if (e.which === 13) sendMessage();
+            });
+        });
+
+        function loadConversation() {
+            const userId = $('#userId').val();
+            const recipientId = $('#recipientId').val();
+
+            if (!userId || !recipientId) {
+                alert('Por favor ingresa ambos IDs');
+                return;
+            }
+
+            $.ajax({
+                url: '@Url.Action("GetChat", "Mensaje")',
+                type: 'GET',
+                dataType: 'json',
+                success: function(response) {
+                    if (response && response.Success) {
+                        renderConversation(response.Conversaciones, userId, recipientId);
+                        $('#messageComposer').show();
+                    } else {
+                        alert('No se encontró la conversación');
+                    }
+                },
+                error: function(xhr, status, error) {
+                    alert('Error al cargar la conversación: ' + error);
+                }
+            });
+        }
+
+        function renderConversation(conversations, userId, recipientId) {
+            const conversation = findConversation(conversations, userId, recipientId);
+            const $container = $('#conversationContainer');
+
+            $container.empty();
+
+            if (!conversation) {
+                $container.html(`
+                    <div class="conversation-group">
+                        <div class="conversation-header">
+                            Conversación entre ${userId} y ${recipientId} (nueva)
+                        </div>
+                        <div class="message-list">
+                            <div class="text-muted">No hay mensajes aún</div>
+                        </div>
+                    </div>
+                `);
+                return;
+            }
+
+            $container.html(`
+                <div class="conversation-group">
+                    <div class="conversation-header">
+                        Conversación entre ${conversation.User1Id} y ${conversation.User2Id}
+                    </div>
+                    <div class="message-list" id="messageList"></div>
+                </div>
+            `);
+
+            if (conversation.Mensajes && conversation.Mensajes.length > 0) {
+                conversation.Mensajes.forEach(msg => {
+                    addMessageToView(msg, userId);
+                });
+            }
+        }
+
+        function findConversation(conversations, userId, recipientId) {
+            userId = parseInt(userId);
+            recipientId = parseInt(recipientId);
+
+            return conversations.find(c =>
+                (c.User1Id === userId && c.User2Id === recipientId) ||
+                (c.User1Id === recipientId && c.User2Id === userId)
+            );
+        }
+
+        function sendMessage() {
+            const userId = $('#userId').val();
+            const recipientId = $('#recipientId').val();
+            const content = $('#messageInput').val().trim();
+
+            if (!content) {
+                alert('Por favor escribe un mensaje');
+                return;
+            }
+
+            $.ajax({
+                url: '@Url.Action("Send", "Mensaje")',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({
+                    Remitente_Id: userId,
+                    Destinatario_Id: recipientId,
+                    Contenido: content
+                }),
+                success: function(response) {
+                    if (response && response.Success) {
+                        $('#messageInput').val('');
+                        addMessageToView(response.Message, userId);
+                    } else {
+                        alert('Error al enviar el mensaje');
+                    }
+                },
+                error: function(xhr, status, error) {
+                    alert('Error al enviar: ' + error);
+                }
+            });
+        }
+
+        function addMessageToView(message, currentUserId) {
+            const isSent = message.Remitente_Id == currentUserId;
+            const $message = $(`
+                <div class="message ${isSent ? 'message-sent' : 'message-received'}">
+                    <div>${message.Contenido}</div>
+                    <div class="message-time">${formatDate(message.Fechadeenvio)}</div>
+                </div>
+            `);
+
+            $('#messageList').append($message);
+            $('#messageList').scrollTop($('#messageList')[0].scrollHeight);
+        }
+
+        function formatDate(dateString) {
+            if (!dateString) return '';
+            const date = new Date(dateString);
+            return date.toLocaleDateString() + ' ' + date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+        }
+    </script>
+}

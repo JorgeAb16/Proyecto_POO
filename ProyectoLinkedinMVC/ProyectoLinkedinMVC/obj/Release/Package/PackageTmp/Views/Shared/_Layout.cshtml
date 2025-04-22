@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>ProyectoLinkedInMVC</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    @Styles.Render("~/Content/bundle")
+    @Styles.Render("~/Content/DevExtremeBundle")
+    @Scripts.Render("~/Scripts/bundle")
+    @Scripts.Render("~/Scripts/DevExtremeBundle")
+
+    <link href="~/Content/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet">
+    <link href="~/Content/css/sb-admin-2.min.css" rel="stylesheet">
+  
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css" />
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        #sidebar {
+            width: 15rem;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            background-color: #4e73df;
+            color: white;
+            overflow-x: hidden;
+            padding-top: 3.5rem;
+        }
+
+            #sidebar .sidebar-brand {
+                padding: 1rem 1.5rem;
+                text-align: center;
+                text-decoration: none;
+                font-size: 1.2rem;
+                font-weight: bold;
+            }
+
+                #sidebar .sidebar-brand i {
+                    font-size: 1.5rem;
+                    margin-right: 0.5rem;
+                }
+
+            #sidebar hr.sidebar-divider {
+                border-top: 1px solid rgba(255, 255, 255, 0.15);
+                margin: 0.5rem 1rem;
+            }
+
+            #sidebar .sidebar-heading {
+                font-size: 0.8rem;
+                text-transform: uppercase;
+                color: rgba(255, 255, 255, 0.4);
+                padding: 0 1rem 1rem 1rem;
+            }
+
+            #sidebar .nav-item .nav-link {
+                padding: 0.75rem 1rem;
+                color: white;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+            }
+
+                #sidebar .nav-item .nav-link i {
+                    margin-right: 0.75rem;
+                    font-size: 0.9rem;
+                }
+
+        #content-wrapper {
+            margin-left: 15rem;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        #content {
+            flex: 1;
+            padding: 1.5rem;
+        }
+
+        #topbar {
+            position: fixed;
+            top: 0;
+            left: 15rem;
+            right: 0;
+            z-index: 2;
+            background-color: #f8f9fa;
+            box-shadow: 0 0.15rem 0.25rem rgba(0, 0, 0, 0.05);
+            padding: 0.75rem 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+            #topbar .navbar-nav {
+                display: flex;
+                align-items: center;
+            }
+
+            #topbar .nav-item .nav-link {
+                color: #858796;
+                text-decoration: none;
+                padding: 0.75rem;
+            }
+
+                #topbar .nav-item .nav-link i {
+                    margin-right: 0.5rem;
+                }
+
+        #footer {
+            background-color: #f8f9fa;
+            padding: 1.5rem;
+            text-align: center;
+            color: #858796;
+            margin-left: 15rem;
+        }
+    </style>
+    <style>
+        /* Estilos responsive para DataGrids */
+        .dx-datagrid {
+            width: 100% !important;
+            min-width: 100%;
+            border-radius: 0.35rem;
+            box-shadow: 0 0.15rem 0.25rem rgba(0, 0, 0, 0.05);
+        }
+
+        .dx-datagrid-headers {
+            background-color: #f8f9fa;
+            border-radius: 0.35rem 0.35rem 0 0;
+        }
+
+        .dx-datagrid-rowsview .dx-row-alt {
+            background-color: rgba(78, 115, 223, 0.05);
+        }
+
+        .dx-datagrid-rowsview .dx-row:hover {
+            background-color: rgba(78, 115, 223, 0.1);
+        }
+
+        /* Ajustes para pantallas pequeñas - FORMA CORRECTA EN RAZOR */
+        @@media (max-width: 992px) {
+            .dx-datagrid {
+                font-size: 0.9rem;
+            }
+
+                .dx-datagrid .dx-toolbar-item {
+                    padding: 0 0.5rem;
+                }
+
+                .dx-datagrid .dx-datagrid-content .dx-data-row > td {
+                    padding: 0.5rem;
+                }
+        }
+
+        @@media (max-width: 768px) {
+            #content-wrapper {
+                margin-left: 0;
+            }
+
+            .dx-datagrid {
+                border-radius: 0;
+            }
+        }
+    </style>
+
+
+</head>
+
+<body id="page-top">
+
+    <div id="wrapper">
+
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion fixed-top" id="sidebar">
+
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="@Url.Action("Index", "Home")">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fab fa-linkedin"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3">LinkedIn</div>
+            </a>
+
+            <hr class="sidebar-divider my-0">
+
+            <hr class="sidebar-divider">
+
+            <div class="sidebar-heading">
+                      Menu
+            </div>
+
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("Administrador", "Home")">Administrador</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("UsuarioNormal", "Home")">UsuarioNormal</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("UsuarioEmpresarial", "Home")">UsuarioEmpresarial</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("Comentario", "Home")">Comentario</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("Empresa", "Home")">Empresa</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("Experiencia", "Home")">Experiencia</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("Publicacion", "Home")">Publicacion</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("FormacionAcademica", "Home")">Formacion Academica</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("Habilidades", "Home")">Habilidades</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("Mensaje", "Home")">Mensaje</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("Mensajes", "Home")">Mensajes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("Notificacion", "Home")">Notificacion</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("Vacante", "Home")">Vacantes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("Conexion", "Home")">Conexion</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("Reaccion", "Home")">Reaccion</a>
+            </li>
+
+            <hr class="sidebar-divider d-md-block">
+
+        </ul>
+
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <div id="content">
+
+                <nav id="topbar" class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Empleo", "Home")">
+                                <i class="fas fa-home fa-sm fa-fw mr-2 text-gray-400"></i>
+                                Empleos
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Index", "Home")">
+                                <i class="fas fa-home fa-sm fa-fw mr-2 text-gray-400"></i>
+                                Inicio
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("MiRed", "Home")">
+                                <i class="fas fa-link fa-sm fa-fw mr-2 text-gray-400"></i>
+                                Mi Red
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Mensajes", "Home")">
+                                <i class="fas fa-envelope fa-sm fa-fw mr-2 text-gray-400"></i>
+                                Mensajes
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Notificaciones", "Home")">
+                                <i class="fas fa-envelope fa-sm fa-fw mr-2 text-gray-400"></i>
+                                Notificaciones
+                            </a>
+                        </li>
+
+                        <div class="topbar-divider d-none d-sm-block"></div>
+
+                    </ul>
+
+                </nav>
+                <div class="container-fluid" style="padding-top: 5rem;">
+                    @RenderBody()
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="~/Content/vendor/jquery/jquery.min.js"></script>
+    <script src="~/Content/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/Content/vendor/jquery-easing/jquery.easing.min.js"></script>
+    @RenderSection("scripts", required: false)
+<script>
+    function adjustGridLayout(e) {
+        resizeGrid(e.component);
+
+        $(window).on('resize', function () {
+            resizeGrid(e.component);
+        });
+    }
+
+    function resizeGrid(grid) {
+        var screenWidth = $(window).width();
+
+        if (screenWidth < 768) {
+            grid.option({
+                columnAutoWidth: true,
+                wordWrapEnabled: true
+            });
+
+            var columns = grid.option('columns');
+            columns.forEach(function (col, index) {
+                if (index > 2 && col.caption !== 'Acciones') {
+                    grid.columnOption(col.dataField || index, 'visible', false);
+                }
+            });
+        } else {
+            grid.option({
+                columnAutoWidth: false,
+                wordWrapEnabled: false
+            });
+
+            var columns = grid.option('columns');
+            columns.forEach(function (col, index) {
+                grid.columnOption(col.dataField || index, 'visible', true);
+            });
+        }
+    }
+</script>
+</body>
+
+</html>

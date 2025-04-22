@@ -159,6 +159,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
     <Folder Include="Views\Publicaciones\" />
     <Folder Include="Views\Vacante\" />
   </ItemGroup>

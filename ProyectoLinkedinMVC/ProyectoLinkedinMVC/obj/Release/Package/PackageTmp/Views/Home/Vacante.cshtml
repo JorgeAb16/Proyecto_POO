@@ -1,0 +1,84 @@
+﻿@{
+    ViewData["Title"] = "Vacante";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-center text-primary mb-4">Vacante</h2>
+
+@(Html.DevExtreme().DataGrid<ProyectoLinkedinMVC.Models.Vacante>()
+    .DataSource(ds => ds.WebApi()
+        .Controller("Vacante")
+        .LoadAction("Get")
+        .InsertAction("Post")
+        .UpdateAction("Put")
+        .DeleteAction("Delete")
+        .Key("Id")
+    )
+// Configuración Responsive y de Estilo
+.Width("100%")
+.ColumnAutoWidth(true)
+.AllowColumnResizing(true)
+.ColumnMinWidth(120)
+.ColumnResizingMode(ColumnResizingMode.Widget)
+.ShowBorders(true)
+.HoverStateEnabled(true)
+.ShowColumnLines(true)
+.ShowRowLines(true)
+.RowAlternationEnabled(true)
+.WordWrapEnabled(true)
+
+// Configuración de Operaciones
+.RemoteOperations(true)
+.Scrolling(s => s.Mode(GridScrollingMode.Virtual))
+.ColumnHidingEnabled(true)
+
+// Configuración de Filtrado y Búsqueda
+.FilterRow(f => f.Visible(true).ApplyFilter(GridApplyFilterMode.Auto))
+.HeaderFilter(f => f.Visible(true))
+.FilterPanel(f => f.Visible(true))
+.SearchPanel(f => f.Visible(true).Width(300).Placeholder("Buscar..."))
+
+// Configuración de Agrupación
+.GroupPanel(p => p.Visible(true))
+.Grouping(g => g.AutoExpandAll(false))
+
+// Configuración de Paginación
+.Paging(p => p.PageSize(10))
+.Pager(p => p
+    .ShowPageSizeSelector(true)
+    .AllowedPageSizes(new[] { 5, 10, 20 })
+    .ShowInfo(true)
+    .ShowNavigationButtons(true))
+    .Columns(columns => {
+
+        columns.AddFor(m => m.Id);
+
+        columns.AddFor(m => m.Titulo);
+
+        columns.AddFor(m => m.Descripcion);
+
+        columns.AddFor(m => m.Requisitos);
+
+        columns.AddFor(m => m.Salario);
+
+        columns.AddFor(m => m.Ubicacion);
+
+        columns.AddFor(m => m.EmpresaId);
+        columns.Add()
+        .DataField("Empresa")
+        .Caption("Nombre de Empresa");
+    })
+        .Editing(e => e
+        .Mode(GridEditMode.Popup)
+        .AllowAdding(true)
+        .AllowUpdating(true)
+        .AllowDeleting(true)
+        .UseIcons(true)
+        .Popup(p => p
+            .Title("Editar Registro")
+            .Width("70%")
+            .Height("auto")
+        )
+    )
+    .OnInitialized("adjustGridLayout")
+)
